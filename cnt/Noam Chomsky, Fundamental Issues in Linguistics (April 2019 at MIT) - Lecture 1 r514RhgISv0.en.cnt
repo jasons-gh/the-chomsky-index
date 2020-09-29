@@ -1,0 +1,3066 @@
+well I'd like to in these two talks I'd
+like to talk about some foundational
+issues in particular with the the most
+important ones I think
+namely what are the fundamental
+computational operations that enter into
+constructing syntactic objects and why
+these and not other ones it turns out
+there's quite a lot to say about that
+since the last time I talked here of any
+problem some solutions Oh get to this in
+the course of the discussion as far as I
+can but I think would be useful to begin
+with a couple of comments some something
+more general namely what are we trying
+to achieve all together and studying
+language many different ways of looking
+at it these questions I think are in
+many ways more important than the
+particular technical results they raised
+many questions about what is an
+authentic genuine explanation a genuine
+solution and what is a maybe very
+valuable
+reorganization of data opposing of
+problems often posing a solution but not
+really achieving it these things are
+worth thinking through I think the basic
+issues were formulated I think for the
+first time
+quite perceptively at the outset of the
+Scientific Revolution in the 17th
+century Galileo and his contemporaries
+who are raising all sorts of questions
+about received wisdom turned their
+attention to language as well and they
+expressed their or an amazement at the
+miraculous fact that with a couple of
+dozen
+it was somehow possible to express an
+infinite number of thoughts and to find
+ways to convey to others who have no
+access to our minds everything that's
+going on in our minds so in their own
+words which I rather like quote they
+were awed by the method by which we were
+able we are able to express our thoughts
+the marvelous invention by which using
+twenty five or thirty sounds we can
+create the infinite variety of
+expressions which having nothing
+themselves in common with what is
+passing in our minds and nonetheless
+permit us to express all our secrets and
+allow us to understand what is not
+present to consciousness in fact
+everything we can conceive and the most
+diverse movements of our soul Galileo
+himself regarded the alphabet as the
+most dependence of human inventions
+because it had these amazing properties
+and also because as he put it it allowed
+us to express all the wisdom of the ages
+and to it contained within it the
+answers to any questions that we might
+pose kind of like a universal Turing
+machine in our terms the court royal
+grammar and logic actually which was
+just quoting a paraphrase of Galileo had
+many insights into logic and linguistics
+its many ways the basis of modern logic
+there was a rich tradition that
+developed exploring what was called
+rational and universal grammar rational
+because it was supposed to provide
+explanations a universal because it was
+concerned with what was taken to be
+common to the common human possession of
+language was seeking explanations
+including descriptions of even the
+vernacular which was quite surprising at
+the time innovative but mainly
+explanations and Universal trying to
+find what's common to all languages this
+tradition went on for a couple of
+centuries many contributions the last
+representative of it about a century ago
+was Otto Jespersen as he put it his
+concern was how the elements of language
+come into existence in the mind of a
+speaker on the basis of finite
+experience yielding a notion of
+structure that is definite enough to
+guide him in framing sentence of his own
+a crucially free expressions that are
+typically new to speaker and hearer and
+also beyond that to find the great
+principles that underlie the grammars of
+all languages know that I think it's
+fair to interject interpret the
+tradition is metaphoric often vague but
+I think it's fair to extricate from it
+the recognition that language is the
+capacity for language as well as
+individual languages are possessions of
+individual persons they're part of a
+person their shared was recognized
+throughout the species without
+significant variation and recognized to
+be unique to humans and fundamental
+respects that general program falls
+within the Natural Sciences within what
+these days is called the bio linguistic
+program of course it ran into many
+difficulties the conceptual difficulties
+empirical difficulty is the evidence was
+pretty thin and nobody really understood
+how to capture the notion yes person's
+notion of structure in the mind what is
+that that enables us to develop
+construct in our minds in
+many expressions and even to find a way
+to convey to others what's going on in
+our mind that's good call the galilean
+challenge which is still extant well all
+of this was swept aside in the 20th
+century by structuralist behaviorist
+currents which very typically adopted a
+very different approach to language
+taking the object of study not to be
+something internal to the person but
+some outside thing so maybe a corpus an
+infinite set of utterances some other
+external formulation and you see this
+very clearly if you simply look at the
+definitions of language that were given
+through the early 20th century by the
+leading figures so for example for this
+is a language is a kind of social
+contract it's collections he put a
+collection of word images in the
+community of speakers for letter
+Bloomfield languages the utterances that
+can be made in a particular speech
+community for Harris it's the
+distribution of morphemes and a moved to
+philosophy of language say then why no
+languages as he put it I'm quoting a
+fabric of sentences associated with one
+another and with stimuli by the
+mechanism of conditions responds
+elsewhere an infinite set of sentences
+David Lewis language and languages also
+took just languages a language is some
+set of sentences which is infinite that
+both coin and Lewis crucially argued
+that it makes sense to talk about an
+infinite set of sentences but not of a
+particular way of generating them which
+is very strange notion if you think
+about it because these are the lead
+logicians and philosophers you can't
+talk about an infinite set in a coherent
+fashion unless you have some
+characterization of what's in it and
+what's not in it otherwise you're not
+saying anything but the behaviorist the
+pressure of behaviorist beliefs was so
+powerful that the idea that there could
+be a privileged way of generating that
+infinite set was as wine put it folly
+Louis but it's something unintelligible
+but whatever any of these entities are
+they're outside the individual the
+tradition was completely forgotten
+people like yes person the last
+representatives were literally unknown
+this good review of this by a historian
+of linguistic Julia Falk runs through
+the way yes person was disappeared in
+the first half of the 20th century of
+the whole tradition way back also effect
+this day the even linguistics historical
+scholarship just pretty thin it doesn't
+barely recognizes any of the things I've
+mentioned well so returning to the
+forgotten tradition by the mid twentieth
+century it was there was there were
+clear ways of capturing the concept
+notion of structure in the mind
+yes person's concept touring other great
+mathematicians that established the
+tools for addressing the galilean
+challenge something I'm sure are
+familiar with so yesterday's notion of
+structure becomes the alcohol the I
+language the internal generative system
+finite system that determines an
+infinite array of hierarchically
+structured expressions that express
+thoughts insofar as they can be
+expressed linguistically and it can be
+externalized and
+remoter systems typically though we know
+not necessarily sound we can call this
+the basic property of language well to
+meet the galilean challenge
+there are several tasks that have to be
+undertaken the main one of course is to
+try to determine the internal languages
+the AI languages of speakers of
+typologically varied languages a huge
+task then the question was comes of how
+a speaker selects a particular
+expression from the internal I language
+then how the expression one selected is
+externalized on the inverse how the
+external ization is internalized by the
+hearer the last two tasks are both
+input/output systems we have grasped how
+to study those and quite a lot has been
+learned about it over the years the
+first of them how the speaker selects a
+syntactic object out of the infinite
+array that's a total mystery
+there's nothing to say about it that's
+true of voluntary behavior generally so
+actually some of the two of the leading
+specialists on the neuroscience of
+voluntary action Emilio Beattie Robert a
+Jamie and of a year ago wrote a
+state-of-the-art article in which they
+discussed tell what they know about
+voluntary motion simple not language
+simple things like lifting your finger
+you know they said will they put it as
+they said fancifully that we're
+beginning to learn about the puppet and
+the strings but we can't say anything at
+all about the puppeteer so how you
+select what you're going to do remains
+the kind of question that you can't even
+pose intelligently in the sciences at
+this stage
+yours will well the I language
+keeping to the tradition is a property
+of the individual and also the
+species-specific Faculty of language
+also an internal property something
+which allows the I language to be
+acquired and it has to meet a couple of
+empirical conditions of two conditions
+which are kind of conflicting the
+conditions of learnability and the
+conditions of evolvability so whatever
+the Faculty of language is it's got to
+be rich enough so that possessing it a a
+child can acquire the I language from
+the scattered and limited data available
+and it is scattered and limited and it
+has achieved the internal system which
+has all of these rich and complex
+consequences so it has to be that rich
+but it also has to be simple enough so
+that it could have evolved and now we
+can be a little more specific about that
+because some of the conditions of
+evolution of language are coming to
+light and time and the evolution has to
+meet those empirical conditions well
+those are the conditions for a genuine
+explanation if some proposed a
+descriptive device satisfies these
+conditions then it's the basis for an
+explanation for addressing the galilean
+challenge as it was formulated and
+developed in the tradition of rational
+and universal grammar the general
+explanation is always at the level of ug
+the theory of the Faculty of language
+and it has to offer some prospects of
+satisfying the conditions of
+learnability and evolve ability that's a
+pretty austere requirement very austere
+requirement
+but it's the right requirement anything
+short of that is short of actually
+explaining things it's may be very
+valuable maybe organizing problems in an
+interesting way move on from there but
+still fall short of general explanation
+that we can now I think grasp somewhat
+more clearly what actually is a genuine
+genuine explanation something that was
+really not possible in earlier stages of
+linguistic inquiry but again any device
+that's introduced to account for
+something unless it can meet these joint
+these dual conditions is short of
+explanation may be very valuable so many
+examples take a concrete example to
+illustrate about something all come back
+to later if there's time interesting
+paper by Boscovich who you all know on
+the coordinate structure and adjunct
+island constraints and what he points
+out is that each of these constraints
+poses many problems many mysteries but
+his paper is an effort to try to reduce
+the mysteries by reducing both
+constraints to the same constraint using
+the device of neo David Soni and event
+semantics which interprets a Junction is
+a kind of coordination so you can reduce
+both of the problems to the same problem
+of coordination and then we still have
+the mysteries but now a simpler problem
+one set of mysteries instead of two
+independent ones and tries to show that
+the problems then reduce in this way
+well that's a step forward it leaves the
+mysteries in a better position and for
+productive inquiry but it's not an
+explanation he's quite clear about that
+and I think if you look over the field
+that virtually every
+Chiva one is a partial step forward in
+this respect there is very few
+exceptions just barely coming to light
+which I think can count as genuine
+explanations they're important in
+themselves and they're also a kind of a
+sort of a guideline and to how we should
+think about proceeding and then they
+also tell us something about just how
+far it's possible to go it's not so
+obvious Ingham much beyond what the
+kinds of explanations that are now
+beginning to come to light I'll talk
+about that
+well actually the the earliest work and
+generous grammar tried to meet even more
+austere conditions the was heavily
+influenced by work of people like Nelson
+Goodman and that we've equine who were
+working on what they called the
+constructive nominalism no sets very
+austere just you know Mura logical
+concepts of a very limited kind that
+that was too austere at least for the
+present so that was kind of dropped at
+least for the present maybe even come
+back to it some day and attention turned
+to something else namely the vast range
+of empirical data from all kinds of
+languages that was beginning to appear
+as soon as the first efforts were made
+to write actual generative grammars
+turned out that everything was puzzling
+and complex nothing was understood it's
+just massive puzzles big change from a
+few years earlier during the period of
+structural linguistics it was basically
+assumed that everything was known
+everything was solved yet the methods of
+analysis you could formalize them all
+that was needed was to just apply them
+to one or
+language that turned out to be radically
+false well the first proposals as you
+all know were dual they there were there
+were operations to deal with the problem
+of compositionality very structured
+grammar and totally different operations
+to deal with the phenomenon of
+dislocation ubiquitous phenomenon
+transformational grammar both systems
+were far too complex to meet the
+long-term goals of genuine explanation
+that was well understood the general
+assumption at the time remaining for a
+long time often open until today is that
+the principles of compositionality are
+natural you can expect those something
+like for a director drummer but the
+dislocation is a weird property that
+languages have a kind of imperfection
+that we have to somehow languages for
+some reason have this formal languages
+would never be constructed with that
+property and that is still a widely held
+view I think it's exactly the opposite
+of the truth the opti the opposite I
+think turns out to be true that more
+recent work suggests that a dislocation
+is kind of the null hypothesis it's
+what's expected on the simplest grounds
+and it's the most primitive of
+operations I'll come back to that but
+let me just take a brief look at the
+steps that we're taking to reach what I
+think is this conclusion well in the
+sixties a phrase structure grammar
+swirly a limited the phrase structure
+grammar is far too rich to be
+contemplated as relevant to describing
+languages so there's nothing
+infrastructure the theory of free
+storage of grammar that prevents you say
+from having a rule you know VP arrow
+in CP let's say find Fraser rule doesn't
+make any sense it was just assumed you
+just can't do that sort of thing but the
+right theory has to rule that out as
+unacceptable and that step was taken by
+the late 60s basically did the x-bar
+theory x-bar theory had interesting
+consequences which weren't really fully
+appreciated at the time they're obvious
+in retrospect for one thing x-bar theory
+notice has no linear order so Japanese
+and English say roughly mirror images
+have about the same x-bar theory linear
+orders on the side somewhere that was a
+step towards something which i think is
+now much clearer namely that the surface
+order of expressions is not strictly
+speaking part of language it's something
+else I'll come back to that but if you
+just look at x-bar theory it's already a
+step in that direction
+another thing about x-bar theory is it
+forces a theory of parameters so
+Japanese in English say differ and
+they're going to differ in some choice
+that is not determined by x-bar theory
+so some there the speaker and the hearer
+who's using a linear system of
+externalization you don't have to use
+that but if you are using it you're
+going to have to make a choice as to the
+order in which you're going to
+externalize the internal system so x-bar
+theory itself first is a step towards
+separating a linear order and other
+surface organization from what we might
+think of as poor I language of the I
+language that's dealing with the
+galilean challenge constructing the set
+of linguistically articulated thoughts
+putting external ization and some medium
+oi and I think that pictures becoming
+clearer we'll come back to that well
+there are also along with the clear
+progress of x-bar theory there were very
+serious problems which weren't
+recognized at the time the main problem
+is it excludes the possibility of EXO
+centric instructions everything has to
+be endo century in x-bar theory and
+that's just false there are extra
+centric instructions all over the place
+simple things like subject predicate or
+for that matter every case of
+dislocation without exception all of
+these give you X eccentric instructions
+there's no way to describe them at x-bar
+theory now in order to describe the many
+artifices were developed so for example
+if you have a subject predicate
+construction maybe it was called a
+teepee or an IP or something like or a
+VP but that's just stipulation you could
+just as well call it a NP and this runs
+all the way through the descriptive
+apparatus so there was a serious problem
+not really recognized till the a couple
+of years ago my own feeling is it's kind
+of over it's pretty much overcome by
+labeling theory which tells you in a
+principled way in terms of minimal
+search simple computational principle
+when it is when movement internal merge
+may take place when it must take place
+when it need not take place and there
+are many interesting results and plenty
+of interesting problems about this a lot
+of very intriguing material most of
+which I presume you're familiar with
+well by the moving up to the 1990s it
+didn't seem to number of us that it's
+enough had been learned so it might be
+possible for the first time
+to confront the problem of genuine
+explanation that's what's called the
+minimalist program pursuing that program
+if you want thee if you want a genuine
+explanation you want to start with
+computational operations which meet the
+conditions of learner ability and evolve
+ability well the easiest way to meet the
+condition of learnability
+is to say that learner ability 0 it's
+just innate nothing
+I'm the easiest way to meet the
+condition of evolve ability would be to
+say let's find the computational
+principle that had to evolve there was
+no way for it not to have evolved well
+if you look at those two conditions
+they're satisfied by the most elementary
+a computational operation what's been
+called merge in recent years which
+incidentally has many problems that
+we'll come back to but basically just
+the operation of a binary set formation
+it it has to be there because the basic
+property exists ok and that means at
+least at the very least the simplest
+operation must exist maybe more complex
+ones or at least the simplest one so we
+know that it has to exist had to evolve
+so it meets the condition of evolve
+ability oh that leaves the question of
+just how it happened and what the
+neurological implication is but whatever
+the answers to those this is an
+operation that had to evolve and having
+evolved it's an 8 so it meets the
+condition of learnability
+so if you can reduce something to that
+you do have a genuine explanation that's
+as far as it's possible to go ok if it
+doesn't if you can't go that far it's a
+description it's not a it's not a
+genuine explanation again this is a
+pretty austere requirement but I think
+it's the one we all have in mind when
+we're thinking about the goals of
+our efforts and enquiring into language
+well so let's I won't give the details
+because I think you're familiar with
+them but the simplest computational
+operation then merged binary set
+formation a meeting that the no
+tampering condition least possible
+computation you don't modify the
+elements don't add any more structure
+interesting things to say about this to
+which I'll come back
+oh there is a good deal of current
+literature which tries to show that you
+can reach this operation in steps
+that's incoherent you can't have partial
+binary set formation you can't reach it
+in steps
+let's either have it or you don't have
+it there's nothing simpler again lots of
+literature about this but it's just
+beside the point there's actually a
+recent interesting recent paper by
+greeny Hoyt births analyzing some of the
+recent proposals and showing why they
+don't make any sense but if you think
+about it they can't make sense the
+simplest case of merge is going to have
+at least maybe at most we would like to
+show but at least two cases that one of
+them external merge when you're taking
+separate things and forming this one
+internal merge when you're taking one
+thing on something inside it for me the
+set of those those are at least the two
+the two simplest possibilities notice
+there are only one operation
+there's no no two operations just one
+operation with two cases much confusion
+about this and the and the literature
+but that should be obvious if you think
+it through well notice that this is this
+whole program is a program it's not a
+theory the program is to see how far can
+we go if we take the simplest possible
+operation and try to give genuine
+explanations in terms of it maybe that's
+impossible maybe have to find more
+complex operations but in that case it's
+gonna be necessary to demonstrate how
+they can be acquired how they can be
+learned that now they could have evolved
+and that's not so trivial you can't just
+say well natural selection does anything
+I like you know that's not an
+explanation you can you have to give a
+real explanation very difficult in
+biology it's and the biological
+literature it's pointed out that it's
+fiendishly difficult eddard phrase to
+give an account of the evolution of
+almost any trait even the simplest ones
+like having blue eyes for example and
+it's it's not the kind of thing you can
+hand wave about so either you can try to
+meet that condition or recognize that
+you don't have genuine explanations well
+there have been I think substantial
+achievements in the last recent years
+and trying to gain general genuine
+explanations they do have problems I
+want to return to the problems later but
+I'll put them on the shelf for a moment
+the one one achievement which is not
+trivial is to unify the two traditional
+kinds of operations a compositionality
+and dislocation they are unified once
+you keep to the simplest the simplest
+computational operation so far from
+being an imperfection as was always
+assumed by me in particular it would
+take a stipulation the bar dislocation
+if you have no stipulations at all and
+you get dislocation furthermore as I
+mentioned before that's arguably the
+simplest case of merge actually
+you can't have only one and not the
+other because once you have merge of
+both but if you're looking for one
+that's more primitive it's probably
+internal merge the reasons for that are
+quite straightforward external merge
+requires enormous search to put two
+things together that are separate first
+we have to search the entire lexicon
+then you have to search everything
+that's already been constructed and
+maybe is sitting there somewhere waiting
+to be merged with internal merge you
+have almost no search at all so one
+reason for regarding internal merge this
+location is more primitive it just
+doesn't it requires a tiny fraction of
+the search but there's a good deal more
+than that
+there's some interesting suggestions and
+the literature they're not definitive
+but they're suggestive so one was some
+work that was done by Marv Minsky a
+couple of decades ago he and one of his
+students just explored what would happen
+if he took the simplest turing machines
+smallest number of states smallest
+number of symbols and just let them run
+free you see what happens what turned
+out was kind of interesting and most of
+them crashed either got into infinite
+loops or just stopped but the ones that
+didn't crash all of them gave the
+successor function no what's the
+successor function well one thing the
+successor function is is internal merge
+so if you take a merge and you have a
+one member lexicon just run three get
+the successor
+that's Minsky's argument at the time was
+that probably evolution in the course of
+evolution nature found the simplest
+thing that's what you'd expect so it
+found the successor function and that
+happens to be internal merge external
+merge there's if you look at other or
+way down to the level of insects they
+have a count so an ants they can count
+the number of steps it's taken it's got
+a count or maybe a set of counters
+inside and if you look at just the
+mathematics of successive counters they
+kind of tend towards the successor
+function it doesn't take a big step to
+move them up to the successor function
+so from various points of view it seems
+plausible to think that of the core
+operations of the most primitive one is
+actually dislocation contrary to what
+was always thought and as you get richer
+constructions you have external merge
+and is you richer or kinds of languages
+we plainly have it a natural language
+it's not just internal merge interesting
+questions why that probably has to do
+with argument structure which is
+uniquely related to external merge come
+back to that well what's with the
+unification of internal and external
+merge compositionality and dislocation
+what was suggested by x-bar theory as I
+mentioned before becomes much more clear
+and explicit so the it seems that the
+generation of the CI interface sometimes
+called LF what gets automatically
+interpreted the linguistically
+articulated thoughts that's we can call
+or I language and that just keeps the
+structure no linear order no other kinds
+of arrangements so why is there linear
+order in spoken language incidentally
+not not strictly in sign language so in
+sign language which we know to be
+essentially equivalent to spoken
+language there's different
+dimensionality so you can use visual
+space
+you can use simultaneous operations
+facial gestures and motions it's not
+strictly linear it makes use of the
+contingencies allowed by the space
+that's of externalization but speech
+happens to be linear you have to string
+words one after another so the if you
+pick that particular modality of
+external ization yes you're going to
+have linear order but does linear order
+have anything to do with language you
+know times what you think you want to
+call language but what it really has to
+do with is an amalgam of two totally
+different independent systems one of
+them internal language the other a
+particularly sensory motor system which
+is absolutely nothing to do with
+language the sensory motor systems are
+around hundreds of thousands maybe
+millions of years before language ever
+appeared they don't seem to have been
+affected by language at most there's
+very minor suggestions about slight
+adaptations that might have taken place
+for C changes of the alveolar Ridge and
+click languages there are some very
+small things but basically the sensory
+motor system seemed independent of
+language but since you're if you do
+externalize the internal system through
+this filter you're going to get linear
+order but strictly speaking that's a
+property of an amalgam of two
+independent systems and in fact that's
+true of externalization altogether and
+notice that the externalization opposes
+a hard problem you have two completely
+independent systems they have nothing do
+with one another
+you have to match them somehow you can
+expect that process to be pretty complex
+and also to be variable you can do it in
+many different ways also to be easily
+mutable you can change from one
+generation to another under slight
+effects
+putting all these expectations together
+with what is a natural expectation I'm
+not I think increasingly is coming to be
+imaginable maybe true is that the
+variety and complexity and buta bility
+of language is basically a property of
+externalize ation not a property of
+language itself and it could turn out to
+be true all at the moment that the core
+online which is really unique may not
+vary from language to language actually
+that much is pretty much tacitly assumed
+and essentially all the work on formal
+semantics and pragmatics it's not
+assumed to be parametrized from one
+language to another or to be learned
+somehow it's just there you know which
+means if we ever understand it properly
+it'll be reducible to elementary
+computations which are just don't worry
+that's the way the internal system works
+that should be the goal of inquiry in
+those directions I should say just as a
+terminological point what's called
+formal semantics is actually a form of
+syntax it's symbolic manipulation
+technically something becomes semantics
+when you relate it to the external world
+and that's a tricky business even things
+like say even calculus if you think
+about it events are really mental event
+mental constructions you can't find them
+in the outside world and the task of
+relating what's internal to the external
+world dealing with questions of
+reference is no trivial matter
+we can see a goal for all of this work
+to try to reduce it to computational
+operations that do meet the conditions
+of genuine explanation in a very austere
+criterion but I think one that's worth
+keeping in mind
+well these are all possibilities that I
+think they're looking increasingly
+plausible the fuelled may go in that
+direction be very striking the discovery
+if it really does well let's go on with
+genuine explanations one of them is
+dislocation putting it together with
+compositionality and notice that that
+includes automatically the basis for
+what's called reconstruction you keep to
+the no tampering condition you
+automatically get what's called the copy
+theory of movement that's the basis for
+the complex properties of reconstruction
+there's a lot to look into but that's
+essentially the basis for it you don't
+need rules of reconstruction there just
+there that's automatic well of genuine
+explanations the most interesting case I
+think is the old principle of structure
+dependence this was discovered back in
+the 1950s this is really strange
+principle of language which had never
+been noticed namely that the rules and
+operations of language the ones that
+yield interpretation of sentences don't
+pay any attention to linear order they
+just deal with structures which is
+extremely puzzling when you think about
+it because linear order is what you hear
+it's a hundred percent of what you hear
+you never hear structure furthermore at
+least superficially it seems that
+computations on linear order are simpler
+than computations on structure from
+another point of view that turns out to
+be false but at least superficially that
+looks right so what it seems it would
+always seemed extremely puzzling is that
+the rules that the syntactic rules and
+the rules that yield semantic
+interpretations don't pay any attention
+to a hundred percent of what you hear
+and to the simplest operations
+which is a pretty puzzling fact and we
+now have a simple explanation for it it
+follows from the simplest computational
+operation if the entire internal
+language is based on the computation of
+the simplest merge operation in its
+simplest form then you automatically get
+structure dependence for operations of
+movement of construal of interpretation
+of everything else I won't run through
+examples I assume you're familiar with
+them but that just seems to be a fact
+about all constructions and all
+languages oh it's that if it's correct
+is a genuine explanation of a
+fundamental property of language maybe
+the deepest property of language that
+the core language just doesn't care
+about order arrangement it only cares
+about structure and a child learning
+language just ignores everything they
+hear by now there's interesting
+independent evidence supporting this
+conclusion studies of language
+acquisition which have proceeded and
+very sophisticated ways by now have no
+gotten down to the point where 30 months
+old infants have been shown already to
+observe the principle of structure
+dependence
+that's almost no data remember and it's
+a very abstract principle there's other
+work earlier work by Steve Krane
+Nakamura who a lot of evidence
+three-year-olds have mastered a study
+recent studies have it down to 30 months
+if we have better studies which as they
+keep improving it'll probably be earlier
+what that means is you just born with it
+so it meets the condition of
+learnability namely zero and it has the
+condition of evolve ability you have to
+have this
+a particular operation at least maybe
+more but at least this one because you
+do have the basic principle
+well it's there's also as many of you
+know neuro linguistic evidence the
+studies of inspired by Andre Moreau
+of a group in Milan mousou and others
+have shown many of you know this that if
+you present subjects with invented
+systems of two types the one which
+correspond to the rules of an actual
+language that the subjects don't know
+the other which uses things like linear
+order you get different kinds of brain
+activity in the case of say having a
+negation be the third word in the
+sentence very trivial operation you get
+diffuse brain activity if you follow the
+what looked like more complex rules of
+actual languages you get activity in the
+expected language specific areas the
+brain Broca's area and so that's been by
+now replicated many times it looks like
+a pretty solid result there's also
+psycho linguistic evidence of other
+kinds the moral Musso experiments were
+actually suggested by work of neil smith
+and he on theat simply on a subject
+they've been working with for many years
+a young man they call chris extremely
+limited cognitive capacities almost none
+but tremendous linguistic capacities he
+picks up languages like inhale know what
+that means like a sponge you know the
+words just picks them up immediately and
+the neil tried these neil smith tried
+these same experiments before then the
+neuro-linguistic the ones were done he
+just tried it with Chris and turned out
+when he gave Chris a nonsense language
+modeled on an actual language he learned
+it easily like every other language when
+they gave him the very simple language
+things like negation being the
+third-world word he couldn't handle it
+was just puzzle he can't deal with
+puzzles that's what inspired the noir
+linguistic studies I think this is the
+most interesting discovery so far and
+the brain sciences related to language
+it's a direction in which other
+experimental work could go well looking
+back at this it seems to be one of these
+very rare cases where you have
+converging evidence from every direction
+leading to the same conclusion that poor
+eye language just is independent of
+linear order and other arrangements they
+have linguistic evidence cycle psycho
+linguistic evidence or linguistic
+evidence evolutionary considerations
+anything you can think about now there's
+a very curious fact there's a huge
+literature in computational cognitive
+science trying to show that somehow this
+principle can be learned which is a very
+weird fact if you look at it it's like
+trying to find a complicated way to
+disprove the null hypothesis things like
+that just don't happen in the sciences I
+mean here you have a the absolute
+optimal explanation and a huge
+literature trying to show look there's a
+very complicated way in which maybe we
+can reach the same conclusion it's an
+enterprise that's kind of senseless at
+the base of it of course when you look
+at the actual cases never works it's not
+gonna work if it did work it would be
+meaningless
+because always asking the wrong question
+and I suppose you could show that by the
+detailed you know statistical analysis
+with recurrent neural networks and so on
+of many layers of say the Wall Street
+Journal you could find the evidence that
+a child might have used a thirty months
+old to discover that you have structure
+dependence you're not gonna find that of
+course but even though there's
+literature claiming it but if you did
+find it it would be completely
+meaningless of course the only question
+is why is this the case why is it that
+in every language and every construction
+this is the way it works if you could
+find the way of showing well here's how
+it might work in this language tells you
+nothing it's answering the wrong
+question and furthermore as I say it's
+trying to find a complicated way to
+disprove the null hypothesis the whole
+enterprise is completely senseless it's
+actually the probably the major effort
+and computational cognitive science to
+try to find a basis for some linguistic
+principle huge literature on new papers
+still coming up a very strange thing
+papers trying to show that as it's the
+way they put it often you can get
+structure dependence without what's
+sometimes called an inductive bias for
+structure defendants but there's no
+inductive bias it's just the null
+hypothesis make no assumptions this is
+what you get there's no bias it's just
+given so I think interesting question
+about the many interesting questions
+about how linguistics is done but one of
+them is why things like this go on I
+think we're thinking about well there
+are other successes but what I'd like to
+do is turn to problems there were a lot
+of problems about merge and there's some
+has
+solution so one problem is whatever he
+mentioned EXO cetera constructions so it
+takes a and B VP let's assume since
+Dominica is here let's in his honor or
+some the predicate internal subject you
+put together or subject Ana an NP and a
+VP the NPS are often called DP so come
+back to them I think it's probably a
+mistake let's just call them noun
+phrases for the moment you have a noun
+phrase and a verb phrase you put them
+together or that gives you the basic
+theta structure well the noun phrase and
+the verb phrase have to be independently
+constructed which means you have to have
+some kind of workspace something that
+Jonathan's pointed out years ago you
+have to have some kind of workspace in
+which you're constructing these separate
+things and if you think it through the
+workspace can proliferate not
+indefinitely and get larger where you're
+just doing parallel things and putting
+them together so it means that the
+operation merge really oughta be can't
+revise to become an operation on
+workspaces not on two elements x and y
+it's an operation which changes a
+workspace to another workspace and then
+the question comes how it does it will
+know I should say I'm very pleased to be
+back at a nice low tech institution like
+my with blackboards and no PowerPoint
+with no projections and that's which
+they have in Arizona where here so what
+we want is some kind of operation that
+says it's called a capital merge we'll
+look at its properties which takes
+two things call them P and Q the guys
+were gonna merge and a workspace and
+turns it into some other workspace so
+what's the other workspace well it's
+gonna include the set P Q the two guys
+were putting together in fact let me use
+a different notation for reasons all
+mentioned for a workspace is a set but
+we want to distinguish it from the
+syntactic objects which are sets so a
+workspace doesn't merge with something
+so just to for convenience just use a
+different notation so the new thing will
+include the set EQ and a lot of other
+junk and the next question is what's the
+other junk in the workspace that turns
+out to be not a trivial question so what
+a lot terms on what the answer is so
+let's take the simplest case okay the
+entire workspace consists of two
+elements a colum a and B that's the
+workspace and suppose we decide to merge
+them so we get the new workspace which
+includes the set a B and does it include
+anything else so for example does it
+include a and B well if we think about
+the way recursion generally works it
+should include a and B so if you're
+doing say proof theory okay you
+generating a proof you'd construct the
+line from axioms and former things and
+you can go back to that line if you like
+you can always go back to anything
+you've produced all ready for the next
+step but there's a good reason to
+believe that four organisms and
+particularly humans doesn't work that
+way and you can see that if you think
+what would happen if you did a while
+this to happen
+okay well suppose you allow this then
+you could go on to construct some much
+bigger object here including a B as a
+term but it could be of arbitrary
+complexity you know any kind of
+complexity alike and then you could take
+a and merge it with it and get X a but
+then a would be up here and a would be
+down there and there are two copies and
+they would violate every imaginable
+constraint on movement okay so if you
+allow this you're going to get total
+chaos every constraint on this location
+will be violated no matter how radical
+you make the the violation well that
+tells us something it tells us something
+kind of surprising and I think
+significant that the kind of recursion
+that takes place in human language and
+probably organic systems generally cuts
+back the number the set of items
+accessible to computation as narrowly as
+possible okay let's give it a name and
+call it resource restriction it looks as
+though a very general this is merely the
+first example if you think it through it
+works for millions of things the same
+model of refutation eliminates
+whole set of possible extensions of
+merge that have been proposed over the
+years oh come back to examples but you
+notice what the problem is the problem
+is that you if you allow the normal kind
+of recursion you know no constraints and
+no limits then you're going to find that
+by legitimate means you can get
+illegitimate objects oh that has to be
+barred right you can generate all kind
+of deviant expressions that's not a
+problem but you don't want to have
+legitimate means for generating things
+that violate every possible condition
+descriptive condition anything like that
+is wrong well in this case and it turns
+out in a great many cases you can bar
+this outcome simply by limiting the
+resources that are available now what
+are the resources the resources are
+elements that are accessible to the
+operations so the real condition says
+limit accessibility okay keep
+accessibility as small as you can we
+already have examples like that that
+we're familiar with one of them is the
+phrase impenetrability condition okay if
+you think about what the condition says
+basically it says when you're generating
+something you get to a certain unit a
+phase talk about what it is anything
+inside the phase is no longer going to
+be accessible to operations okay that
+reduces the amount of computational
+search that's required but it's a way of
+limiting accessibility okay it says
+those things down there aren't
+accessible anymore another example and
+this may be the only other example is
+minimal search this is what's often
+called a third factor property third
+factor for those of you who are not
+familiar comes from the just simple
+description of the elements that enter
+into computation into learning saying
+what enters into acquiring a system is
+three things external data internal
+structure and basically laws of nature
+which are independent of the system
+question so if you're studying a growth
+of arms let's say humans grow arms not
+wings partly because of nutrition to the
+embryo and partly in fact largely
+because of internal structure just
+genetic determination and extensively
+simply because of the way physical laws
+operate there's only certain ways that
+organisms can develop other ways just
+not possible you put these together you
+account for any kind of growth and
+development the same is true of language
+there's external data or whatever it is
+it's going to determine whether you end
+up with the call log or English internal
+structure which at least includes merge
+or Modell but at least that and in fact
+anything that can be explained in terms
+of that it does yield a genuine
+explanation and then laws of nature what
+are the laws of nature will language is
+a computational system unusual fact
+that's rare organic nature may be unique
+even aside from counters but anyway
+that's what language is so among the
+laws of nature that you would expect
+would be things like computation
+elimination of computational complexity
+doing things as simply as possible
+several reasons for that one of them
+actually goes back to Galileo again and
+one of Galileo's precepts was that
+nature is simple and it's the task of
+the scientists to prove it whether it's
+following objects or flight of birds or
+the flowers or whatever that's a kind of
+a prescriptive hypothesis you can't
+prove it but it's been extraordinarily
+successful in fact the whole success of
+the sciences in the last 500 years is
+based on that and that's a enough reason
+to assume that it works for us too so
+reasonable to accept that there's a
+general point which just has to do with
+the nature of explanation it's just a
+fact about explanation that the simpler
+the assumptions the deeper the
+explanation that's just kind of logic so
+there's a lot of convert I should say in
+the case of language there's another
+reason to believe it which is unique to
+language and it has to do with the
+conditions on evolution of language we
+don't know very little is known about
+evolution altogether you know as I said
+to try to really account for the
+development of any particular trait is
+very hard even in simple cases in sort
+of the you know evolutionary psychology
+literature everything looks easy you
+know happened by natural selection why
+not but when you really try to explain
+something it turns out to be hard in the
+case of cognitive development it's
+uniquely hard because you have no fossil
+records ok no tape recordings of
+people we're doing whatever they were
+doing 100,000 years ago
+furthermore when you deal with language
+in particular it's super hard with other
+organic systems say vision you can you
+have comparative evidence you can study
+cats and monkeys which have essentially
+the same visual system and with them we
+rightly or wrongly allow ourselves to do
+invasive experiments so you can stick a
+neuron into one cell and the striate
+cortex and see what's happening you can
+and you learn a lot from that that's how
+we know about human vision but in
+language you can't do it because there's
+no other analogous system
+it's unique system nothing analogous in
+the organic world so there's nothing to
+test okay so it's kind of uniquely hard
+and nevertheless there's some evidence
+the evidence at Bob or we can I have a
+book reviewing it by now there's better
+elements than what we had in the book
+there's by now genomic evidence that a
+humorless ap ins that began to separate
+roughly two hundred thousand years ago
+that's when you get the separation of
+the Sun people in Africa from the rest
+interestingly they have unique forms of
+externalization these turn out to be
+essentially all and only the languages
+that have complex click systems there
+are what apparently look like a few
+suggestions exceptions but they seem to
+be borrowings or something accidental
+there's a you know very interesting
+paper by really really high press on
+this recently so what we know one thing
+we know pretty convincingly is that
+roughly around 200,000 years ago humans
+began to separate they shared the
+Faculty of language at the time
+so there's no known difference between
+the Faculty of language of the on people
+and everybody else you know nobody knows
+any differences group differences of
+language capacity there happens to be a
+different form of external ization which
+suggests and then try greenie
+goes into this in detail on his article
+that this particular forms of external
+ization developed later as a matter of
+logic the internal system had to be
+there before you can externalize it
+that's not debatable but he suggests
+there's a gap when the system was there
+roughly 200,000 years ago and began to
+be externalized in different or somewhat
+different ways later on when did Homo
+sapiens appear well here we have
+reasonably good fossil record which
+shows that anatomically modern humans
+emerge appear roughly at that time maybe
+250,000 years ago which is essentially
+nothing in evolutionary time so it looks
+as though the language emerged pretty
+much along with Homo sapiens with the
+Faculty of language intact another kind
+of evidence comes from the
+archaeological record which gives you
+know a lot of information about rich
+symbolic activity it turns out that
+almost the entire rich symbolic activity
+there anybody dug up so far is after the
+appearance of Homo sapiens well rich
+symbolic activity has been naturally
+taken to be an indication of the
+existence of language also more complex
+social structures you know burial
+practices so putting it all together it
+looks plausible that language emerged
+suddenly in evolutionary time along with
+Homo sapiens some whatever change gave
+rise to Homo sapiens seems to
+broad language along with it and it
+apparently hasn't changed since that's
+independent reasons to believe that
+whatever is in there is probably very
+simple along with say yellow land
+precept and the general principle if you
+want explanation you want simplicity so
+it makes good sense from many points of
+view to assume that the relevant laws of
+nature here or computing computational
+complexity so computational efficiency
+that's what it means to call it a third
+factor property
+well one particular case of
+computational simplicity hi how you
+doing what are you doing here you
+graduated years ago go back to tough
+[Laughter]
+that's third first of all it's not
+necessarily the case that's a myth you
+know there's a myth that neural nets are
+what do the computation but there's
+pretty good evidence that that's not
+true the neural nets just don't have the
+computational real neurons I'm talking
+about real neurons real neurons may not
+be the elements that enter into
+computation there's by now reasonably
+strong evidence against that Randy
+Galveston's book with William King is a
+very good case where he is strong
+evidence Randy that if you look at
+neural nets you simply cannot find the
+basic elements of essentially Turing
+machines
+you can't find the core kind of
+computational element that yields
+computational activities is not there in
+neural nets so what he's arguing is that
+people who have been looking for neural
+net accounts of computation are like the
+traditional a blind guy who's looking
+under the lamppost for his lost keys
+because even though we lost them across
+the street because that's where the
+light is so yes we know something about
+neural nets but happens that what we're
+looking for somewhere else there's also
+there's a lot more evidence the speed
+and the speed and scale of computation
+is way beyond what neural nets are
+capable of and when others including
+around these particular proposal is that
+the computation is actually down at the
+molecular level I mean do with RNA and
+so on there are other proposals by not
+inconsiderable people like Roger Penrose
+for example that the computation is
+being done by structures that are
+internal to neurons which have vastly
+greater computational capacity there's
+chemical processes that go on in the
+brain that aren't captured by neural
+Nets so the fact that it's been known as
+far back as Helmholtz that speed of
+transition of in neurons is just kind of
+too slow to be doing very much so it
+looks oh we're going to have to look
+elsewhere to find the implementation of
+computational systems but you're there's
+something there and it's going to be a
+third factor property something about
+the brain clearly we talked about this
+in our book in fact so yes there's
+surely we're going to try to relate
+whatever is going on ultimately down to
+the level of cells you know that's
+science try to reduce everything okay
+so that's all third factor if you like
+but
+talking about neural nets is kind of
+like talking about natural selection
+yeah I thought you brought up neurons
+something in the brain yeah yeah surely
+something in the brain is responsible
+for this not the foot let's say you can
+amputate your leg and you still have
+language in state your head you don't so
+yeah we agree there's something going on
+in there it's a tricky question it's
+very hard question even for simple
+traits not just language a very simple
+traits as I said you look in technical
+studies of evolution the phrase that's
+often used is fiendishly difficult to
+find the evolutionary basis for even the
+simplest traits so to think we're going
+to suddenly find them for languages
+little misleading there are some
+interesting ideas so angela Ritchie's
+book that came out recently MIT first
+book on the state of the art and
+neurolinguistics is interesting
+suggestions about what might be involved
+in the probably small range change in
+brain we wiring that led to the
+appearance of merge or something like it
+you know closing a certain circuit and
+the dorsal and ventral connections it's
+an interesting proposal certainly not
+going to be trivial you know it's a hard
+problem yes that would be so no we're
+wasn't he's always been very disruptive
+[Laughter]
+well maybe I'll just kind of end here
+and go on next time but one principle
+that we're going to expect for many
+reasons is computational efficiency
+minimal searches the most is the
+strongest form of computational
+efficiency sir
+as little as possible and there is a
+case of restricting accessibility that
+we're familiar with which I introduced
+the minimal search that's the case of
+success of cyclic movement so suppose
+you've taken a WH phrase and you've
+moved it up to here and suppose both of
+these neither of these let's say is
+blocked by the phase impenetrability
+condition was that only blocks things
+here well the next thing that's raised
+is this one not that one okay we just
+take that for granted nobody talks about
+it but if you ask why it's again a
+minimal search question
+whatever's selecting the operation argue
+about what it is that goes back to that
+mystery I mentioned it's going to take
+this guy because that's the one that's
+going to find by minimal search so we
+have at least two cases already that
+we're familiar with of limiting
+accessibility one P I see which is
+pretty broad the other minimal search
+which we've just taken for granted and
+maybe that exhausts it but now I think
+there's a broader general principle
+which has just restrict resources that
+we'll have a lot of effects oh come back
+to where were examples of that next time
+there's a temptation at this point to
+relate restrict resources to something
+that Ray and I were just talking about
+the fact that the brain is just slow the
+done work fest works quite slowly
+and there's many domains in which that
+is the case so in many ways the most
+striking one is vision if you look at
+the sensory motor system the visual
+system the cells of the retina are
+actually responsive to single photons of
+light
+okay they're maximally they give you a
+maximal amount of information the brain
+doesn't want all that information it's
+just the way overloaded if it ever got
+that kind of information inside so
+whatever the visual system is doing is
+that for the first step it's doing is
+throwing out almost all the information
+that's coming from the retina and
+apparently every sensory motor system
+every sensory system is like that the
+first thing it does is throw away just
+about everything and try to get down to
+something limited enough so this slow
+brain up here can deal with it somehow
+that looks very much like a general
+property of which resource limitation of
+the kind that says don't do ordinary
+recursion but restrict the resources of
+which this is some special case all
+seems to converge kind of plausibly
+we're very familiar with this in the
+study of language acquisition so as you
+all know an infant acquiring of phonetic
+system it's basically throwing away
+information it's throwing away tons of
+information in the first months of life
+and maybe at about nine months or a year
+saying the same thing goes on through
+the rest of language acquisition if you
+look at something like Charles Yang's
+general approach the language
+acquisition where you're just shifting
+you start the child starts with all
+possible grammars I languages and then
+the changes the probability distribution
+of them as data comes along reducing the
+probability of things that don't have
+evidence for them so that they become
+fundamentally invisible it's also a
+matter of throwing away lots of
+information and converging on just a
+little bit the development of the brain
+is constantly losing neurons but you
+don't want all this junk around you want
+just what you need and the resource
+limitation
+fits pretty naturally into that system
+oh I think I'll stop here and try to
+come back to more detail examples next
+time unless somebody else wants to
+disrupt
+you
+0
+4
+8
+12
+14
+18
+22
+25
+29
+31
+35
+39
+41
+45
+48
+52
+56
+58
+60
+63
+67
+69
+74
+78
+80
+82
+88
+90
+95
+99
+100
+105
+108
+113
+116
+120
+123
+127
+131
+132
+136
+141
+144
+147
+150
+155
+159
+161
+165
+169
+171
+173
+176
+178
+182
+185
+187
+190
+194
+198
+200
+204
+209
+213
+216
+218
+221
+226
+229
+234
+238
+241
+243
+246
+249
+250
+254
+256
+260
+265
+268
+271
+274
+278
+281
+282
+285
+288
+293
+296
+299
+301
+305
+308
+310
+314
+317
+320
+323
+326
+329
+333
+335
+340
+344
+347
+350
+353
+355
+360
+362
+366
+369
+372
+375
+377
+380
+383
+387
+391
+393
+396
+399
+402
+405
+409
+411
+415
+418
+420
+424
+427
+434
+436
+439
+442
+444
+447
+450
+453
+456
+460
+463
+468
+470
+475
+480
+484
+487
+491
+494
+497
+500
+507
+510
+513
+516
+519
+522
+525
+526
+529
+532
+535
+537
+539
+542
+547
+550
+553
+556
+560
+563
+567
+570
+573
+575
+578
+582
+585
+590
+593
+596
+601
+605
+607
+611
+615
+618
+621
+624
+628
+630
+633
+636
+639
+643
+647
+650
+653
+655
+658
+661
+662
+666
+669
+673
+675
+679
+681
+685
+689
+692
+695
+698
+702
+706
+709
+712
+717
+721
+722
+725
+729
+732
+734
+738
+742
+747
+751
+755
+758
+762
+764
+767
+769
+773
+775
+779
+781
+784
+786
+789
+791
+792
+796
+798
+801
+805
+809
+811
+814
+817
+821
+823
+826
+829
+834
+838
+843
+847
+852
+854
+858
+860
+863
+865
+868
+871
+877
+880
+883
+887
+891
+895
+900
+903
+906
+909
+912
+915
+919
+921
+925
+928
+929
+932
+934
+937
+940
+943
+947
+950
+953
+956
+960
+966
+968
+972
+976
+981
+984
+986
+989
+994
+998
+1001
+1003
+1009
+1011
+1014
+1018
+1022
+1027
+1029
+1033
+1036
+1039
+1042
+1044
+1047
+1051
+1054
+1057
+1059
+1061
+1063
+1068
+1071
+1074
+1078
+1080
+1083
+1087
+1089
+1092
+1094
+1097
+1100
+1102
+1104
+1111
+1113
+1118
+1121
+1125
+1127
+1132
+1136
+1140
+1143
+1150
+1152
+1155
+1159
+1163
+1165
+1167
+1170
+1174
+1176
+1180
+1183
+1185
+1187
+1189
+1194
+1196
+1196
+1199
+1202
+1210
+1212
+1215
+1218
+1221
+1223
+1226
+1231
+1234
+1238
+1240
+1244
+1247
+1250
+1253
+1256
+1259
+1262
+1265
+1267
+1271
+1274
+1277
+1281
+1284
+1287
+1290
+1294
+1298
+1300
+1303
+1306
+1309
+1312
+1316
+1318
+1320
+1322
+1325
+1330
+1334
+1336
+1341
+1344
+1348
+1350
+1355
+1358
+1361
+1366
+1369
+1372
+1376
+1379
+1383
+1388
+1391
+1394
+1397
+1400
+1401
+1404
+1407
+1410
+1412
+1415
+1419
+1423
+1425
+1427
+1431
+1433
+1438
+1441
+1444
+1447
+1451
+1452
+1456
+1460
+1463
+1467
+1472
+1475
+1478
+1480
+1483
+1488
+1490
+1493
+1495
+1497
+1501
+1503
+1507
+1510
+1513
+1516
+1519
+1521
+1524
+1526
+1530
+1534
+1536
+1540
+1545
+1547
+1549
+1553
+1556
+1559
+1565
+1569
+1572
+1575
+1578
+1582
+1584
+1589
+1592
+1594
+1596
+1600
+1602
+1606
+1609
+1611
+1614
+1617
+1620
+1622
+1625
+1629
+1632
+1635
+1637
+1640
+1643
+1645
+1649
+1653
+1655
+1658
+1660
+1663
+1668
+1671
+1674
+1677
+1680
+1682
+1685
+1688
+1690
+1693
+1695
+1698
+1700
+1701
+1704
+1708
+1711
+1714
+1716
+1718
+1722
+1725
+1729
+1732
+1736
+1738
+1741
+1744
+1748
+1751
+1753
+1755
+1758
+1760
+1762
+1766
+1769
+1774
+1777
+1778
+1780
+1784
+1786
+1788
+1791
+1795
+1798
+1800
+1803
+1806
+1810
+1813
+1816
+1820
+1823
+1826
+1829
+1831
+1833
+1836
+1840
+1844
+1846
+1852
+1855
+1859
+1862
+1866
+1869
+1872
+1875
+1878
+1881
+1882
+1885
+1888
+1890
+1893
+1896
+1899
+1903
+1906
+1908
+1911
+1914
+1916
+1920
+1923
+1927
+1931
+1934
+1937
+1940
+1942
+1945
+1951
+1956
+1960
+1964
+1967
+1971
+1974
+1977
+1981
+1984
+1987
+1990
+1994
+1996
+1998
+2000
+2002
+2005
+2008
+2012
+2016
+2018
+2021
+2023
+2025
+2027
+2030
+2034
+2037
+2039
+2041
+2043
+2045
+2048
+2052
+2055
+2058
+2062
+2066
+2068
+2071
+2074
+2077
+2080
+2083
+2086
+2090
+2092
+2095
+2098
+2102
+2104
+2107
+2112
+2114
+2117
+2120
+2123
+2127
+2130
+2135
+2137
+2139
+2142
+2145
+2148
+2150
+2152
+2157
+2162
+2165
+2168
+2173
+2176
+2180
+2183
+2186
+2189
+2191
+2194
+2198
+2201
+2205
+2210
+2213
+2219
+2224
+2228
+2230
+2233
+2236
+2240
+2244
+2247
+2251
+2253
+2255
+2256
+2259
+2260
+2264
+2267
+2271
+2273
+2276
+2279
+2283
+2286
+2288
+2291
+2293
+2296
+2299
+2303
+2306
+2309
+2312
+2313
+2316
+2319
+2322
+2324
+2328
+2332
+2334
+2338
+2340
+2344
+2346
+2349
+2352
+2355
+2358
+2361
+2363
+2366
+2370
+2373
+2375
+2375
+2379
+2383
+2386
+2389
+2391
+2393
+2394
+2396
+2401
+2406
+2409
+2414
+2416
+2418
+2421
+2426
+2429
+2431
+2434
+2438
+2440
+2442
+2444
+2447
+2449
+2452
+2454
+2457
+2461
+2465
+2468
+2470
+2475
+2478
+2480
+2485
+2487
+2490
+2493
+2497
+2500
+2504
+2509
+2512
+2516
+2518
+2523
+2526
+2527
+2533
+2535
+2538
+2541
+2546
+2549
+2553
+2556
+2559
+2563
+2566
+2568
+2571
+2574
+2577
+2579
+2581
+2585
+2588
+2591
+2594
+2597
+2599
+2603
+2606
+2610
+2612
+2615
+2617
+2620
+2622
+2626
+2630
+2632
+2636
+2638
+2641
+2643
+2646
+2650
+2652
+2654
+2657
+2660
+2664
+2667
+2669
+2673
+2677
+2680
+2684
+2689
+2692
+2694
+2696
+2699
+2702
+2707
+2709
+2713
+2715
+2717
+2720
+2724
+2726
+2730
+2735
+2739
+2742
+2745
+2749
+2752
+2755
+2755
+2760
+2762
+2766
+2770
+2773
+2776
+2779
+2781
+2783
+2785
+2789
+2792
+2793
+2797
+2799
+2801
+2805
+2809
+2813
+2818
+2822
+2826
+2831
+2833
+2835
+2839
+2842
+2847
+2852
+2855
+2858
+2861
+2864
+2869
+2872
+2874
+2877
+2879
+2884
+2888
+2892
+2894
+2900
+2903
+2907
+2912
+2914
+2917
+2921
+2927
+2929
+2932
+2935
+2938
+2941
+2944
+2947
+2949
+2953
+2957
+2959
+2963
+2966
+2969
+2972
+2974
+2977
+2981
+2985
+2989
+2992
+2995
+2997
+3001
+3004
+3006
+3009
+3013
+3016
+3019
+3023
+3027
+3029
+3032
+3035
+3037
+3039
+3043
+3046
+3048
+3053
+3056
+3058
+3060
+3063
+3066
+3068
+3071
+3074
+3077
+3080
+3082
+3084
+3086
+3087
+3090
+3094
+3097
+3100
+3102
+3104
+3106
+3108
+3111
+3115
+3119
+3123
+3126
+3128
+3132
+3135
+3138
+3141
+3143
+3146
+3148
+3152
+3155
+3158
+3163
+3166
+3169
+3171
+3175
+3177
+3181
+3184
+3186
+3190
+3194
+3198
+3202
+3207
+3210
+3214
+3216
+3218
+3220
+3222
+3224
+3229
+3231
+3233
+3236
+3238
+3241
+3243
+3245
+3248
+3251
+3254
+3258
+3260
+3264
+3268
+3270
+3274
+3278
+3282
+3285
+3288
+3291
+3300
+3304
+3308
+3316
+3319
+3324
+3332
+3335
+3339
+3345
+3347
+3352
+3354
+3357
+3359
+3362
+3365
+3372
+3382
+3386
+3390
+3393
+3397
+3401
+3405
+3409
+3412
+3419
+3422
+3428
+3432
+3435
+3438
+3441
+3444
+3446
+3449
+3451
+3454
+3457
+3459
+3462
+3463
+3464
+3468
+3473
+3478
+3480
+3483
+3486
+3493
+3497
+3500
+3502
+3506
+3508
+3513
+3516
+3521
+3523
+3525
+3529
+3533
+3538
+3542
+3546
+3550
+3568
+3571
+3573
+3576
+3582
+3585
+3587
+3591
+3594
+3598
+3601
+3603
+3607
+3610
+3614
+3615
+3617
+3621
+3624
+3627
+3629
+3632
+3637
+3639
+3642
+3646
+3654
+3658
+3663
+3666
+3670
+3675
+3677
+3681
+3684
+3688
+3691
+3695
+3698
+3701
+3703
+3705
+3709
+3713
+3723
+3728
+3729
+3733
+3736
+3738
+3742
+3752
+3762
+3766
+3769
+3774
+3778
+3781
+3783
+3786
+3788
+3791
+3793
+3796
+3799
+3801
+3805
+3807
+3811
+3815
+3820
+3822
+3825
+3829
+3832
+3836
+3839
+3844
+3846
+3848
+3852
+3854
+3858
+3861
+3864
+3867
+3870
+3874
+3877
+3882
+3888
+3890
+3894
+3896
+3900
+3904
+3907
+3910
+3913
+3916
+3917
+3921
+3923
+3926
+3928
+3931
+3936
+3939
+3944
+3947
+3949
+3955
+3958
+3960
+3963
+3966
+3969
+3972
+3975
+3980
+3983
+3985
+3989
+3994
+3999
+4001
+4005
+4009
+4012
+4015
+4018
+4022
+4023
+4026
+4028
+4030
+4034
+4036
+4039
+4042
+4046
+4048
+4051
+4056
+4060
+4063
+4065
+4071
+4075
+4079
+4083
+4087
+4089
+4091
+4094
+4096
+4098
+4102
+4105
+4109
+4112
+4113
+4116
+4120
+4124
+4126
+4129
+4131
+4133
+4136
+4139
+4143
+4146
+4147
+4151
+4155
+4158
+4160
+4164
+4167
+4170
+4173
+4179
+4182
+4185
+4188
+4191
+4195
+4196
+4199
+4203
+4206
+4210
+4213
+4216
+4219
+4222
+4225
+4227
+4231
+4237
+4241
+4244
+4247
+4250
+4252
+4255
+4257
+4261
+4265
+4268
+4271
+4275
+4280
+4288
+4292
+4293
+4297
+4304
+4307
+4311
+4325
+4329
+4332
+4335
+4338
+4339
+4342
+4350
+4353
+4355
+4359
+4361
+4363
+4367
+4370
+4375
+4378
+4379
+4382
+4386
+4389
+4392
+4396
+4399
+4403
+4405
+4408
+4410
+4413
+4415
+4417
+4421
+4427
+4430
+4433
+4436
+4439
+4443
+4446
+4449
+4452
+4456
+4458
+4462
+4465
+4467
+4471
+4474
+4478
+4481
+4482
+4485
+4488
+4490
+4492
+4496
+4498
+4500
+4503
+4506
+4509
+4511
+4513
+4515
+4517
+4522
+4526
+4528
+4531
+4533
+4535
+4538
+4540
+4542
+4546
+4550
+4555
+4558
+4561
+4563
+4566
+4568
+4572
+4575
+4579
+4583
+4586
+4590
+4594
+4597
+4600
+4604
+4607
+4609
+4614
+4617
+4624
+4628
+4633
+4635
+4639
+4642
+4644
+4646
+4648
+4652
+4655
+4658
+4661
+4664
+4673
+4677
+4679
+4682
+4685
+4689
+4692
+4695
+4697
+4702
+4704
+4706
+4708
+4711
+4713
+4715
+4719
+4722
+4724
+4729
+4731
+4735
+4738
+4741
+4745
+4749
+4751
+4755
+4758
+4761
+4764
+4767
+4770
+4774
+4778
+4779
+4782
+4785
+4788
+4790
+4793
+4795
+4799
+4801
+4804
+4807
+4810
+4812
+4815
+4818
+4821
+4825
+4829
+4833
+4836
+4839
+4842
+4844
+4848
+4852
+4854
+4857
+4859
+4862
+4868
+4871
+4873
+4875
+4878
+4880
+4883
+4887
+4890
+4892
+4894
+4897
+4899
+4902
+4905
+4908
+4910
+4912
+4913
+4916
+4920
+4922
+4925
+4935

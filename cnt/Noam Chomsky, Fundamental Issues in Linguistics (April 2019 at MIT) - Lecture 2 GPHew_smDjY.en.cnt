@@ -1,0 +1,3790 @@
+well last time I talked about a number
+of things and got up to the point of
+beginning to discuss the problems that
+exist with the concept merge that was
+developed back in the 90s and has been
+used in many ways since there's a kind
+of a simplest version of merge which was
+the original intention which just had
+the two special cases external and
+internal merge as I mentioned last time
+the more primitive of the two is
+actually internal merge but because of
+the fact that language has X eccentric
+constructions that can't suffice I
+mentioned some of the things that you
+can explain on the basis of merge and
+also wanted to make the point that a
+genuine explanation in linguistics will
+if we're viewing the study of language
+as part of the study of nature basically
+the bio linguistics program which I
+think has roots back to the 17th century
+as I mentioned last time although you
+have to skip the structuralist a vollis
+period if we're engaged in that
+enterprise then a genuine explanation
+will always have to meet these austere
+conditions of learner ability and
+evolved ability which are very hard to
+meet anywhere in biology and in
+particular here there's some reason to
+think that they might be the conditions
+might be attainable here because of the
+specific conditions of human evolution
+which i mentioned briefly last time if
+those pictures correct there's some
+antecedent reason to believe that there
+might be success in the enterprise which
+is rarer in the biological sciences well
+the concept merge does happen to meet
+those conditions it beats the condition
+of learnability because there's nothing
+to learn it meets the condition of
+evolve ability because since in fact the
+basic problem the basic principle does
+exist there had to be something to
+evolve the computational procedures that
+yielded it and it would obviously be at
+least the simplest one so we can be
+secure with explanations based on the
+concept merge but anything else is
+problematic it's a very austere
+condition but it's one that really has
+to be met well I then started in done
+talked about some of the examples where
+you can get an explanation some
+interesting cases but there are problems
+the problems are that the concept was
+very loosely defined and all sorts of
+other applications implementations have
+been given which kind of more or less
+fall within the original loose
+definitions but I think are probably
+illegitimate I'll talk about that today
+and I think if we think through the
+matter carefully we end up with just
+allowing what was originally intended
+and none of the extensions for good
+reasons which leaves us with many
+problems some of which have I think
+potential solutions others look quite
+mysterious well the I mentioned last
+time something which is a kind of a
+paradigm for many cases the simplest
+case when you have only two elements and
+first of all since we do have X
+eccentric constructions it's going to be
+necessary for the operation merged
+actually operate on a workspace not on
+elements because you're always changing
+the workspace every time you fly merge
+so we have some sort of a definition
+that bullet capital merge
+which does take two things that you want
+to merge on a workspace that exists and
+form the new workspace which will
+include at least this and then other
+things and I suggested the notation I
+will use square brackets for the
+workspace and curly brackets for the
+syntactic objects there's a crucial
+difference between them the works the
+workspace is a set but it's not an
+accessible object for operations
+so we'll just distinguish them by that
+notation and the notation actually means
+something so for example we if suppose
+the workspace consists of just X we want
+to distinguish that from X so the
+singleton set is different from the it's
+member because the workspace is not a
+syntactic object and X is on the other
+hand for the syntactic objects we want
+the opposite convention singleton set is
+the individual element and there are
+good empirical reasons for this which go
+back to phrase structure grammar so in
+phrase structure grammar just by
+convention didn't allow rules like say
+ax and B that's assumed not to be a
+reasonable rule that's essentially
+saying that a singleton set is identical
+with its member now this was fudged
+often in the use of phrase structure
+grammar
+so there were allowed rules were allowed
+like this when you move from phrase
+structure grammar which is a totally
+unacceptable for language for myriad
+reasons as was recognized since the
+fifties when you move from that to x-bar
+theory then this becomes meaningless
+right because there's no VP if it's only
+V actually the despite the fact that
+it's meaningless it is used so for
+example if you try to implement Ritchie
+canes LCA you know try to get it to work
+you're forced to have rules like this
+which is a serious problem in the LCA
+system I think you have to show that you
+argue that if you have a a verb object
+structure the object even if it's
+pronoun still is complex otherwise you
+don't get the right ordering but that's
+technically illegitimate and x-bar
+theoretic structure and here the analog
+of that legitimacy is this convention so
+we want to accept this convention which
+has a number of consequences for
+syntactic objects and this convention
+for work spaces which are different
+kinds of things that the role sets okay
+well the if in the simplest case we just
+have a work space content consisting of
+these two guys and we merge them
+he is a workspace which contains set a
+which we've merged and the question is
+what else now if it was normal recursion
+likes a theoretical you would have here
+a and B but you can't have it for
+language for reasons which I mentioned
+last time and this is a kind of a
+paradigm that applies to a great many
+cases of the extensions of merge the
+reason it doesn't work is that this can
+be built up to an object of arbitrary
+complexity this since it's accessible
+and then merged that gives you a
+relation between the thing that's merged
+up here the thing down here which
+violates every imaginable condition of
+movement
+so that's illegitimate and we do not
+want to have legitimate operations which
+yields illegitimate conclusions
+Elementary so therefore we conclude that
+surprisingly these things aren't here
+for language recursion for language is
+different from general recursion namely
+it has the property the way both lest
+I'm restricting resources and it's what
+computation for our language and
+presumably for organisms generally is
+doing is trying to keep the resources as
+limited as possible you have to get
+something new or you know you don't
+generate anything but you want to
+generate as few things as possible this
+really turns into a number of sub cases
+one sub case is limiting accessibility
+accessibility means something's
+accessible
+if the merge operation can see it do
+something to it we want to limit
+accessibility if we allowed general
+recursion we'd have too much
+accessibility here so we want to limit
+it to the minimal amount
+it's tempting as I mentioned less time
+to try to relate this to a more general
+property of brain computation namely the
+brain is pretty dumb and slow so what it
+does is throw out tons of data that are
+coming in fact that's its main activity
+is to get rid of lots of stuff that's
+coming in so in the visual system the
+sensory part of the visual system is
+essentially perfect so you get a cell
+responding to a photon of light can't do
+better than that but that's pouring into
+the brain tons of information that are
+going to totally overwhelm computation
+so the sensory system throws out almost
+everything get down to just the limited
+part the same true in language
+acquisition HIV the phonetic system is
+throwing out just about all the noise
+that comes in picking only very limited
+kinds of phonetic properties and even
+those are being thrown out very quickly
+in early language acquisition that's the
+main part of language acquisition
+charles Yang's model for general
+language acquisition kind of exploits
+this generally a notice instantly
+speaking of yang that if you have this
+property you infer determinacy it turns
+out that if you think it through when
+you limit the resources available you're
+also going to force determinacy meaning
+the operation will be uniquely
+determined by what it's looking at
+that's not a trivial property it wasn't
+true for example of standard versions of
+phrase structure grammar so in a phrase
+structure grammar
+we reached a point where you had
+something of the form and you have a
+rule expanding NP which one you apply it
+to is indeterminate
+but if you have in this narrow much
+narrower system resource restriction you
+get determinacy and that's kind of
+important because Charles's work on the
+price of productivity or very important
+work depends crucially on the assumption
+that the operations are determinate so
+we want to get those rich consequences
+we want that property it's one of the
+few examples I know of work and
+computational statistical computation
+linguistics that has real consequences
+very rich consequences very important
+work so resource restriction is this
+make sense as a property has a lot of
+interesting consequences Lots follow
+from them now resource restriction is
+going to have two opponents sort of one
+of them is restrict computation the
+other is restrict
+resources restrict computation means
+limit yourself to the minimal kinds of
+computation that are possible we'll
+merge is one case it's the least
+possible computational operation but it
+also wants to operate in the most
+limited way so one of the consequences
+would be heap'd a minimal search don't
+use deep search minimal search already
+works many empirical consequences that
+notice that limit accessibility already
+includes things like general condition
+that limits accessibility minimal search
+is another movement when you move to the
+next stage you don't look down you only
+find the thing that you first thing that
+you find that raises many interesting
+questions about possible ambiguity are
+there ambiguous cases I'll come back to
+that quite interesting question later on
+but those are the things that are in the
+background now if you look at the
+original definition of merge back in
+1995 it actually had this property
+inadvertently wasn't noticed
+particularly but the operation of merge
+as it was defined was defined basically
+as replace which says don't keep what
+you already had but get rid of it that
+was not particularly noticed but it's a
+property of the original definition and
+there are good reasons for it we can now
+see good reasons for it if you don't
+accept it you do get legitimate
+operations which yield illegitimate can
+ujin's the clearest sign that
+something's radically wrong and this is
+a paradigm case but it extends to many
+others go into that well so for example
+take something that I presume no one's
+ever proposed all I'll draw trees but
+let me make should make it clear the
+trees are very misleading notations one
+should be aware of them for one thing a
+tree notation suggests that this exists
+that the root two exists but why does
+the word exist if you just have merged
+operations in fact what the root is
+understood to be is something that comes
+from some other source namely project
+ability but that should be a completely
+separate property projection seems to
+have nothing to do with the
+compositional operations the tree
+notation kind of sticks them all
+together and misses many questions about
+what project ability is a particularly
+interesting case in ex eccentric
+constructions so what's projected that
+has interesting consequences the old
+theory of labeling deals with that I
+assume you're familiar with it or put it
+aside but we don't want that the other
+thing that three notations allow you to
+do is throw lines and all kind of
+complicated ways throw a line from here
+to here that seems to mean something in
+a tree it means absolutely nothing at a
+base system and you really have to be
+very careful about that so I'll use
+trees for exposition but with the
+condition that you don't take them
+seriously well let's take something that
+I presume nobody's ever suggesting
+suppose you have a structure like this
+and you decide to merge these
+the original definition doesn't say you
+can't that would mean you're forming the
+set X P Y P but it has nothing to do
+with this original set just something
+added on notices it has exactly the
+properties that are barred here it adds
+accessibility it's adding new accessible
+items which will then be subject to
+exactly the problem I already mentioned
+namely this object can be made as
+complexes you like you could then merge
+one of these guys do it and you violate
+all conditions so we're not allowed to
+do this as far as I know nobody ever
+proposed this but there's a good reason
+why you can't do it however there are
+things that people have proposed and I
+think they're all ruled out for the same
+reason I'll kind of leave it you as an
+exercise to work out why but if you
+think about things like parallel merge
+which is usually written in trees like
+tree notation seems to be saying
+something but it's not because there's
+no way to constructors but if you think
+about what parallel merge is doing it's
+increasing accessibility runs into this
+very same problem a parallel merge is
+the basis for many a lot of work in the
+literature which yields
+multidimensionality
+the idea of multidimensionality goes
+back to the 70s work by Jimmy Coley and
+others but if you try to reconstruct it
+in a merge based system you can draw the
+trees with funny lines like this but if
+you end the way of constructing it is
+through parallel merged which has this
+lethal property that it yields
+illegitimate consequences from
+legitimate operations
+so everything that if you look up the
+handbooks of contemporary syntax there's
+a chapter on multidimensionality which
+has many interesting consequences about
+a TV across-the-board movement parasitic
+gaps and so on but none of them works
+because they're all based on an
+illegitimate operation which has this
+deficiency same true of the side works
+merge as the same problem
+the same is true in spades this time of
+late merge which is widely used I've
+used number of times many others have
+late merge first of all has this problem
+it's creating a new when you draw a tree
+it looks as if you can do it you just
+add a line to the tree and you've got
+late merge but if you try to spell it
+out in terms of the merge operation
+you're forced first creating a new
+object which is bad enough because
+that's already illegitimate but then
+you're adding a new operation a
+substitution operation which inserts
+what you've just created at just the
+right point inside the tree that's a
+pretty tricky operation try to formulate
+it it's a new complex operation so late
+merge has a double problem one the
+problem of not restricting accessibility
+a second the problem of invoking a new
+operation which is really unfortunate
+thing about it and it's way out of the
+framework of anything we're talking
+about so I don't and there's many very
+interesting results that follow from
+late merge very much like
+multidimensionality but I think the way
+to look at those results is as problems
+the problems that have been constructed
+in an interesting way so we have
+organized data instead of chaotic data
+which is step forward but it's only a
+step towards eventual explanation in
+terms of something that meets the
+austere conditions that we're interested
+in and that sets interesting empirical
+problems to address I think there are
+some answers in some cases which all
+okay what's going on let there be light
+okay is that the second day of creation
+I think your divine okay so where are we
+sorry we need a different God okay you
+guys doing that well there's a lot that
+follows from all of this I'm kind of
+leaving it as an exercise to think it
+through but if you think it through what
+you'll find is that all of these
+applications extensions of merge
+including the kind that nobody's ever
+thought of including others that have
+been used widely all have the same
+problem they all have exactly the
+problem that you see with the simplest
+case and the problem again crucially is
+that if they are constructing what are
+alleged to be legitimate operations but
+when you apply them you get illegitimate
+conclusions and that is the sign that
+there's something seriously wrong you
+know obviously that can't be so all of
+those the entire literature big
+literature that yields very interesting
+array of results is not the
+and explanation it's a proposal of
+problems that's posing problems that are
+interesting important big step forward
+it's useful to have organization of data
+instead of just chaotic data but that's
+not explanation that's not the goal of
+linguistics at least as a science well
+all of this suggests the kind of a
+research program the first determine
+that which subclass of the loosely
+characterized operations of merge that
+which subclass of them are in fact
+legitimate that's a research problem if
+you run through it I think think you
+think through it case-by-case again
+leave this is an exercise I think what
+you end up finding is the originally
+intended ones not defined properly but
+the originally intended ones are
+probably the only ones the rest of the
+extensions are not legitimate
+interesting consequences but not
+legitimate the next problem is to
+formulate merge so it gives you just the
+right ones and then try to explain why
+that definition of merge is the kind
+that should be reached on general
+considerations general conditions that
+any linguistic operation oughta meet and
+this should be deducible from them along
+with third factor properties minimal
+computation minimal resources
+well I won't run through the cases but
+we get something that looks like this
+and we have to put various conditions on
+X 1 2 X n so what are the conditions
+well I won't bother spelling it out
+formally I'll just say it intuitively
+don't lose anything in WS spell it out
+it means if Y is in WS and Y is distinct
+from P and Q it's got to be in the X's
+okay so you don't lose anything we don't
+want something to just disappear of
+course of the operation second condition
+limit accessibility in fact limited to
+one it has to be at least one because
+you're constructing a new object okay
+otherwise you're not doing anything but
+don't do anything beyond that
+so no new accessibility should be
+permitted by merge at a third condition
+is x1 in other words don't throw in some
+new junk that has nothing to do with the
+operation well what we want to do of
+course is get rid of these we want a
+definition of merge which has no
+conditions but notice we basically
+already have that the first one that
+follows from the no tampering condition
+the no tampering condition has to be
+revised now so that doesn't apply to
+syntactic objects but to the work space
+because all the operations are on the
+work space the no tampering condition
+says if something's in the work space
+don't change it ok well the most extreme
+form of changing is to delete it so you
+can't delete it so for many reasonable
+interpretation of the general condition
+NTC which is part of the strong
+minimalist thesis it follows y'all can
+lose anything this one we've gotten rid
+of the tallest from resource restriction
+which is a special crucial property of
+organic computation seems at least for
+language but probably quite general
+generally probably related to the
+general brain activity of massively
+reducing the data available for
+computation so we've gotten rid of this
+one but this one implies this one if you
+don't addict if you're going to add any
+more junk it'll increase accessibility
+automatically so therefore we don't need
+that condition so therefore we can get
+rid of all of these they all follow from
+plausible in fact necessary conditions
+on general computational procedures for
+a organic object so that gives us the
+best possible definition of merge and if
+you think it's through on principle
+grounds and if you think it's through it
+restricts it just to the original
+intention which was never captured by
+the actual formulations just kind of in
+mind turns out that what was in mind was
+actually created correct and all of the
+extensions have to be barred now I
+should say one word about one of the
+general conditions kind of a meta
+condition descriptive adequacy that we
+want them we want the operations of
+course to be descriptively adequate but
+that's not an innocent notion you don't
+know from data whether they're the right
+data descriptive adequacy
+and this is not just linguistics all
+through rational inquiry all through
+science is a theory determined notion
+it's not innocent you get a lot of data
+and say chemistry you don't know is this
+real data or not there are two kinds of
+problems the data could have one it
+might involve too many variables lots of
+other factors that you're not interested
+in in fact they should just look at the
+phenomena of the world
+they're just worthless you know too many
+things are going on so you don't develop
+physics on the basis of just observation
+of the phenomena in the world if you're
+in Silicon Valley that's the way you do
+it what I'm talking about
+science no no Silicon Valley so what you
+do is try to find get rid of the data
+that doesn't really matter it doesn't
+have to do with what you're interested
+in that's a theory internal notion of
+the other problem is that you look at
+the phenomena that around you they
+usually don't include the relevant data
+they don't include the critical
+experiments the kind that matter this
+was all these are all problems that were
+faced in the early days of the
+Scientific Revolution and they were sort
+of settled for the sciences but
+linguistics and then the soft sciences
+haven't really internalized it so if you
+go back to say the 17th century of the
+Galilean effort to try to rebuild
+science on firm grounds throwing out
+Neos scholastic occult properties and so
+on what was important and he had a hard
+time convincing the funders the
+aristocrats not the National Science
+Foundation convincing the funders that
+there was some point in this so it was
+very hard for the aristocrats to see why
+you should care about whether what
+happens when a all rolls down a four
+in the Splane which can't happen why
+should you care about that and not
+leaves blowing around in the wind you
+know which you see all the time that's a
+big move actually and if you think about
+the problem it's not trivial so why do
+why is the rate of fall independent of
+mass I mean if Galileo had done
+experiments they wouldn't have worked
+you know too many other things would
+have happened so what he did was just a
+thought experiment neat thought
+experiment said suppose you have two
+masses which are identical to objects
+which are absolutely identical okay and
+suppose they fall
+well obviously they'll fall at the same
+rate suppose you bring them a little bit
+closer together
+that's not going to make any difference
+they'll still fall at the same rate
+I suppose you bring them so close
+together that they actually touch in a
+point well that can't change anything
+but now it has double the mass okay so
+we've proved the theorem without an
+experiment most of Galileo's experiments
+if you run through the dialogue and so
+on are really like this so for example
+another problem that was bothersome is
+what happens if you have a sailboat
+sailing through the ocean and you drop
+something from here where is it gonna
+fall is it gonna fall here or is it
+gonna fall here Brazilian physics is
+it'll fall here sailboats moving forward
+so of course it will fall behind where
+you dropped it from oh they wanted to
+argue that it's gonna fall here was he
+had done experiments I leave it to your
+imagination to see what you would find
+about junk okay so you don't do
+experiments you just do critical
+experiments often just thought
+experiments
+and for linguistics that happens all the
+time so you read the literature these
+days linguistic papers cognitive science
+papers stuff coming out of Silicon
+Valley at Google one of the great
+achievements heralded is to be able to
+parse 95% of the sentences that you find
+in the Wall Street Journal okay suppose
+you could parse a hundred percent of the
+sentences and get the right result with
+training it would mean absolutely
+nothing a sentence in The Wall Street
+Journal is just an experiment
+is this a acceptable sentence or not you
+don't care if you can match a hundred
+percents of random experiments that's of
+no interest first of all a lot of the
+experiments have the wrong data too many
+variables also the other thing is they
+don't include the critical experiments
+the kind you're interested in can you
+get parasitic apps for example can you
+get garden path sentences well it turns
+out when you look at the critical
+experiments they fail almost totally
+they get maybe 95 percent of the data
+but that's a result of absolutely no
+interest and a lot of the field is sort
+of going off in that direction even in
+the linguistic literature you find it
+anyhow without going on this concept is
+not a trivial concept it's not an
+innocent concept what depends a lot
+follows from trying to understand what
+descriptive adequacy means as a theory
+internal notion anyway we certainly want
+to have we want to be able to achieve
+the level of understanding that was
+reached in the 17th century in the
+sciences I think that's a fair goal to
+understand that there's something
+significant and serious and theory
+internal about what we call descriptive
+adequacy there are other kin
+missions that have to be satisfied one
+of them many Muslim we just take for
+granted every one of them call it
+stability by that I mean in the course
+of a derivation a syntactic object can't
+change its interpretation okay so for
+example if you topical eyes say Mary's
+book I want to read in the internal
+system the non externalize system it's
+going to be Mary's book but these two
+objects have to have the same
+interpretation like this one you can't
+be saying I want to read the book that
+Mary owns but I'm talking about of the
+book that she bought let's say okay
+that's sort of taken for granted
+same for ellipsis if you say I read
+Mary's book and so did Bill what Bill
+read is it's the same Mary and if she
+ownership in both cases so you have to
+have a general principle that's telling
+you that anywhere through a derivation
+you can't change the interpretation of
+the expression it doesn't matter for
+right now how you express this fact but
+it's got to be somewhere in the deep
+inside the theory that has a lot of
+consequences we'll come back to that at
+this point notice at this point we're
+getting into a very interesting area the
+area where we have to identify what are
+called copies and repetitions okay so
+here the two cases of Mary are copies of
+each other copies symmetrical the term
+is a little misleading that
+you have to recognize it symmetrical so
+these are the same basically the same
+entity they have precisely the same
+interpretation for ellipses for any
+operation they could be copies like if I
+say John saw John then these two are
+repetitions if you look at the
+generation of the sentence you felt you
+had the same formal object but they were
+generated independently and they have
+nothing to do with each other this one
+might as well have been built okay that
+distinction between copy and repetition
+is a tricky one there's an interesting
+paper by Chris Collins and Eric wrote
+which goes through sind Ling buz I think
+I don't think they published it which
+goes through a lot of problems in trying
+to distinguish copies of repetitions
+okay I think we can cut through all
+those problems in a non trivial way and
+again I'm going to leave it as an
+exercise for you to work it out but if
+we appeal to a general a very general
+principle which seems overwhelmingly
+true looks false in some cases but in
+that kind of situation it's reasonable
+to assume that if we understood enough
+it would always be true
+it comes down to saying is that argument
+structure theta theory in particular is
+determined by pure comes
+compositionality so in fact the
+strongest conceptual reason I think for
+Dominique's predicate internal subject
+hypothesis is that the subject gets a
+theta role Dominique and Hilde have a
+lot of other arguments for it but the
+basic conceptual argument I think is
+it's a theta rule so therefore it oughta
+be determined in these and in fact
+anything that gets a theta rule ought to
+be in this what about things that are
+out and that includes functional
+categories like they have an argument
+structure but they're going to be
+determined by just well that's always
+yielding things which have no
+independent interpretation so internal
+merge is sort of determining aspects of
+semantics which have to do with
+discourse with information structure not
+argument structure that looks like a
+very sharp distinction then it follows
+that when at the phase level when
+interpretation is trying to determine
+what's a copy and what's a repetition it
+has a big and stand on a pretty high
+ladder if something's in a non theta
+position it's a copy
+if it's in a theta position it's a
+repetition okay that cuts very sharply
+now it does leave possible cases of
+ambiguity if you think through the
+possible cases there are some that seem
+not to be determined by this
+but here I'll just give you a thesis and
+ask you to prove it in your spare time
+it turns out I think that there is a
+kind of a conspiracy of other principles
+it solves the ambiguities things that
+seem to matter or news which makes
+distinctions that you don't see
+sometimes in the morphology and that
+turns out to be quite important
+another is Ritchie's left periphery
+theory which assumes that there are
+actual positions is that like topic
+focus and so on that a raised element
+moves to okay
+and third connected with this labeling
+theory tells you when those movements
+are legitimate when they give you a real
+interpretation when you have to move on
+when you don't have to move on I think
+all these together
+it probably solves the ambiguity
+problems that all these artists another
+exercise very interesting you might
+think through the one of the tricky
+cases which is not easy to deal with
+there's small clauses so you might want
+to think about that so it has
+interesting consequences when you try to
+think how that would work for this
+problem but if it we can solve it this
+way then we can solve the copy
+repetition problem simply by looking at
+we'll say that every merge operation
+yields a copy nothing else yields a copy
+in the case of external merge the copies
+that are yielded disappear on
+the replace interpretation of merge so
+you don't have to see them with internal
+merge they remain and then this page
+level algorithm based on relative
+semantics along with the conspiracy that
+language is kind enough to provide us
+with should resolve the ambiguities of
+interpretation that's the details you
+know the two trees you put down at the
+start now you copy either see the way
+people draw it is like this we're not
+allowed trees what you're actually doing
+is forming a new object E so now you
+have two objects a B now you take this
+one
+you make it arbitrarily complex anything
+you want we're allowed to merge this
+this is accessible remember okay it's a
+copy of that so you can keep merging it
+again you merge it to this you now have
+a copy relation here but it violates
+every condition it's back to the initial
+case all the cases follow from the
+simple case so you're so parallel
+emerges out
+boxes not adding accessible things
+you're adding if you do this you're
+adding this thing which is accessible
+and you're also adding this which is
+accessible in fact this so you're adding
+three accessible things to the workspace
+I did this one these are old new
+remember they're not of the ones you
+started with they're new objects and
+they're now accessible okay
+this one personally because this is the
+one you've moved and now you have two
+copies of it both of them accessible
+okay plus the pair which is accessible
+so you're violating a resource
+restriction which is the crucial
+condition most everything is following
+from resource restriction which i think
+is a probably a deep problem organic
+computation the same is true of side
+words merge collapses for the same
+reason notice in duality of semantics
+that has consequences that may be
+objectionable so for example it seems to
+rule out Norbert horn stuns a theory of
+control right Norbert's interesting
+theory of control relating control to
+raising raises a controlled element to a
+new theta position okay so that's giving
+a internal merge to a theta position
+violating duality of semantics so here
+we have a problem either Norbert's
+theory is wrong or duality of semantics
+isn't properly formulated is this the
+same reason why sideward movement is
+ruled out
+so I heard smoothing the same person
+it's even more reasons because at least
+this it does form a new object with more
+accessibility but there's also the
+question about how you connect these two
+separate things at least it has the
+problem of more accessibility that one
+runs across all of the extensions of
+merge look through them all of them have
+this property so they all basically
+reduce to this very simple operation
+that I had down here somewhere about
+Olymp in the simplest case that serves
+as a paradigm for just about everything
+so we're now down to with various
+problems hanging around on the side like
+what about Bernstein's theory of control
+we seem to have these converging on
+exactly what we want some friends some
+the simplest possible operation
+conceptually justified which gives us
+exactly the cases that don't yield
+illegitimate operations and illiteracy
+cases well what about all the problems
+that are left over so it takes a
+across-the-board movement the parallel
+merge and multidimensionality give you
+interesting ways of describing a TV
+notice describing because none of them
+are legitimate but at least you can kind
+of draw graphs that kind of look as if
+they were doing something what do we
+want to is is the point was it so
+doing parallel merge work you know
+whatever similar cyberthreats you want
+that to be bad due to the constraints
+imposed by whatever give us a
+restriction of resources there's not
+enough stuff accessible to do that the
+way that we restrict resources is we
+just buy a phases I guess if I
+understand things right does that mean
+there's a phase you can't have any
+operate as soon as you look at the
+operation if it adds accessibility
+itself okay because there's a meta
+condition on linguistic operations
+probably on general Organa communicate a
+computation but at least on linguistic
+operations which says you can't add
+resources when you have an operation it
+can create one new accessible object the
+object that you've constructed can't
+construct any others holds also for
+agree and labeling and other things but
+the interesting case is merged yeah but
+none of the operations should add new
+accessible items this should be a
+general property two elements which is
+av MVC right why do you call them the
+elements of the
+why do you call those accessible yeah
+there's no reason wasn't I mean unless
+you stipulate somehow that they're not I
+mean this one was able to move from here
+then it's able to move from here I mean
+it's the same structure unless you
+impose some other rule that says I'm not
+allowed to move but there's no reason
+for that
+remember this is and uh this is a copy
+in I am copies are always allowed to
+move so unless you simply stipulate
+unless you simply stipulate I'm not
+allowed to move which gives the game
+away then you're not allowed to have the
+operation because there's no basis for
+that stipulation it was originally
+notice that it was originally allowed to
+move that's the whole point so therefore
+it should still be allowed to move it's
+the same structure okay the other I
+don't think there's any way to salvage
+it it's just wanna take a look at the
+things that the exam the empirical cases
+that were described by these
+illegitimate operations like say a TV
+and read well the how do you generate
+this first of all well it would start
+with I'll forget the
+what Sean what what let's remember we're
+talking about the internal correlate
+that's not the external light what
+that's the thing that we generate
+internally well why doesn't that is the
+interpretation standard answer was the
+thing that he read might be different
+than the thing that he bought so it's
+not giving it the right interpretation
+of however
+think it through for a second this is a
+coffee
+this is a copy what is the property of
+copies property of copies is they all
+delete except for the top one that's a
+general principle of computation so like
+in success of cyclic movement you delete
+all the copies I mean there are
+languages where you lead some residue
+somewhere will forget about that
+basically it delete all the copies
+that's general computation okay so that
+means that in the externalization that
+we delete this course we delete these
+well notice that that gives you the
+right form it gives you the form what
+did John buy and read it does it give
+you the right interpretation well it
+does because of the principle of
+stability principle says in ellipses or
+topical ization or anything at the in
+the CI system you can only delete if you
+have absolute identity otherwise just
+can't delete okay general property of
+interpretation that see
+deletion requires perfect identity but
+notice that that gives you a TV
+automatically
+nothing else to say if you think about
+parasitic gaps essentially works the
+same way there's actually a couple of
+interesting paper by which goes through
+the details of it but in fact the basic
+idea is pretty straightforward
+okay so ATP in parasitic caps hit
+straight notice also you get in the case
+of parasitic caps it follows that a
+movement won't yield parasitic gaps
+because you don't have the initial WH
+freeze which will allow the second one
+to be a copy so our city cap with a bow
+a movement would be something like John
+can't delete it at the sea that's fine
+they're just there's nothing wrong with
+this interpretation it's just not ATP
+and Mary you just decided not to call
+this a copy call this something say call
+this a repetition you can always call
+something a repetition the book was John
+was John saw John repetitions generate
+them separately if you don't say
+anything one of the options is a TV
+another option is the other
+interpretation which is all you want and
+notice that if you use the ATB
+interpretation then you're deleting so
+if you're giving the
+a TV interpretation you're reading it as
+a TV without with the deletion because
+the deletion is dependent on the
+stability what did he read no what did
+you buy and Mary totally different
+sentences
+what did john-boy and Tom went to the
+store but it just it just has the
+interpretation it has and Mary if you
+have two WHS which are copies by
+definition because they're in I am nan
+theta positions so therefore there is
+the option for them to be interpreted as
+copies and if they're identical to
+delete which gives you the correlation
+between the ATB semantic interpretation
+and the external ization with deletion
+you don't have to delete it you couldn't
+be saying what did john-boy and what it
+taught if it's a TB it has to be the
+same thing that's point about a TB if
+you delete if it's a lead you can't get
+the different interpretation
+what did John buy and Mary read a book
+what did John buy and Mary read is the
+same but there's no if either it's a TB
+or it's two independent constructions
+that's what a TB is think about it
+otherwise there wouldn't be any a TB
+phenomenon what it's John drink and Mary
+read is fine well for those people they
+don't have a TV okay we're talking about
+a TB the phenomenon right if somebody
+says my language sorry but we're talking
+about people who have a TB which has
+this interesting property that you
+delete the things and interpret them
+identically that's the whole point of a
+TV okay so we're not going into the
+question of to somebody you have some
+different language we're talking about
+the languages which have a problem to
+solve
+okay namely a TB if you don't have the
+problem to solve John bought a Cadillac
+to marry drank crepes and if that's your
+insurance then you don't accept the
+molten dimensionality analysis either
+okay fine that's that's fine I don't
+care
+I mean if somebody has a different
+system we can try to describe that one
+but I'm talking about a TB okay if you
+don't have it fine no you don't you have
+something different you have something
+that is differ
+from what it described in the ATB
+literature okay but so then we can talk
+about that yep okay but I'm trying to
+say that what is captured by parallel
+merge in the multidimensionality
+interpretation in fact is yielded
+automatically with nothing okay
+same with parasitic gaps if you look at
+parasitic apses a million different
+problems about them and this doesn't
+address those problems it's just saying
+the basis the very basis for power city
+gaps we already have without anything
+including the fact that they are
+conditional on WH movement in the first
+sentence not a move all of that follows
+right away then you get into the morass
+of problems about different kinds of
+powers that it caps okay different kind
+of if you have two things in the
+positions they're either copies or
+repetitions and you get to choose which
+one John likes John what I'm saying I'm
+giving you as an exercise is to show the
+following and I think it works that if
+you accept duality of semantics the
+general principle and you look at these
+properties of language I think you end
+up resolving the ambiguities determining
+what are copies and what are repetitions
+that's a claim okay it's up to you to
+falsify so no prisoner gasps but a
+movement does is claim to that to have
+to show across the board movement so
+this is just dealing with a TB with wh
+movement okay listen there's other
+questions about a move yeah but I'm not
+talking about this the main ones are the
+ones in the multi-dimensional you don't
+get a movement because the element in
+the gap the wh the operator in the gap
+has nothing to be a copy of so these two
+things are just totally independent of
+one another it's like John ate a
+sandwich before reading doesn't mean
+anything different problem it's not
+dealt with in the multidimensionality
+literature of the kind that I'm
+discussing okay I think it works but
+it's basically the same that's a fair
+question we should look at that yeah
+okay well this the question of the what
+you doing right up to buying what a John
+read gap in buying what is the higher
+copy of it that you like
+well there is something like what did
+John read what John but before what John
+buying and the - what's our copies so
+you get the same phenomenon if you want
+the details
+look a Trinis paper but that's basically
+the structure okay and it gives you the
+core properties of parasitic atoms
+leaves lots of questions open about
+different kinds of
+well let me yeah anymore
+yep Sabine the questions that we might
+have in mind is you to comment on a
+sentence like what two graves were one
+friend there are many other questions
+about interpreting anybody who's
+interested in the kinds of questions
+that Barry's raising should look at the
+book the longest book in the literature
+with the shortest title and the author
+is sitting over there the hundreds of
+pages of very interesting examples of
+ways of interpreting conjunction and
+complex structures based on a a kind of
+a new David Sony and event calculus and
+there are tons of problems there that
+are really interesting to solve but what
+we're interested here and is asking what
+is the basis in the structures for
+yielding those interpretations that
+Barry actually doesn't go into that
+question and the book I think um you
+tell me if I'm falsifying it that Barry
+describes it as fundamentally as a kind
+of conjunction reduction but if you
+think about that formally it can't me
+and I think this is a hope a friendly
+amendment to the book it doesn't mean
+that you first generate all these huge
+conjunction things you know infinitely
+many of them for short sentence and then
+get the syntactic structure it must mean
+no that's the thing I'm going to get to
+next that you have a syntactic structure
+and there are some kinds of interpretive
+rules that we have to figure out that
+give you this mass of amazing stuff that
+you find it there okay that's the
+challenge to face and and if the invent
+event calculus approaches the correct
+one that will yield the event calculus
+interpretations of the structures that
+you
+unfortunately Barry tells me he's now
+working on another book a lot of things
+I'm not talking about okay yeah it's a
+fair question but not talking not that
+there's any other way of talking right
+it's just that if it exists we're gonna
+want to have an explanation of it in
+terms of operations which meet the
+austere conditions of explanation that's
+the general point whatever problem
+you're working on whatever it may be
+phonology semantics syntax morphology if
+you want an actual explanation within
+the context of a program that regards
+language as part of the natural world if
+that's your framework you're going to
+have to have explanations into terms
+that meet this highly austere condition
+of learnability and evolvability about
+the only thing we know that meets those
+conditions is merge so if we can account
+for things in those terms like say a TB
+and parasitic gaps we're in business
+okay otherwise we have problems okay let
+me turn to another one which is
+problematic and is related to what Barry
+was just raising well let me just make
+one more comment about this I won't oh
+they're spilling it out you'll notice
+that this is a sketch I haven't really
+formalized it but you can figure out how
+to formalize it when you're left with
+this definition of merge the simplest
+one I think is principal then you can
+reformulate it in the usual style of
+transitive closure frigging ancestral
+you know like if you're characterizing
+the set of integers the standard way of
+doing it is to say the set of integers
+includes say 1 and is the least set it's
+the least set containing 1 and the
+successor of any member of the set
+that's a standard transitive closure
+ancestral definition the analogue here
+would be the set of work spaces for a
+given language is the set not the least
+set we leave out least which includes
+the lexicon and merge of any triple okay
+that's the set of work spaces we don't
+have to say least because that's already
+incorporated in resource restriction
+okay otherwise you get the standard
+recursive definition of the set of work
+spaces sort of fits the norm instead of
+that let's go to something else there's
+pretty good reason to think that in
+addition to merge which maybe we've now
+got in the optimal form there's probably
+another operation at least one other
+operator
+that is a symmetrical there are strictly
+a symmetrical sulcus structures like say
+young man man the structure is it's a
+noun phrase of the two elements and
+young men are inaccessible right like
+you can't extract this and leave this or
+the other way around so we have an a
+symmetric structure where young is
+attached to man and the whole result is
+still basically man adjuncts essentially
+all adjunct structures I think require
+hara mirch which is the next operation
+to look at now there's a very
+interesting property of pair merge which
+has been a thorn in the side of all
+generative systems since the 1950s
+namely unbounded unstructured
+coordination okay so things like young
+happy eager you can have an unbounded
+unstructured coordination this is a real
+problem
+you can't generate it by phrase
+structure grammar even unrestricted
+rewriting systems which are universal
+don't in the standard interpretation
+don't give you these structures for
+unbounded unstructured coordination now
+notice that since they are universal you
+can code it but that's not interesting
+they are universal Turing capability so
+you can find a coding for it but that's
+not of interest if you look at the
+generation by first structure grammar
+you need an infinite set of rules it was
+thought for a while by George Miller
+me back papers back in the fifties that
+you could get around this with
+generalized transformations but Howard
+Lesnick had a paper showing that the
+same problem arises you'd have to have
+infinitely many of them so you can't do
+it by phrase structure grammar and do it
+by transformations there's no way of
+generating it it's been a big problem
+all along but notice there is a way of
+dealing with it in terms of pair merge
+namely super multidimensionality right
+so you have say man and you link to it
+any number of adjuncts they're all on
+different dimensions right but there's
+no limit to the number of dimensions you
+can pair merge to the element okay weird
+there's no reason to believe that just
+because blackboards are two-dimensional
+so is the mind you know it does whatever
+it does so it could have any number of
+possible dimensions attaching to a
+particular point so for simply and that
+would give you something like unbounded
+unstructured coordination this can
+incidentally become extremely complex
+here we get into various type of
+questions so for example one of the
+conjunct it could be a disjunct okay it
+could be John is young angry either
+going to Harvard or to go to MIT so on
+so you can have unbent that and the
+disjunct could also be unbounded so you
+can have unbounded unstructured
+disjunction inside of unbounded
+structured unstructured coordination and
+this can yield incredibly complex
+structures I leave it to you to give the
+semantic interpretation of them but it's
+but in the nature of the system you can
+see that this is possible well instead
+of trying
+actually it's just a the formalism is
+not very difficult so I won't go into it
+but just take the simplest case and take
+a look at that unstructured if we can
+deal with unstructured unbounded
+coordination then the simplest cases of
+adjuncts are just automatic they're the
+case where there's only one element
+instead of instead of an unbounded
+sequence of elements so we will get
+simple i junks if we can handle the
+unstructured case so let's take a look
+at that that's the notice a few
+properties of it for one thing it
+matters what the order is so if if I say
+if the order of the adjuncts is young
+angry that's different from angry young
+the reason is because of something that
+Jim McAuley noticed back in the 70s of
+the word respectively okay so if you
+think of structures with respectively
+then the young angry man that ate the
+turkey sandwich and the the young angry
+men ate the turkey sandwiches and the
+chicken sandwiches respectively the
+order of the adjuncts determines the
+nature of the interpretation so somehow
+we have an on-court of the structure the
+objects that we have in an unbounded
+coordination is actually a sequence the
+furthermore can have iterations like you
+can say John is young angry young tired
+and so on you can iterate them so
+basically we have the problem is we have
+unbounded
+coordination or disjunction you
+with which has a sequential structure
+with possible repetitions and that
+sequence is interpreted both at the CI
+level and the externalization level okay
+now this does not tell us that linear
+order enters into syntactic operations
+it just tells us there's some object
+being constructed which is going to be
+interpreted in terms of its order and
+spelled out that way okay so we're not
+crossing the barrier into believing that
+externalization feed ci okay that's
+important even though there's order
+involved so what we have to have is
+something that works sort of like this
+if you just think of the general
+properties you have to be able to pick
+out a set of things that are going to be
+adjuncts and you have to form from that
+set a sequence where the elements of the
+sequence are drawn from the set okay but
+in any possible way that requires an
+operator
+it's actually an operator that's
+familiar in logic it's Hilbert's epsilon
+in Hilbert's formalization of
+metamathematics the or operator that he
+develops as a basis is this epsilon
+which is the out of a set you can pick
+an element basically an you know it's
+like it's like indefinite articles so we
+need an operator like this which tells
+us that given a set in the generation of
+an expression given a set you pick out a
+sequence and then somehow the elements
+of this sequence link to something
+each of them is going to link to it
+independently so if I say young angry
+man the man is both young and angry
+okay so independently they're going to
+link to something so what we're getting
+out of this is a set which first of all
+we'll have to it'll have to be
+identified as either coordination or
+conjunction or disjunction okay so we
+have an element here call it a which
+will be plus or minus conjunction will
+be one of the other and remember they
+can be interspersed but that's just our
+formalism and this sequence will include
+the pair merged elements y1 and some
+link that it's linking to all the way up
+to Y n a link that it's linking these
+links have to be identical all the way
+through like if one of them is a wh
+phrase there all have to be wh phrases
+if you think about unbounded
+coordination you can't stick a question
+and in one of the positions and of
+course you can't have different links so
+we have an object that looks like that
+and that has to be merged into the
+general expression okay that's the
+formal problem of taking of dealing with
+a junction okay I won't bother spelling
+it out it's raises interesting questions
+so for example one question is what do
+you actually link to so suppose you have
+coordinated noun phrases John Bill Tom
+Mary the guy I met yesterday etc etc
+each of those things is going to link to
+something what is it going to link to
+well the natural interpretation would be
+that the link the individual items here
+Y a L if it's a noun phrase they should
+all link to
+whatever is common to noun phrases okay
+some thing call it in
+notice here that I'm not using the DP
+analysis which i think is a mistake I
+won't go into it here but it seems to me
+that nominal phrases or should be
+regarded as nouns not as determiners
+determiners are probably something that
+hang off the outside and definiteness is
+probably a feature of the whole noun
+phrase so I'm assuming that Semitic is
+the universal language that the
+determiner is just a feature on the noun
+phrase which distributes somehow
+differently in different languages
+depending on externalization so you have
+a feature of the noun phrase specific on
+specific you have a structure which is
+basically in with determiners hanging on
+somewhere
+is it what is this end well here we get
+back to something that's again
+suggesting years ago that the basic
+structure of languages again kind of
+like proto semantics you have roots
+which are unspecified as to category and
+then you have categorize errs that
+determine what they are so for example n
+and the root probably pair merged
+probably in the lexicon that's probably
+the first operation going back to a
+paper of yours the first operation is
+probably a lexical operation there are
+many operations inside the lexicon that
+involves birds type operations that one
+of them is probably categorization but
+notice that this end that's determining
+that this root is a noun
+can't be the same as this one okay same
+with verb the V that's determining that
+something's a verb has to be distinct
+from
+what we usually call a V or V star you
+know up at the face level those are just
+different elements they shouldn't be
+confused I don't think in fact these the
+ones at the face level I think should
+simply be regarded as phase markers
+independent of category okay categories
+decided down below probably in the
+lexicon at the phase level you have
+something saying I'm a phase a phase
+marker and notice that if you take a
+look at noun phrases and verb phrases
+they have some interesting similarities
+some differences but some similarities
+that one similarity is that both noun
+phrases and verb phrases can be either
+call it strong or weak with regard to
+extraction so the complex noun phrase
+constraint it's well-known is strong for
+specific noun phrases but it's basically
+inoperative for nonspecific noun phrases
+that's it hold it that's the same it
+sounds like the same distinction as
+between strong phases and weak phases so
+transitive verbal phrases are strong
+with regard to extraction you have to
+move to the edge the weak ones you don't
+move to the edge it looks like the same
+property as a weak noun phrases so
+possibly what we have is something like
+this going back to classical Greek
+grammar philosophy linguistics didn't
+distinguish we have the notions
+substantive and predicate which gives us
+a four-way classification of things that
+are substantive on predicate those are
+the nominal phrases absent if predicate
+is
+adjective phrases non-substantive plus
+predicate verbal phrases and then on
+either which is all the junk
+prepositional phrases and so on
+some structure like that and the phase
+the crucial phase operations seem to be
+restricted to those that are the sort of
+perfect elements pure substantive pure
+verbal okay with either either of the
+stronger weak of property now one of the
+curious distinctions between noun
+phrases and verb phrases which has kept
+prevented the thinking of noun phrases
+as phases is you don't get the normal
+escape hatch but I discovered a couple
+of days ago thanks to somebody that you
+bully has an escape hatch for noun
+phrases so that fits in the gaps that we
+were worrying about so let's say boolean
+proto Semitic or the or languages and
+that would have put noun phrase and verb
+phrases together with the ending the
+idea of using the same notion for the
+categorize er and the phase marker there
+are probably different notions I would
+like to go back to the original para
+verge emerge and PQ in the workspace the
+original one yeah
+if you run the clock backwards to the
+first merge the stuff you sort of talked
+about and Q then becomes the workspace
+because in that definition q equals the
+workspace there's nothing work space is
+empty if you store it with just two
+things
+you start with one right before you
+start merging there is a workspace which
+is empty well there's no work space
+until workspaces you've said okay so the
+workspace is the set key Q in this
+definition because why do you have three
+elements peachie the workspace can't
+have P cube unless they get into the
+workspace you merge them so how do you
+get them into the workspace okay so in
+this recursive way Q is the prior
+workspace right so at some point you
+finish merge and you have a workspace
+before you start another set before you
+do any merge you have nothing it just
+means there's the option of creating a
+certain set which you can put things in
+if you want the workspace has nothing in
+it unless you put something in it okay
+and then the question is so the
+workspace at some point Q though if you
+have Q equals Q if you've put Q into it
+yes let's imagine that we haven't we're
+just beginning the computation that we
+take we take P and stick it into the
+workspace now the workspace is the
+singleton set including P now we put Q
+in the workspace now it has two elements
+then we decide to merge them we get a
+new element set P Q but not P and Q
+there is an interesting empirical
+question here how do you start okay and
+there are various options and they have
+lots of consequences one possibility is
+that the only thing that goes into the
+workspace at the beginning is things
+you've already merged in the lexicon
+okay so if the first remember inside the
+lexicon
+there are instructional operations going
+on like the words and the lexicon
+already have structure okay part of the
+structure if a gate is correct and I'm
+assuming she is is for taking a category
+like n:v may be broken down into
+substitution predicates and categorizing
+a route as one thing or another an
+operation inside the lexicon which is
+giving you a pair like the pair V hit
+let's say the verb hit then that thing
+can be put in the workspace
+it already has two elements paired then
+you could put something else in the
+workspace begin to merge them put more
+things in build up the workspace you
+have to every operation that you carry
+out is going to create something that's
+what an operation is create something
+now the resource restriction says don't
+create too much create as little as you
+can at least the thing that you're
+forming but nothing else notice that
+when you put in the pair root verb
+neither is accessible because an adjunct
+structure that's what I said before she
+takes a young man you can't extract
+young you can extract man notice
+incidentally that this approach I
+mentioned earlier less less time that
+there's a way I've mentioned a paper of
+the chaco Boscovich pointing out a way
+of
+putting the adjunct island and
+coordinate island problems in the same
+package making them essentially the same
+problem based again on the idea of event
+calculus which somatic event calculus
+which treats a junction like
+coordination so it kind of unifies the
+problems and that happens automatically
+here the air merge structure gives you
+both the islands of conjunction and the
+islands of ad Junction now notice that
+it leaves the mysteries just like shell
+closed paper does so if you look at say
+the adjunct island effect which Jim
+talked about years ago it has
+interesting properties there are some
+languages where you can't extract the
+adjunct there are other languages where
+you can't extract from the adjunct okay
+and other distinctions of that sort
+those are interesting problems that
+remain furthermore if you look at
+adjuncts they're not uniform there are
+some kinds of adjuncts which you can
+extract from there are other kinds which
+can't extract from so the notion adjunct
+is to diffuse we have to sharpen it
+further to find different kinds of
+probably different kinds of pair emerge
+those problems all are sitting out there
+more problems to solve but you begin to
+get a unification of the problems the
+adjunct island conjunct island effects
+do reduce to the same structure this
+sequence that you pick out by the
+epsilon operator now as far as the point
+that you're making as I understand it it
+does raise it leaves open some questions
+about how you get things from the
+lexicon
+into the workspace there are a couple of
+ways of thinking about this and they
+have different consequences one approach
+is just to take something in the lexicon
+insert it in the workspace and then go
+on from there another approach is to
+take something from the lexicon and to
+merge it with something that's already
+in the workspace
+okay that's formally slightly different
+it has different consequences when you
+spell it out that you may need both you
+know those are questions that you want
+to resolve certainly but I think it's
+plausible to believe that the OP that
+the whole system of operations begins by
+just forming categorized routes inside
+the lexicon then building up from there
+okay I don't see a problem with
+categorized route itself is but not the
+parts like you can't just raise the
+route and leave the categorize er or
+conversely I mean here we're talking
+about accessibility to merge there are
+questions you can raise about whether
+you can have agreement into an adjunct
+let's see that's a different question
+here we're talking about accessibility
+to merge okay lots of other questions
+yeah okay let me just get in kind of
+late so I mentioned a couple other
+things that you might deal with in terms
+of para merge there's lots of
+interesting questions hanging around
+that have a potential I think pair
+immersion alysus so let's take one
+that's been a crazy problem for a long
+time there's a strange restriction on
+extraction from
+positive type verbs and perception verbs
+so if you look at structures like John
+bill walking down the street you can
+pacifies this you can say bill was seen
+walking down the street on the other
+hand if this was a bear of her walk then
+you can't do it you can't say bill was
+in walk down the street this also holds
+for the kind of positive type verbs
+verbs like let and make they don't have
+the full paradigm but they have part of
+it they have I saw John I let John walk
+down the street but you can't say John
+was let walk down the street okay now
+there's a couple there there is a
+there's a long problem in the literature
+about how to deal with this
+the only partial solution I've seen is a
+paper by Norvin I don't know if it's in
+print even left ok the paper by Norvin
+in terms of contiguity analysis which
+gives a description of how you can block
+back ok I mean come back in I'm
+insulting you so the only paper I know
+that says anything about it is Norman's
+paper which this is the blocking a
+passive ization out of perception verbs
+and causative verbs in terms of
+contiguity theory which is an
+interesting description but it doesn't
+cover the whole set of data because the
+fact of the matter is you get the same
+property without extraction so for
+example in English these structures a
+little bit odd and other languages
+they're normal but things like
+were seen last night three men walking
+down the street you can't say three men
+were seen you can't say there were seen
+last night three men walk down the
+street okay so even without extraction
+you get the same property so it can't be
+based on extraction it's got to be based
+on blocking passive ization now if you
+think about it with the let make type
+verbs you can think of those as being
+basically causative there they have
+essentially a causative structure and in
+fact the verb cause itself is kind of
+resistant to passivation so John was
+caused to leave and that sort of thing
+so suppose we think of the let and make
+as being essentially causative affixes
+the kind that show up in many languages
+that would mean that their hair merged
+with C with C probably in the lexicon
+well that gives the unit that's
+invisible to the operation of passive
+ization okay it's a hair merged element
+which is resistant to whatever we think
+passive ization is maybe eliminating the
+case structure okay that would block
+both the in situ cases and the raising
+cases in fact it's the only way I know
+of dealing with that now it's natural
+for let and Cohen make but there's a
+very interesting question that goes way
+back as to why perception verbs should
+act the way the causative type verbs do
+actually Jim Higginbotham has
+interesting paper on this in the 60 70
+80 s I guess in which he tries to argue
+that the complement of the perception
+type verbs is basically some kind of
+nominal expression with the very verb
+but maybe that's an avenue to explain it
+but at least using the device of pair
+merge you have an opening to try to
+account for this strange phenomenon I
+don't see any other way of dealing in
+another kind of case that's quite
+interesting is head movement a head
+movement has always been a terrible
+problem it doesn't have any of the right
+properties it doesn't fit anywhere or in
+the movement system for all sorts of
+reasons there is an approach an
+interesting approach by he said Keith de
+haro guess papers on this in terms of
+error merge I'll just give the simplest
+case take T to see movement ok so you
+have a structure C T V whatever and at
+some point this moves here how does that
+work it's one of the cases of notice
+that the thing that's moving is really
+not T it's V ok this is a error of the
+traditional head movement analyses but
+the thing here is usually described as a
+T with the V joined to it by an a
+junction operation but it's actually the
+other way around it's a V with a T
+adjoint to it one of the reasons the
+traditional Junction operations just
+don't give you the right result there
+are many reasons what
+heesu suggests is that when you get to
+this point and the you've created this
+object you have a C and then the next
+operation is to form C T
+notice that the elements of CT are not
+accessible because that's a pair pair
+emerged a junction structure so you've
+only added you've actually enlarged the
+workspace but you've only added one
+actually haven't even because you've
+taken Seon out of t2 it you've kept the
+workspace the same size but you haven't
+the only accessible thing you've added
+is this
+so that's permitted by resource
+restriction then the next operation is
+you've got this thing and this thing is
+just to merge them okay when you merge
+these two things you get what you wanted
+off the structure CT with so that gives
+you a possible way of looking at head
+movement notice it has a problem it has
+the same problem as all of the examples
+back to the original one of resource
+restriction what happens if you then
+make some new thing here X you start
+building it up it ends up being of the
+form T V and then you decide to merge
+this okay that's crazy doesn't make any
+sense
+but what blocks that that's the same
+paradigm we are always have now this
+gets kind of in complicated but I think
+there's a way out of this problem by and
+I'll leave it to you as something to
+think about there's a way out of it by
+wrist by sharpening the notion of
+restricting computation so that it tells
+you at each point to add as little as
+possible to the workspace to still
+continue if you think about that it
+gives in an interesting direction into
+perhaps blocking this option that
+amounts to a condition they'll say
+you're going to have to merge this one
+before you create something new now you
+can't make that too strong or you won't
+be able to
+lebecq's eccentric instructions they
+have to put conditions on it that allow
+just the right ones to block the wrong
+ones I'll leave that as another exercise
+to the reader
+he so has a paper which doesn't go into
+this it just gives the proposal well
+there's a lot more that could be said I
+think I'll stop at this point that these
+are the kinds of problems that arise
+when you try to give a principled
+approach to the nature of explanation
+you get some interesting results get a
+hoard of problems the problems may have
+be presented in an organized form which
+is helpful but we want to go on to try
+to find real explanations for them
+sometimes you can as in the case of
+unifying compositionality and movement
+or structure dependence or reconstruct
+the basis for reconstruction things like
+ATB and power city gaps maybe some of
+these things but there's a mass of
+problems out there to try to deal with
+in a principled fashion so that's why
+it's an interesting
+you
+0
+7
+9
+13
+18
+21
+25
+29
+33
+37
+40
+43
+46
+49
+52
+55
+58
+61
+65
+69
+73
+76
+79
+82
+85
+88
+91
+94
+98
+100
+104
+107
+110
+114
+118
+121
+124
+126
+129
+134
+137
+140
+141
+143
+146
+150
+154
+158
+161
+163
+167
+170
+172
+176
+179
+182
+184
+186
+189
+192
+197
+199
+203
+205
+208
+210
+213
+216
+219
+222
+225
+228
+232
+233
+237
+242
+246
+248
+250
+253
+256
+258
+261
+264
+268
+273
+277
+284
+301
+304
+308
+311
+313
+316
+320
+323
+326
+331
+335
+339
+343
+346
+349
+353
+360
+363
+365
+368
+372
+375
+385
+388
+391
+394
+396
+398
+400
+410
+413
+415
+418
+421
+424
+428
+431
+435
+438
+442
+445
+448
+451
+455
+458
+463
+465
+468
+472
+477
+479
+481
+484
+487
+490
+495
+497
+508
+518
+521
+526
+531
+535
+538
+540
+543
+547
+550
+554
+558
+562
+565
+568
+570
+571
+574
+577
+580
+584
+587
+591
+595
+598
+605
+608
+611
+614
+617
+620
+622
+626
+629
+636
+639
+639
+642
+644
+648
+650
+653
+655
+657
+660
+665
+668
+671
+673
+676
+679
+681
+684
+688
+691
+693
+696
+698
+702
+704
+708
+709
+713
+718
+720
+724
+726
+730
+733
+736
+738
+747
+751
+755
+758
+761
+763
+766
+769
+771
+773
+775
+780
+783
+787
+791
+794
+796
+802
+813
+816
+819
+822
+825
+829
+831
+834
+837
+840
+844
+847
+849
+856
+861
+867
+872
+876
+879
+881
+885
+888
+891
+895
+898
+901
+906
+915
+918
+929
+932
+934
+937
+940
+943
+946
+948
+950
+954
+960
+963
+966
+969
+979
+982
+986
+989
+991
+993
+996
+1000
+1002
+1007
+1009
+1019
+1023
+1026
+1029
+1032
+1036
+1041
+1044
+1046
+1050
+1052
+1055
+1058
+1061
+1063
+1066
+1068
+1071
+1074
+1077
+1083
+1085
+1087
+1090
+1093
+1096
+1099
+1102
+1105
+1108
+1111
+1113
+1117
+1118
+1121
+1125
+1128
+1133
+1135
+1139
+1145
+1148
+1153
+1156
+1160
+1163
+1165
+1169
+1172
+1175
+1177
+1180
+1182
+1185
+1188
+1190
+1193
+1196
+1203
+1210
+1214
+1216
+1218
+1221
+1224
+1227
+1231
+1235
+1243
+1246
+1250
+1252
+1256
+1260
+1263
+1266
+1270
+1272
+1274
+1276
+1280
+1283
+1286
+1290
+1293
+1295
+1297
+1302
+1317
+1323
+1328
+1331
+1334
+1338
+1340
+1342
+1345
+1347
+1350
+1353
+1355
+1357
+1360
+1363
+1366
+1368
+1374
+1378
+1381
+1385
+1390
+1393
+1395
+1398
+1400
+1402
+1404
+1406
+1410
+1413
+1416
+1421
+1424
+1426
+1429
+1432
+1436
+1441
+1462
+1466
+1483
+1506
+1516
+1517
+1520
+1523
+1526
+1529
+1532
+1534
+1537
+1539
+1542
+1545
+1548
+1552
+1554
+1558
+1560
+1563
+1567
+1570
+1573
+1577
+1581
+1584
+1587
+1591
+1596
+1599
+1601
+1606
+1611
+1614
+1617
+1621
+1624
+1626
+1629
+1632
+1636
+1638
+1641
+1644
+1646
+1649
+1652
+1656
+1660
+1664
+1668
+1672
+1676
+1678
+1681
+1684
+1693
+1699
+1703
+1707
+1710
+1723
+1727
+1730
+1733
+1735
+1740
+1752
+1758
+1760
+1763
+1764
+1768
+1771
+1783
+1786
+1789
+1792
+1795
+1798
+1802
+1805
+1809
+1812
+1815
+1817
+1820
+1822
+1826
+1829
+1832
+1835
+1838
+1841
+1845
+1847
+1852
+1857
+1858
+1861
+1865
+1868
+1871
+1876
+1879
+1882
+1885
+1888
+1892
+1895
+1898
+1903
+1906
+1909
+1912
+1914
+1917
+1921
+1924
+1928
+1931
+1935
+1937
+1944
+1947
+1950
+1953
+1957
+1959
+1962
+1964
+1968
+1972
+1977
+1980
+1983
+1986
+1988
+1991
+1992
+1995
+1998
+2001
+2004
+2006
+2007
+2011
+2015
+2017
+2019
+2024
+2027
+2029
+2032
+2034
+2038
+2041
+2043
+2046
+2048
+2051
+2054
+2058
+2062
+2066
+2070
+2073
+2077
+2079
+2082
+2084
+2088
+2090
+2093
+2096
+2099
+2101
+2104
+2107
+2112
+2117
+2119
+2122
+2124
+2126
+2129
+2132
+2135
+2138
+2139
+2141
+2143
+2145
+2147
+2149
+2151
+2153
+2156
+2160
+2162
+2165
+2168
+2171
+2174
+2178
+2183
+2186
+2190
+2193
+2197
+2200
+2203
+2210
+2213
+2215
+2221
+2224
+2226
+2226
+2230
+2234
+2239
+2242
+2245
+2248
+2252
+2255
+2258
+2260
+2262
+2266
+2267
+2271
+2275
+2278
+2280
+2283
+2285
+2287
+2290
+2293
+2298
+2300
+2302
+2306
+2309
+2312
+2315
+2317
+2320
+2323
+2328
+2331
+2334
+2338
+2341
+2343
+2346
+2350
+2352
+2354
+2357
+2359
+2363
+2365
+2367
+2373
+2377
+2381
+2386
+2400
+2403
+2409
+2411
+2415
+2418
+2422
+2424
+2427
+2431
+2435
+2440
+2443
+2446
+2449
+2451
+2454
+2457
+2459
+2462
+2466
+2468
+2472
+2475
+2482
+2486
+2491
+2493
+2495
+2497
+2500
+2504
+2508
+2514
+2516
+2519
+2522
+2524
+2526
+2529
+2532
+2536
+2540
+2544
+2546
+2548
+2551
+2554
+2557
+2559
+2563
+2566
+2570
+2574
+2577
+2579
+2589
+2595
+2598
+2600
+2604
+2607
+2612
+2614
+2618
+2620
+2623
+2625
+2633
+2636
+2640
+2642
+2645
+2647
+2656
+2658
+2662
+2666
+2668
+2673
+2676
+2683
+2688
+2690
+2693
+2697
+2700
+2702
+2705
+2709
+2712
+2715
+2718
+2721
+2725
+2727
+2730
+2734
+2739
+2752
+2754
+2757
+2761
+2768
+2771
+2774
+2778
+2779
+2783
+2788
+2791
+2793
+2796
+2798
+2801
+2805
+2808
+2810
+2814
+2817
+2820
+2822
+2826
+2830
+2833
+2841
+2844
+2848
+2851
+2854
+2857
+2860
+2864
+2869
+2872
+2875
+2878
+2897
+2899
+2917
+2921
+2923
+2929
+2934
+2935
+2939
+2942
+2946
+2949
+2952
+2956
+2959
+2963
+2967
+2971
+2976
+2979
+2981
+2984
+2988
+2991
+2995
+2998
+3002
+3005
+3009
+3011
+3013
+3016
+3018
+3020
+3023
+3026
+3029
+3032
+3034
+3038
+3042
+3047
+3050
+3054
+3057
+3062
+3066
+3071
+3074
+3077
+3080
+3085
+3087
+3089
+3091
+3095
+3097
+3100
+3102
+3108
+3111
+3113
+3117
+3120
+3123
+3127
+3130
+3134
+3138
+3141
+3144
+3147
+3151
+3154
+3157
+3160
+3163
+3166
+3169
+3174
+3178
+3181
+3184
+3186
+3190
+3194
+3201
+3204
+3206
+3209
+3211
+3213
+3215
+3217
+3220
+3222
+3226
+3228
+3231
+3236
+3239
+3243
+3246
+3249
+3253
+3257
+3260
+3273
+3277
+3280
+3282
+3284
+3299
+3303
+3305
+3309
+3313
+3316
+3320
+3323
+3326
+3329
+3332
+3332
+3335
+3340
+3344
+3347
+3349
+3352
+3354
+3357
+3360
+3362
+3364
+3369
+3372
+3384
+3388
+3392
+3403
+3411
+3413
+3419
+3427
+3431
+3442
+3446
+3449
+3454
+3456
+3458
+3459
+3461
+3465
+3467
+3478
+3483
+3487
+3490
+3493
+3496
+3498
+3500
+3502
+3506
+3509
+3512
+3515
+3518
+3521
+3525
+3527
+3534
+3538
+3542
+3545
+3549
+3551
+3555
+3558
+3559
+3562
+3565
+3569
+3582
+3585
+3586
+3590
+3593
+3596
+3599
+3603
+3605
+3610
+3631
+3640
+3642
+3648
+3652
+3655
+3657
+3661
+3664
+3666
+3669
+3672
+3676
+3680
+3683
+3684
+3687
+3691
+3693
+3704
+3711
+3711
+3714
+3722
+3733
+3737
+3741
+3744
+3747
+3749
+3752
+3756
+3758
+3762
+3763
+3791
+3793
+3796
+3803
+3807
+3810
+3823
+3825
+3829
+3831
+3842
+3847
+3850
+3854
+3859
+3863
+3866
+3867
+3870
+3873
+3875
+3877
+3880
+3880
+3884
+3909
+3911
+3914
+3916
+3920
+3920
+3922
+3926
+3929
+3932
+3934
+3935
+3937
+3940
+3943
+3946
+3950
+3952
+3957
+3960
+3962
+3964
+3967
+3971
+3974
+3978
+3981
+3984
+3986
+3988
+3991
+4007
+4009
+4011
+4021
+4024
+4027
+4031
+4034
+4037
+4041
+4044
+4047
+4055
+4058
+4064
+4068
+4070
+4073
+4075
+4087
+4091
+4094
+4097
+4100
+4103
+4109
+4124
+4127
+4129
+4132
+4138
+4140
+4155
+4157
+4164
+4166
+4169
+4172
+4176
+4179
+4179
+4182
+4184
+4187
+4189
+4192
+4195
+4198
+4200
+4205
+4213
+4216
+4217
+4221
+4223
+4230
+4236
+4239
+4242
+4246
+4251
+4253
+4256
+4259
+4261
+4263
+4266
+4270
+4272
+4275
+4278
+4281
+4284
+4286
+4288
+4290
+4293
+4296
+4298
+4301
+4303
+4306
+4310
+4313
+4316
+4318
+4321
+4324
+4328
+4331
+4365
+4367
+4373
+4375
+4379
+4381
+4384
+4388
+4391
+4394
+4398
+4402
+4406
+4409
+4412
+4414
+4418
+4421
+4424
+4428
+4432
+4434
+4440
+4441
+4445
+4457
+4459
+4461
+4463
+4465
+4467
+4475
+4479
+4485
+4491
+4493
+4497
+4499
+4504
+4507
+4509
+4513
+4516
+4520
+4524
+4528
+4534
+4538
+4541
+4543
+4547
+4550
+4558
+4563
+4565
+4567
+4571
+4573
+4574
+4582
+4585
+4593
+4596
+4599
+4602
+4604
+4608
+4611
+4615
+4619
+4622
+4626
+4629
+4632
+4636
+4639
+4648
+4662
+4665
+4666
+4668
+4672
+4674
+4677
+4680
+4684
+4686
+4689
+4694
+4696
+4698
+4701
+4705
+4708
+4711
+4712
+4715
+4717
+4720
+4722
+4725
+4728
+4731
+4734
+4736
+4741
+4747
+4753
+4756
+4758
+4761
+4764
+4766
+4770
+4773
+4775
+4779
+4783
+4786
+4788
+4791
+4794
+4799
+4804
+4808
+4812
+4816
+4821
+4824
+4828
+4831
+4834
+4836
+4838
+4841
+4841
+4845
+4847
+4850
+4854
+4857
+4861
+4864
+4865
+4868
+4870
+4873
+4875
+4880
+4882
+4888
+4893
+4897
+4899
+4904
+4909
+4911
+4924
+4929
+4932
+4936
+4939
+4943
+4947
+4952
+4955
+4958
+4962
+4966
+4969
+4972
+4975
+4979
+4982
+4986
+4989
+4994
+5000
+5002
+5005
+5007
+5011
+5015
+5019
+5021
+5023
+5026
+5027
+5030
+5036
+5040
+5054
+5057
+5060
+5061
+5062
+5070
+5073
+5078
+5081
+5084
+5088
+5092
+5095
+5100
+5102
+5106
+5109
+5112
+5116
+5119
+5122
+5124
+5128
+5129
+5133
+5136
+5139
+5144
+5146
+5148
+5154
+5158
+5163
+5170
+5172
+5175
+5177
+5180
+5182
+5184
+5187
+5189
+5192
+5196
+5200
+5204
+5206
+5209
+5213
+5216
+5220
+5223
+5225
+5230
+5235
+5241
+5242
+5246
+5251
+5254
+5257
+5260
+5262
+5265
+5267
+5273
+5276
+5280
+5283
+5286
+5288
+5290
+5293
+5297
+5300
+5304
+5308
+5312
+5314
+5319
+5322
+5325
+5329
+5332
+5336
+5339
+5343
+5346
+5348
+5351
+5354
+5357
+5360
+5363
+5365
+5369
+5372
+5375
+5376
+5381
+5384
+5386
+5389
+5392
+5395
+5399
+5401
+5404
+5407
+5411
+5413
+5415
+5419
+5422
+5425
+5429
+5432
+5436
+5439
+5442
+5445
+5447
+5450
+5454
+5456
+5458
+5461
+5465
+5468
+5474
+5478
+5481
+5489
+5494
+5501
+5507
+5507
+5514
+5518
+5520
+5522
+5527
+5532
+5535
+5539
+5545
+5548
+5552
+5555
+5558
+5561
+5564
+5568
+5571
+5574
+5578
+5582
+5585
+5589
+5594
+5596
+5602
+5610
+5614
+5616
+5618
+5620
+5625
+5628
+5630
+5632
+5633
+5635
+5637
+5639
+5642
+5644
+5645
+5649
+5651
+5654
+5659
+5661
+5663
+5665
+5669
+5680
+5683
+5686
+5695
+5697
+5699
+5702
+5707
+5720
+5722
+5725
+5728
+5731
+5734
+5737
+5740
+5742
+5746
+5749
+5753
+5755
+5759
+5761
+5765
+5766
+5770
+5773
+5776
+5779
+5784
+5788
+5792
+5794
+5797
+5802
+5806
+5808
+5811
+5812
+5815
+5831
+5835
+5839
+5841
+5845
+5849
+5852
+5860
+5864
+5869
+5871
+5874
+5877
+5880
+5884
+5887
+5890
+5890
+5894
+5897
+5900
+5906
+5909
+5911
+5914
+5917
+5922
+5926
+5929
+5932
+5936
+5939
+5942
+5945
+5948
+5950
+5953
+5957
+5959
+5962
+5966
+5968
+5970
+5974
+5977
+5980
+5982
+5985
+5989
+5992
+5995
+5999
+6001
+6004
+6007
+6010
+6012
+6013
+6015
+6017
+6020
+6024
+6027
+6030
+6033
+6034
+6036
+6038
+6041
+6044
+6047
+6050
+6052
+6056
+6061
+6064
+6075
+6078
+6080
+6083
+6109
+6112
+6114
+6116
+6118
+6121
+6124
+6129
+6131
+6134
+6137
+6139
+6142
+6146
+6149
+6154
+6157
+6161
+6169
+6183
+6186
+6189
+6194
+6196
+6199
+6204
+6210
+6213
+6218
+6220
+6224
+6226
+6228
+6229
+6233
+6237
+6240
+6244
+6248
+6252
+6258
+6260
+6264
+6267
+6269
+6271
+6273
+6276
+6277
+6281
+6283
+6285
+6291
+6304
+6311
+6317
+6321
+6324
+6328
+6330
+6333
+6337
+6340
+6343
+6346
+6349
+6351
+6353
+6356
+6359
+6361
+6364
+6373
+6377
+6380
+6385
+6387
+6390
+6393
+6399
+6401
+6405
+6409
+6412
+6415
+6418
+6421
+6424
+6427
+6429
+6431
+6434
+6436
+6439
+6442
+6446
+6448
+6452
+6456
+6459
+6461
+6464
+6466
+6469
+6472
+6478
+6481
+6486
+6493
+6498
+6503
+6505
+6511
+6514
+6517
+6522
+6524
+6527
+6530
+6533
+6535
+6537
+6540
+6543
+6547
+6553
+6558
+6560
+6563
+6565
+6569
+6571
+6574
+6576
+6578
+6579
+6582
+6585
+6588
+6592
+6594
+6602
+6605
+6608
+6613
+6616
+6619
+6623
+6626
+6632
+6637
+6637
+6641
+6645
+6648
+6651
+6652
+6655
+6659
+6663
+6666
+6669
+6673
+6675
+6678
+6681
+6682
+6684
+6687
+6687
+6690
+6692
+6694
+6698
+6699
+6701
+6705
+6709
+6712
+6714
+6717
+6720
+6723
+6727
+6730
+6732
+6734
+6738
+6743
+6746
+6749
+6752
+6755
+6757
+6760
+6769

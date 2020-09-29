@@ -1,0 +1,2236 @@
+welcome everybody to
+[Music]
+third lecture in Noam Chomsky's lecture
+series for this UCLA linguistics mini
+course there will be a question period
+after the talk and without further ado I
+give you Noam Chomsky well yesterday I
+talked about some of the things that
+work out some of the successes and
+finding genuine explanations term that I
+had discussed that's actually something
+really new in the history of the subject
+till recently even the concept of
+genuine explanation wasn't well
+understood and there were no examples of
+it but one of the striking things of the
+past few years is that there are some
+genuine explanations in the sense that I
+discussed for some quite fundamental
+properties of human language and there
+are some rather surprising consequences
+which overturn long-held beliefs well
+that was the successes today I want to
+talk about some of the failures some of
+the things that don't work and what they
+imply and some of the ways around them
+and we'll see that those two have some
+curious and unexpected and rather
+interesting consequences so let's start
+with we'll start with x-bar theory x-bar
+theory had some successes some failures
+one of the successes was that it
+eliminated the major problems of the
+very structure grammar the fact that
+very structure grammar permitted
+vastly many rules that are totally
+unacceptable that couldn't be tolerated
+also free structure grammar conflated
+three distinct properties of language
+compositionality linear order and
+identification of the categories
+projection an x-bar theory a separated
+linear order from the other two which
+has lots of consequences that i
+discussed last time
+there were problems the problems were to
+one it's still conflated two distinct
+concepts joining things together and
+identifying their category and secondly
+in even more fundamentally it ruled out
+excess entry constructions which abound
+in language they're all over the place
+and that required all sorts of artifice
+is to try to figure out how to get what
+you knew was more or less the reasonable
+answer but without any justification for
+it so we want to get rid of that and the
+way to get rid of the simplest way to
+get rid of that the most principled way
+is to assume the strong minimalist
+thesis and see how far you can go from
+there that means you take the simplest
+compositional operation the one that has
+to be embedded in any computational
+procedure and see how much can be
+explained in those terms and I explained
+discussed some of the successes last
+time however there's an immediate
+problem what about excess entry
+constructions so suppose you're
+constructing a subject subject predicate
+construction they have to be done in
+parallel you have to construct the verb
+phrase and the down four is before you
+can merge the two together that means
+you have to have
+a workspace in which things are
+constructed and the workspace will
+consist of first of all the atoms of
+computation called electrical items and
+anything constructed by the rules so the
+workspace is just the set including the
+atoms and anything constructed by merge
+four so that means this high technology
+so when I see when you're let's call
+this capital merge because it's
+different from the concept has been used
+in recent years so merge actually is
+going to take two things and put them
+together call them P and 2 and the
+workspace it's an operation on the
+workspace which is going to change
+broader operation and that's going to
+you as a notation that the workspaces
+are set okay to set which includes
+everything that's been constructed but
+it's a different set different kind of
+from the sets are formed by merge it's
+not accessible to computation so you
+don't remember the workspace of things
+so just to indicate that all use a
+different notation I'll use square
+brackets for the set that connect the
+workspace the result of this will be
+merging P and Q and then a bunch of
+others and that will be the resulting
+workspace and that raises the question
+what's here okay so what's the rest of
+this stuff
+well let's take the simplest case
+the case where the workspace were these
+are the only elements would work the
+simplest case is a workspace that
+consists of hue and then yes what is
+that you so it yields said hue and what
+else well if this was normal recursion
+the kind of recursion that goes
+generally applies generally the rest of
+the workspace would include be in hue
+and so for example that we're doing a
+proof theory general recursion you start
+you have axioms you have rules of
+inference if you apply the rules of
+rules to either the axioms or some
+theorem you've already constructed you
+get a new theorem and what's left to
+what is accessible to further operations
+is everything that's already been
+produced the axioms and every previous
+theorem so that is essentially saying
+you include the set PQ you've just
+formed and on P and Q however that fails
+for human language and it fails in a
+very straightforward way for example if
+you were to do this then you could take
+this guy here you can turn it into
+something of arbitrary complexity
+violating every imaginable island any
+other property and then you can merge
+this you would now have violated every
+linguistic property all islands would be
+violated no matter how radical they are
+so that tells us that there's something
+DIF
+about recursion in human language and
+general recursion we have to exit to bar
+the things that were already there
+they can't remain in the workspace that
+raises interesting questions the
+actually I should say that the original
+definition of merge back in 1995
+actually incorporated this property but
+without recognizing it it was really if
+you look back at it it was an operation
+that said replace said replace P and Q
+by the set P Q and the formalizations of
+this if you look at them did add an
+operation an operation remove so get rid
+of things that you've already had that
+we don't want we don't want to have
+extra new operations it should be that
+the right concept of capital merge just
+has this property but that raises the
+question why do we have that property
+why should language have the property
+that it deviates from normal recursion
+by getting rid of the things that had
+been generated and you're not allowed
+access and many more
+well that's raises an interesting
+question we would of course like to
+reduce this to some general principle
+some prints of some essentially third
+factor property remember that in the
+study of growth and development
+acquisition of language in particular
+there are three factors you have to look
+at one is Janette what's genetically
+determined that's ug second is whatever
+the data happened to be and the third is
+independent principles that hold
+independently of the operation in
+question that would include laws of
+nature and special things about the
+system that is occurring out the
+operation
+so some properties of the brain in our
+case which make it language ready that's
+been noted for a long time but nothing
+was ever said about properties of the
+brain about which very little is known
+in fact but what we would look for in
+this case is some property of the brain
+that forces this that would be a third
+factor principle that would be the
+optimal conclusion before coming to that
+let me see notice that there are already
+embedded in linguistic theory as it's
+developed over the past years some
+examples of this one case is that emerge
+in the old sense never never increases
+the work space the only way to increase
+the merge itself doesn't increase the
+work space unless it happens to be
+bringing in a new lexical item okay so
+the old definition just didn't allow
+arbitrary expansion of the work space
+more interestingly conditions like the
+phase impenetrability condition I
+apologize in advance to the number of
+faces in the audience I'm going to
+assume familiarity with recent
+linguistic work with no time to go into
+the details but the phase
+impenetrability condition which is a
+fundamental condition with many
+important consequences actually has the
+property of reducing accessibility to
+computation says they're things you've
+produced you can't see anymore okay that
+restricts the resources available for
+computation another case is simply C
+command if you think about successive
+movement of something we we take it for
+granted that if you move if you're doing
+successive cyclic a bar movement let's
+say the next move will pick the top
+element not the lower elements okay
+what that means is you're using
+essentially minimal search they're using
+a computational principle third factor
+principle that says look for the
+shortest thing and don't go any further
+well again that reduces accessibility
+but we need something beyond we already
+have a number a number of things have
+already been proposed that remove the
+reduce accessibility and hence the limit
+of the richness of computation but we
+want something beyond that and actually
+there is something highly suggestive a
+property of neural computation which has
+been noticed elsewhere the main of our
+striking principle of computation is
+that the neural computation is that the
+brain is very slow it's a very slow
+computer and that shows up in pretty
+dramatic ways I'll quote from Sandow a
+Phung cognitive neuroscientist who's a
+colleague at Arizona quoting him the
+marvel that we call the human brain is
+actually the weak link in our cognitive
+apparatus our sensory apparatus far
+outstrips the brain's capacity to
+process the high-resolution input to the
+sensory organs the eye responds at a
+single photon level the minimal possible
+detection the eardrum vibrations respond
+at a level smaller than the diameter of
+a hydrogen atom so not for everybody
+incidentally I'm an exception but but in
+principle in principle if you think
+about that it's pretty remarkable and
+it's the same for every sensory system
+they're essentially perfect physically
+perfect the brain can't handle that so
+almost all of the computation that the
+brain is doing is throwing out and from
+the brain is incapable of handling the
+amazing capacity of the sensory system
+to be optimal physically optimal
+detectors better than anything that can
+be constructed it does raise a strange
+question that why did Mother Nature
+bother to produce these astonishing
+systems if the mate if the next step is
+to get the brain to throw out all the
+information that they produce that's not
+just true for humans true for all
+organisms it is it's a question you
+could ask why that happened probably
+there's some basis in physical law that
+explains unknown principle of physical
+law that explains that if you're going
+to have sensory systems you have to make
+them perfect but what the reason for
+that is is unknown it just is a fact
+anyway the brain is essentially throwing
+out everything almost everything that
+comes in which sounds very tempting to
+think that the resource limitation
+that's part of language computation and
+presumably part of the computation
+that's done by any organism that it's
+just a special case of the fact that the
+brain us of slow and incompetent it
+wants to get rid of tons of information
+that's a plausible candidate for the
+conclusion that one of the properties of
+linguistic recursion as distinct from
+recursion in general is simply that it's
+got to work through the brain which
+remember the whatever the properties of
+the brain are that implement the
+linguistic computation is some third
+factor condition which is just proposed
+by language presumably by any organic
+computation well if you think back a
+step we've been trying all along
+in the concept
+of general genuine explanation to
+restrict the amount of computation it
+takes place that to find the simplest
+theory the one with the least fewest
+mechanisms least computation and there
+were good reasons for that
+which I discussed one just the general
+fact that simplicity of theory
+corresponds to depth of explanation
+which is what you're trying to achieve
+in any serious scientific invested in
+query secondly there's this Galilean
+precept which has been spectacular
+spectacularly successful about nature
+being simple and third in the special
+case of language there is the there are
+the empirical conditions on language
+evolution which we don't know for
+certain but seemed to show as I
+discussed that it was a very sudden
+immediate development which hasn't
+changed since and of course very recent
+and evolutionary time all of which
+suggests all of which converged to
+suggest that computation should be
+restricted to the minimum here we have a
+second point not only should computation
+be reduced to a minimum but the
+resources available to computation the
+set of elements accessible to the
+operations that too should be reduced to
+a minimum so we seem to have a very
+broad principle of reduction of
+computation broader than normal
+explanation in in the sciences which is
+not just are the means restricted to the
+minimum but also the resources
+accessible to the means have to be
+restricted to the minimum that has a lot
+of consequences one consequence is
+already mentioned tells us that the work
+space is going to be a small
+as possible well let me just make a
+comment on notation we want to say that
+this the workspace which is a set
+containing X is distinct from ax we
+don't we don't want to identify a
+singleton set with its member if we did
+the workspace itself would be accessible
+to merge however in the case of the
+things produced by murders we want to
+say the opposite we want to identify
+singleton sets with their members this
+is actually something that goes back to
+first structure grammar infrastructure
+grammar you didn't allow rules that
+nobody nobody said why but it's just
+kind of think it didn't do it's not
+allowed for one thing would get you into
+infinite loops you don't want that so it
+was just kind of bored now there was a
+trick used in very structured grammar
+and illegitimate trick
+we can't reduced VP so he had a verb
+that was a verb phrase that was only a V
+it would be described like this I'm
+using the pre notation
+so you have n P DP this guy that's
+barred by x-bar theory okay an x-bar
+theory you don't have any VP if it's
+only a V that was taken for granted and
+x-bar theory actually it has
+consequences for one thing for Ricci
+Keynes linear correspondence actually
+MLC a it was necessary to introduce VP
+if you want to get the asymmetry between
+a subject and a verb but that's
+illegitimate so it's a problem for LCA
+and there are other consequences
+carrying that over into the merge
+framework of what it comes down to is
+this so firstly in the case of the
+workspace we do not identify and a
+singleton set with its member in the
+case of something constructed by merge
+yes we do identify a singleton set with
+its member that has quite a number of
+consequences
+well let's this actually simplest case
+that I just mentioned actually provides
+a criterion for determining what are the
+proper and improper forms of merge we
+have to ask for every kind every notion
+of merge that's developed every case
+that's proposed whether it yields
+illegitimate derivations if it does we
+have to throw it out so it takes
+something that I think nobody's ever
+proposed let's just imagine suppose we
+have that and then we want to merge a
+indeed
+so that's going to give us let's call
+this by X it's going to give us the
+result the set a B so suppose we there's
+nothing in the original definition of
+merge that blocks that it's just
+something nobody ever wanted to do
+because it doesn't make any sense but
+suppose you do do it then what happens
+well same story is this X can become
+arbitrarily complex that's why a to join
+why we've again violated all conditions
+okay so this is ruled out because it
+allowed too much accessibility we want a
+definition of merge that restricts
+accessibility so you won't be able to
+get things like that well that was
+something that's never been proposed but
+let's take things that have been
+proposed and are very widely used in
+linguistic description like for example
+what's called parallel merge okay
+parallel merge is usually described like
+this what to do is construct a tree
+notation at which the element B is part
+of BC and also part of a B that's called
+parallel merge we'll shouldn't make a
+comment at this point the tree notations
+are kind of convenient but they're very
+misleading and you should really pay no
+attention to them for one thing a tree
+notation it kind of leads you to suggest
+that there's got to be something at the
+root of the tree but that's conflating
+compositionality with protection
+projection and in fact you just often
+don't have things at the root of the
+tree for example every X eccentric
+construction okay
+that's what labeling theory takes care
+of which eliminates that conflation
+another reason is that when you draw
+trees it looks easy to do lots of things
+that don't make any sense so especially
+with contemporary computer graphics you
+can draw funny lines from one point to
+another and connect those two things or
+you can tack something in low and lower
+in the tree and pull it like merge and
+so on and it seems to sort of work out
+by playing around with trees but if you
+try to translate it into merge it
+doesn't make any sense so let's take
+parallel merge what this really means is
+that you started with an a B this is the
+workspace now I've had C and then what
+you did was merge B with C which gives
+you a new workspace the u.s. crime which
+is since it's the original set and a new
+one
+and here we have the old problem the
+problem is we can turn this into
+something as wild as we want and then we
+can merge this to it and we have a
+connection between these which violates
+every possible condition so parallel
+merges looks as if it's easy to draw but
+can't be a legitimate operation because
+again it violates this paradigmatic
+problem which tells you that you're
+proposing an operation which is going to
+yield illage
+intimate objects objects that violate
+every imaginable syntactic condition so
+that has to be ruled out actually those
+of you know the literature know that
+parallel merge has been used to give
+lots of interesting results it is the
+basis for trying to construct what's
+called multi dominance
+you know constructions we have a mother
+connected to different things down below
+that's been used for across the board
+deletion for lots of other things to
+give accounts of these things now those
+in the literature are called
+explanations but they're not their
+descriptions they're interesting
+descriptions which have the property
+that I discussed earlier there are
+illegitimate ways to impose some kind of
+organization on chaotic data which is
+very useful often says well now it's
+more organized than before so we can
+kind of look and see if there's a
+possible way of accounting for it but
+it's not an explanation it's a way
+station on the way to conceivable
+explanation that so there's got to be
+something about the definition of merge
+that's telling you you can't create
+parallel merge and if you think about it
+for a second you can see what it is
+there are too many accessible things
+being produced okay the right definition
+of merge when we get to it should allow
+only one new accessible object namely
+the one you're constructing when you put
+P and Q together you're constructing a
+new object the set P Q that's accessible
+to computation but nothing else should
+be that should be the right definition
+of merge this one is adding two new
+accessible objects it's adding this one
+this one
+and that's too many the right definition
+of the computation should permit only
+the minimal number namely one new
+accessible object and again I suspect
+that that goes back to the general
+property of the brain that says it's
+just very slow it has to throw out
+information actually before going on
+mate might mention that this is kind of
+familiar and other domains of language
+acquisition so when you study the
+acquisition of phonology in infants what
+you find is of course every infant is
+capable of all the thought the phonemic
+distinctions in any possible language
+but by about a year old or maybe even
+earlier most of them just been lost what
+the early stage of phonological
+development is doing is saying throw out
+all the possibilities and just leave us
+with these when you study critical
+periods and language acquisition it's
+pretty much the same now what you're
+saying is that these apparently several
+critical periods lots of stuff is just
+thrown out that you're not allowed to
+look at anymore that's what makes a
+critical period if you look at a general
+take a theory of language acquisition
+like say Charles Yang's which assumes
+that the child just starts with all the
+possible I languages and as data comes
+along the probability distribution over
+the set of I languages changes okay so
+some data comes along and says okay I'll
+lower the probability this guy and raise
+the probability that one ultimately in
+the course of language acquisition it
+need not converge in a single point but
+it it gives you a skewed probability
+distribution in which many things are
+weighed down there are you're not going
+to bother with them there's a few or
+maybe a couple of things that
+that are high probabilities you hang on
+to those and that's your I language you
+could again describe that in the same
+terms it's saying what the acquisition
+system is doing is simply throwing out
+lots and lots of data what we know the
+brain does massively because of the
+extraordinary of sensitivity of the
+sensory organs well anyhow a parallel
+merge goes and with it all of the
+interesting very interesting empirical
+consequences that have been produced
+that are based on parallel merge now
+those consequences remain that as
+puzzles not us things that have been
+explained as kind of organized data
+which now we want to look at take a look
+at say what's called sideways sideways
+merge the same problem I won't run
+through it but if you formulate side
+words merge not just as a tree you know
+with the line going from here to here
+but in terms of actual merge has exactly
+the same problem so this problem here
+the very simple problem this one turns
+out to be a very good diagnostic to tell
+you when some proposed concept of merge
+is legitimate or not it's very simple
+very simple idea and it cuts very deeply
+the sake let's take late merge well late
+merge has the same problem but an
+additional problem which was pointed out
+by eks Epstein era Celie namely late
+merge in the case of late merge where
+you're sort of packing something on here
+somewhere
+one it has the problem I already
+mentioned but secondly it requires a
+substitution operation
+maybe this guy has to go back here how
+does that happen well you know when you
+draw three you just draw it there but
+that's not enough you need some kind of
+operation that says the new thing you've
+constructed has to go right in the
+position of what you've constructed it
+from it's a non-trivial operation but
+it's way beyond the bounds of SMT so
+late merge which has lots of
+consequences it's used very widely also
+can't be correct and in fact I think
+most of the late merge literature I
+won't have time to talk about this
+probably reduces to ellipses but I'll
+put that aside here just a problem to
+work now
+anyway all of these things are out all
+the consequences that follow from them
+there's lots of stuff in the literature
+very interesting consequences they
+remain as just puzzles well if you think
+about these proposals they do fall
+within the original loose and vague
+characterization of merge so it's
+natural that people should have proposed
+them they seem to fall within the
+original I won't say definition because
+it wasn't clear enough to be a
+definition but the original
+characterization of the idea and it's
+led to interesting results but
+misleading interpretations of them they
+are not results there are simply
+presentations of interesting data which
+we know have a problem about trying to
+figure out what well that suggests
+research program the research program is
+first of all to take all of the kinds of
+operations that have been proposed for
+merge ask yourself which ones are
+legitimate and which ones are not
+legitimate and then
+second task is to formulate a new
+definition which captures just the
+legitimate ones leaves out the
+illegitimate ones and then the third
+part of the research program is to
+explain and why okay so those are the
+three steps Oh skip the first step oh
+there's a lot of material in the
+literature showing which ones are
+legitimate which ones aren't it runs
+right along essentially the lines I've
+just outlined it turns out that the only
+ones that are legitimate are the simple
+ones that you know we had in mind when
+it was first developed a narrow external
+and internal merge all of the rest
+parallel more sideways merge or late
+merge other proposals have been made
+they're all illegitimate illegitimate on
+the very same grounds they allow the
+yield legitimate operations which
+produce illegitimate results hence have
+to be excluded and they all have the
+property that they're increasing
+accessibility too much so that's the
+first part we then want to formulate
+merge so that it'll block these things
+with a lot of definition that looks like
+this where we have to say something
+about this okay what do we have to say
+about it
+I'm going to skip the formalities it's
+easy to formalize all this but too much
+trouble you can do it yourselves just
+intuitively what it does is say that the
+the first condition that has to be met
+by this new definition is that anything
+that was nothing that was in the work
+space can be lost okay you can't throw
+out stuff from the work space so if
+something was there and it's not is
+distinct from P and Q because those were
+operating on but anything
+else that was there still has to be in
+the workspace okay so that's the first
+condition second condition is that the
+new definition of merge has to be
+minimal the optimal definition it has to
+restrict accessibility as full fully as
+possible now Oh merge itself is creating
+one new accessible object that's the
+point of merging you're creating a new
+object but it can't allow anything else
+to be accessible okay that's the second
+thing and the third is just we don't
+want any arbitrary junk around so not
+not a lot of other stuff that had
+nothing to do with the operation those
+are basically the conditions on the
+proper definition of merge that leaves
+us for the next step what's the
+explanation for it and here we have
+pretty strict right now we basically
+have the explanation the first point
+that says you can't throw things out is
+actually a special case of the no
+tampering condition the general smt
+condition of minimal computation which
+says you can't modify the elements that
+are entering into the computation well
+the most extreme form of modifying
+something is to throw it out okay so you
+can't do that so that's the first
+condition the second condition is the
+resource constraint the resource
+constraint which I think probably
+reduces to a general third factor
+property of the nature of the brain the
+slow element and the cognitive system
+the thing that's hampering cognition the
+brain so it probably just goes back to
+that so we have the resource constraint
+which limits accessibility the third
+thing that says don't throw in any extra
+junk is actually a consequence of the
+restricting accessibility
+if you throw in anything else you're
+increasing accessibility okay so we
+therefore have an optimal definition of
+merge capital merge which meets all the
+conditions we want and we have an
+explanation for all of them so that's
+the set of flaws failures and a possible
+solution for all of them a plausible one
+well there's something else that we have
+to point out here I'm skipping a lot of
+things so doesn't matter there's another
+consideration that we have to keep in
+mind let's call it stability the general
+properties computations which we don't
+usually bother to think about but we
+have to be explicit about it for reasons
+that show up when we try to explain
+things so for example if you're forming
+say a topical ization you say mary's
+[Music]
+it's the optimal internal merge
+operation which doesn't delete anything
+when we pronounce it we drop the lower
+copy but that's again for reasons of
+computational efficiency but we're now
+talking about just what reaches the mind
+we're forgetting about what reaches the
+ear the extraneous stuff which doesn't
+really belong to language strictly
+speaking the something that's taken for
+granted about this but that we have to
+be clear about is that the two
+occurrences of Mary's book have to be
+absolutely identical in every respect so
+it can't be one Mary of
+who's the topic and another Mary whose
+book we're reading it can't be that the
+topic is the book that Mary owns and the
+copy the somatic object is the book that
+Mary wrote let's say that's simply taken
+for granted the interpreter system has
+to know when things are precisely
+absolutely identical so let's call that
+condition stability turns out to be
+consequences
+now that immediately begins to raise
+some interesting questions
+what's a copy and what's not a copy a
+repetition so you can pick things out of
+the lexicon which are totally different
+but happened to be identical in
+syntactic and phonetic form so you can
+say John saw John okay that's okay but
+those are two different John's they have
+nothing to do with one other those are
+repetitions on the other hand here when
+you've done internal merge you have
+copies how does the interpretive system
+know what's a copy and what's a
+repetition okay oh they look alike but
+it has to know them that turns out to be
+a non-trivial question there's an
+interesting paper by Eric wrote
+Chris Poland's butts on I don't think
+it's been published but you can find it
+on Lynn buzz where they just go through
+a lot of the problems and the various
+efforts to explain this but you have to
+be able to explain it
+the interpreter system's got to know
+what's a copy and what's a repetition
+now assuming I'm assuming here phase
+theory for good reasons that means that
+at the phase level precisely at the
+phase level the the system has to know
+the distinction okay
+well of course at the phase level you do
+have the information about what was
+produced by internal merge and what was
+produced by external merge so you you
+can see something you have some
+information but it's not complete
+because there are cases of internal
+merge into internal to the phase like
+for example raising the subject to
+subject position inside the CP it's
+internal to the phase but it's and at
+the phase level you know you don't see
+that it's just happened here so how come
+the interpretive system tell to solve
+this problem
+that raises quite interesting questions
+and I think the basic answer to it is
+given by a general property of language
+which is sometimes called duality
+if you look
+generally at interpretation of
+expressions they fall in it falls into
+two categories there's one category
+which yields argument structure theta
+roles and the interpretation of
+complements of functional elements okay
+basically argument structure there's
+another category which is involved in
+displacement which has kind of discourse
+oriented or information related
+properties or you know scope 'el
+properties and so on but not argument
+properties
+okay that's duality of semantics you
+think it's about a little further you
+see that the first type argument
+structure is invariably given by
+external merge the second type non
+argument structure other factors is
+always given by internal merge now there
+appear to be some exceptions to this as
+usual when you produce a generalization
+you look at details you find maybe
+something didn't work if it's a strong
+generalization the proper approach just
+as standard science is to say the
+exceptions are probably misunderstood
+and make the strong generalization work
+always I think that's a good rule of
+thumb use constantly in the sciences we
+should use it here so I think duality of
+interpretation is probably a very strong
+principle the question is where does it
+come from well probably it's just a
+property of the nature of thought we
+don't know a lot about thought in fact
+one of the main ways in which we
+understand become to understand thought
+is to ask how it's learnt linguistically
+articulated that's one of the very rare
+avenues into what's the nature of
+thinking and if it's correct as I've
+been suggesting throughout that language
+really doesn't care about use
+communication that's kind of irrelevant
+the language it cares about expression
+of thought then we'd expect the design
+of language to capture these aspect
+these fundamental aspects of thinking
+okay that's what I'm proposing now if
+you think about duality of semantics you
+have a technique right away to determine
+what's a copy and what's a repetition if
+something is in a theta position
+it's a repetition if it's unless it's
+been raised in which case it's a copy of
+what's been raised if it's in a non
+theta position it's a it's a copy okay
+and the phase at the phase level the
+system simply has to take a look and say
+what's a theta position what's in a
+theta position what isn't in a theta
+position that tells us what's a copy and
+what's a repetition that cuts through
+the mass of the objections and problems
+that columns and grote pointed out now
+there are what that if we restate that
+what we'll be saying is that the
+operation merge produces copies always
+both cases of merge external and
+internal merge they produce that
+produces copies nothing else does okay
+so a copy is just whatever is created by
+merge in the case of internal merge it
+creates two copies
+okay so external merge also creates two
+copies the original thing on the thing
+that's in the set you formed but the
+operation merged which is in effect a
+replace operation gets rid of the caught
+the first copy in the case of external
+merge so you never see it okay so merge
+always produces two copies but external
+merged just by the nature of the
+operation the minimal operation yields
+only one of them remaining okay that's
+the reason
+restriction part okay now that still
+raises some interesting questions if you
+start thinking of the complexity of
+constructions double object
+constructions topical ization small
+clauses and so on it looks as if there
+are ambiguities in searching for what is
+a copy of what on what we have to show
+is that language has a conspiracy that
+determines the answer in each case so
+for example in the case of double
+objects ver knows
+abstract case theory if you think about
+it uniquely determines the answer in the
+case of topical ization when you want to
+know what's been you have a topic up
+there you want to find out which of many
+things that look identical
+it comes from if you think about say
+Luigi Ritz is left periphery theory plus
+the theory of labeling which determines
+criteria positions it'll solve that
+problem the case of small clauses is
+extremely interesting well if there's
+time there's not time today but if
+there's time tomorrow come back to it
+but there's an interesting way of
+resolving that ambiguity but here's a
+problem that I posed there has to be a
+conspiracy in the structure of language
+that automatically resolves ambiguities
+about what's copy of what okay so we
+have two problems about copies one
+what's a copy and what's a repetition
+that's solved by defining copy as just
+anything produced by merge and nothing
+else and by duality of semantics then
+the second question what's a copy of
+what that has to come from some internal
+conspiracy about the nature of language
+I think there are answers but it's not
+trivial you should think I leave it as
+something to think through the
+I should point out in addition you can
+think about this so won't go into it
+that none of this works for the
+illegitimate operations so if you do
+side words merge or parallel merge and
+so on and none of this is going to work
+out there you do have the problems of
+the copy repetition and identification
+that's an independent argument to show
+that the illegitimate cases are
+illegitimate the main argument is they
+just yield legitimate outputs but it
+also turns out that the concept of copy
+repetition and unambiguously finding
+copies fails for the illegitimate cases
+you can try it out and see how it works
+for yourself well notice that you can
+now rephrase the whole process of
+constructing merge and it's application
+you can rephrase it in terms of the
+normal way in which recursive processes
+are described I won't bother writing it
+out I'll just read it to you it's simple
+so suppose you want to define the set of
+integers how do you define the set of
+integers well what you say is the set of
+integers is the smallest set the least
+set containing one and containing the
+successor of any integer okay that's the
+set of integers that's transitive
+closure the friggin ancestral the
+classic way so what do we say here well
+what we say is that for a given I
+language the set of the set of work
+spaces is the set notice not the least
+set it's the set containing the lexicon
+and containing merge PQ work space for
+any PQ and work space that's already
+been generated okay it's the same
+as the definition the transitive closure
+of the set of integers with one
+exception we don't have to say the least
+set simpler here we don't have to say it
+because resource restriction already
+forces it to be the least said okay so
+essentially we we're in the right
+ballpark we have standard definition of
+the recursive precursor inductive
+definition under transitive closure of
+the set of work spaces and it's exactly
+where we want to be well there's a lot
+of I've kind of skipped a lot of steps
+here you know there's a lot of things
+that have to be filled in but I think
+maybe this is enough of a picture so you
+can see how they can be filled in well
+let me just to finish term for today I
+want to go to some new topics tomorrow
+more another set of topics but let's
+just ask what we can say about the
+things that are left unexplained okay so
+let's take say a TB across-the-board
+deletion
+you
+what book did John read very simple case
+of a TV this is nicely handled in terms
+of most of dimensionality and parallel
+merge but unfortunately that's
+illegitimate
+so we have to ask is there a legitimate
+way of doing it well if you think about
+this the simplest approach is to say it
+just arrives by deletion from what and
+remember there's a and what did Mary
+read just a conjunction of these two so
+why doesn't it come from what the John
+by and what what book did john-boy and
+what book did Mary read well there's a
+standard objection to this the standard
+objection is nothing tells you with the
+same book in both cases does that look
+like a problem however notice we already
+have a solution to that problem namely
+let's take a look at what the copies are
+this is a copy
+this is a copy this is a copy and this
+is a copy okay we have a principle quite
+independent of this that tells us that
+when we have a series of copies
+the first the top one the first one
+remains all the others delete okay so we
+automatically get the right form but
+what about the right interpretation how
+about the fact that the two books might
+be different well here the notion
+stability enters deletion in general has
+the property quite generally the lesion
+in generally in general quite apart from
+this as in the topical ization case and
+anything ellipsis anything else has the
+property that you have to have absolute
+identity otherwise you can't delete okay
+so if you want to delete under say VP
+ellipses or topical ization or whatever
+it may be there has to be absolute
+identity that's the stability property
+so in fact it automatically turns out
+without any comment at all that you get
+a TB just follow the principles already
+established now there's something
+crucially important here namely you
+don't have C command between what
+between these two then it wouldn't work
+so if you have a sentence which I won't
+write it it's too much trouble but take
+the sentence which book did John asked
+which book did John ask
+which boy did John ask which boy John
+bill met okay which boy - John asked
+which boy bill meant notice there you do
+have see command all the way through
+that means that at the phase level where
+you're getting the copy of which boy in
+the top case it's in theta position
+looking at a copy below it which it see
+commands that tells you it's a
+repetition by definition so at the phase
+level you know that these two things are
+repetitions not copies because there's a
+C command relation between them so
+crucially the lack of C command in
+coordination yields a TB but the same
+effort will fail because of phase
+theoretic considerations when you try to
+do it in a case like which book did
+which boy - John asked which boy bill
+met and so on you can kind of write it
+out and figure it out for yourself but
+the it all kind of turns out
+mechanically there's nothing to say
+about it pretty much seems true
+parasitic caps you can try it on your
+own
+so the standard examples that are used
+for multi dominance and parallel merge
+Nichola fall into place without any
+comment they just come from following
+the simple processes of minimal
+computation resource restriction and
+stability the general principle of
+deletion well the task is show this for
+everything okay not a small task I'll
+leave it there and turn to some other
+problems tomorrow
+[Applause]
+10
+12
+13
+17
+21
+24
+30
+51
+55
+58
+63
+66
+70
+74
+76
+79
+82
+85
+89
+92
+96
+99
+104
+107
+110
+113
+116
+120
+125
+128
+132
+134
+137
+141
+144
+146
+149
+152
+156
+161
+167
+170
+173
+176
+179
+181
+185
+189
+194
+198
+201
+204
+206
+210
+213
+215
+218
+222
+223
+225
+229
+231
+234
+237
+240
+243
+246
+249
+253
+255
+257
+261
+263
+265
+268
+270
+272
+274
+277
+280
+283
+287
+290
+294
+315
+318
+319
+323
+326
+329
+334
+336
+339
+342
+349
+352
+354
+357
+360
+364
+365
+368
+371
+375
+379
+387
+392
+396
+399
+400
+404
+408
+412
+414
+424
+433
+437
+439
+443
+446
+450
+455
+457
+461
+464
+467
+470
+473
+475
+479
+482
+485
+489
+492
+495
+498
+502
+507
+510
+513
+527
+531
+534
+536
+537
+542
+548
+552
+555
+558
+561
+565
+569
+572
+573
+577
+581
+584
+588
+591
+594
+597
+600
+604
+606
+609
+612
+616
+618
+621
+623
+625
+629
+633
+637
+639
+641
+644
+648
+651
+654
+657
+659
+663
+667
+670
+671
+674
+678
+682
+683
+686
+689
+691
+695
+697
+701
+705
+708
+711
+717
+724
+727
+730
+732
+735
+738
+740
+744
+747
+750
+752
+755
+757
+760
+762
+764
+768
+772
+774
+777
+781
+784
+789
+792
+794
+797
+800
+804
+806
+809
+811
+813
+816
+819
+822
+824
+827
+832
+836
+839
+841
+845
+850
+852
+856
+859
+862
+866
+869
+874
+877
+880
+883
+887
+891
+895
+899
+906
+910
+914
+918
+921
+923
+925
+928
+932
+935
+938
+943
+948
+950
+953
+956
+959
+962
+965
+967
+969
+971
+974
+977
+981
+985
+987
+990
+993
+997
+1001
+1003
+1006
+1009
+1013
+1016
+1019
+1022
+1025
+1028
+1033
+1037
+1040
+1043
+1046
+1050
+1054
+1058
+1061
+1064
+1067
+1070
+1072
+1076
+1080
+1083
+1086
+1089
+1091
+1094
+1098
+1101
+1102
+1106
+1109
+1113
+1116
+1119
+1123
+1125
+1128
+1131
+1134
+1138
+1140
+1142
+1145
+1148
+1152
+1155
+1158
+1161
+1165
+1168
+1171
+1175
+1179
+1183
+1187
+1188
+1191
+1194
+1199
+1202
+1205
+1211
+1218
+1223
+1229
+1231
+1234
+1236
+1240
+1244
+1248
+1252
+1254
+1257
+1267
+1269
+1272
+1274
+1277
+1279
+1281
+1284
+1288
+1291
+1298
+1311
+1322
+1326
+1329
+1333
+1335
+1340
+1344
+1348
+1351
+1353
+1358
+1360
+1362
+1365
+1372
+1375
+1378
+1381
+1384
+1386
+1387
+1395
+1397
+1402
+1407
+1410
+1412
+1415
+1420
+1423
+1425
+1428
+1442
+1444
+1447
+1452
+1463
+1465
+1467
+1469
+1473
+1475
+1481
+1488
+1496
+1500
+1503
+1506
+1508
+1511
+1513
+1515
+1518
+1520
+1523
+1527
+1540
+1543
+1548
+1552
+1555
+1558
+1561
+1564
+1568
+1571
+1575
+1577
+1580
+1582
+1585
+1586
+1589
+1592
+1595
+1598
+1601
+1604
+1607
+1610
+1613
+1615
+1619
+1622
+1626
+1629
+1632
+1639
+1646
+1650
+1655
+1661
+1666
+1671
+1674
+1678
+1682
+1686
+1690
+1694
+1698
+1702
+1706
+1709
+1711
+1713
+1717
+1720
+1722
+1725
+1730
+1733
+1734
+1738
+1741
+1744
+1748
+1751
+1752
+1755
+1758
+1760
+1763
+1767
+1771
+1775
+1777
+1779
+1782
+1785
+1788
+1793
+1795
+1798
+1801
+1803
+1805
+1809
+1812
+1816
+1819
+1822
+1826
+1828
+1831
+1835
+1841
+1844
+1848
+1852
+1855
+1859
+1861
+1864
+1866
+1870
+1873
+1876
+1879
+1882
+1886
+1890
+1892
+1895
+1899
+1903
+1905
+1908
+1911
+1914
+1916
+1919
+1922
+1923
+1926
+1930
+1932
+1936
+1939
+1943
+1946
+1950
+1952
+1955
+1958
+1960
+1963
+1966
+1968
+1970
+1972
+1975
+1978
+1981
+1982
+1986
+1988
+1991
+1994
+1997
+2001
+2004
+2007
+2010
+2013
+2016
+2018
+2022
+2026
+2028
+2032
+2036
+2039
+2040
+2044
+2048
+2053
+2057
+2061
+2065
+2069
+2075
+2080
+2083
+2090
+2093
+2098
+2099
+2102
+2104
+2109
+2113
+2116
+2120
+2122
+2125
+2127
+2130
+2133
+2137
+2140
+2144
+2146
+2150
+2152
+2157
+2158
+2159
+2163
+2165
+2168
+2171
+2175
+2178
+2183
+2186
+2188
+2192
+2195
+2197
+2199
+2203
+2206
+2209
+2212
+2215
+2218
+2221
+2225
+2229
+2232
+2236
+2238
+2240
+2244
+2247
+2250
+2253
+2255
+2258
+2262
+2264
+2266
+2269
+2271
+2274
+2278
+2281
+2284
+2287
+2290
+2293
+2296
+2302
+2305
+2309
+2311
+2314
+2317
+2320
+2324
+2327
+2333
+2336
+2338
+2341
+2344
+2347
+2350
+2352
+2355
+2358
+2363
+2366
+2369
+2372
+2373
+2375
+2378
+2383
+2386
+2390
+2395
+2399
+2403
+2405
+2407
+2411
+2414
+2418
+2420
+2422
+2424
+2429
+2431
+2437
+2439
+2442
+2445
+2448
+2451
+2454
+2457
+2460
+2462
+2465
+2467
+2470
+2473
+2476
+2480
+2484
+2487
+2490
+2492
+2495
+2498
+2502
+2505
+2507
+2509
+2512
+2515
+2518
+2520
+2523
+2528
+2531
+2534
+2537
+2542
+2544
+2552
+2556
+2559
+2562
+2564
+2567
+2584
+2594
+2598
+2601
+2605
+2608
+2611
+2613
+2616
+2619
+2621
+2626
+2628
+2631
+2634
+2638
+2640
+2643
+2646
+2651
+2656
+2660
+2663
+2666
+2669
+2673
+2674
+2677
+2679
+2683
+2687
+2691
+2693
+2697
+2701
+2703
+2706
+2708
+2710
+2715
+2717
+2721
+2723
+2726
+2737
+2742
+2745
+2748
+2750
+2753
+2754
+2756
+2760
+2764
+2767
+2770
+2773
+2775
+2778
+2781
+2783
+2786
+2789
+2791
+2793
+2796
+2800
+2803
+2806
+2808
+2811
+2814
+2815
+2818
+2822
+2827
+2839
+2841
+2844
+2847
+2851
+2854
+2858
+2861
+2864
+2867
+2870
+2873
+2876
+2879
+2879
+2884
+2886
+2889
+2892
+2896
+2900
+2903
+2907
+2909
+2912
+2915
+2919
+2922
+2924
+2928
+2931
+2934
+2936
+2939
+2941
+2944
+2947
+2949
+2951
+2954
+2957
+2960
+2963
+2967
+2971
+2974
+2975
+2978
+2983
+2986
+2988
+2992
+2994
+2998
+3001
+3003
+3007
+3010
+3012
+3016
+3020
+3023
+3026
+3029
+3032
+3035
+3039
+3044
+3047
+3050
+3054
+3057
+3060
+3063
+3067
+3070
+3071
+3076
+3078
+3082
+3085
+3088
+3091
+3094
+3098
+3100
+3103
+3106
+3107
+3112
+3115
+3118
+3120
+3125
+3128
+3133
+3136
+3142
+3146
+3147
+3151
+3153
+3157
+3160
+3162
+3165
+3167
+3171
+3175
+3177
+3181
+3184
+3186
+3188
+3190
+3192
+3195
+3198
+3201
+3205
+3208
+3211
+3213
+3218
+3220
+3224
+3226
+3230
+3232
+3235
+3237
+3241
+3246
+3248
+3252
+3254
+3258
+3260
+3263
+3266
+3271
+3273
+3276
+3279
+3282
+3286
+3289
+3292
+3297
+3302
+3307
+3310
+3314
+3317
+3320
+3323
+3325
+3329
+3331
+3336
+3340
+3343
+3346
+3349
+3351
+3356
+3361
+3364
+3370
+3373
+3375
+3377
+3380
+3382
+3386
+3388
+3392
+3395
+3398
+3402
+3404
+3411
+3414
+3419
+3420
+3422
+3425
+3427
+3432
+3435
+3439
+3442
+3445
+3448
+3481
+3484
+3504
+3508
+3512
+3514
+3515
+3517
+3520
+3524
+3536
+3559
+3565
+3568
+3571
+3582
+3585
+3587
+3589
+3592
+3595
+3599
+3602
+3606
+3611
+3613
+3616
+3618
+3623
+3626
+3629
+3632
+3635
+3639
+3647
+3649
+3653
+3656
+3658
+3662
+3665
+3669
+3672
+3675
+3679
+3682
+3687
+3690
+3693
+3696
+3709
+3722
+3724
+3731
+3752
+3756
+3760
+3764
+3766
+3771
+3775
+3779
+3783
+3785
+3788
+3792
+3795
+3798
+3801
+3806
+3809
+3813
+3816
+3819
+3822
+3825
+3828
+3830
+3832
+3835
+3835
+3838
+3842
+3845
+3848
+3851
+3854
+3858
+3862
+3865
+3868
+3871

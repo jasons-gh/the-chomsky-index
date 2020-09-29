@@ -1,0 +1,3544 @@
+welcome everyone to the
+fourth and final lecture in Noam
+Chomsky's lecture series here at UCLA
+before Noam starts I just wanted to make
+a couple of brief announcements first I
+wanted to acknowledge the support of the
+Dean of humanities and his discretionary
+fund to help support this visit I also
+want to acknowledge two graduate
+students at UCLA whose idea it was to
+invite norm to come and speak to us and
+they actually made the initial move to
+invite him one of them I think is here
+Richard Stockwell wherever you are and
+oh there you are right okay
+and Nico's Angelo Poulos who
+unfortunately had to go back to Greece
+to finish his dissertation but we'll be
+taping we're taping these and he'll be
+here in spirit finally I thought I would
+just share a little piece of trivia that
+I learned today and that is that Nome
+has a be named after him do you know
+about this yeah it's called let me get
+this mega Kiley Chomsky and it was
+discovered in Texas in 2013 so now
+you're all in possession of the same
+trivia without further ado please
+welcome Nome for his final lecture
+I never did find out whether it's a
+honeybee with a waggle dance but I hope
+somebody will find that out for me well
+this has been pretty sketchy especially
+yesterday there's lots of loose ends
+that ought to be tied up
+I hope actually I think it would be best
+maybe to delay that to the discussion
+period tomorrow so I hope you guys will
+come in with lots of questions and
+objections and will be able to see if we
+can fix up what wasn't done properly of
+which there's a lot there was actually
+one question came up in the question
+period yesterday about an important
+matter and I didn't actually give the
+right answer to it so let me go through
+it here get this to work so the
+paradigmatic example that I was giving
+about what distinguishes the legitimate
+from the illegitimate ones who can
+illustrate it with parallel merge the
+thing that people tend to write like
+this where you have this is the work
+space and then you would join this to
+this and that's supposed to give you
+this thing which in fact gives you and
+this one becomes illegitimate because
+you can explode this to something
+complex as you like and since this is
+accessible you can move there then you
+have a chain connecting these two things
+which can violate all conceivable
+properties of language so that's
+legitimate the argument that it is
+illegitimate is it adds two instead of
+one accessible terms namely this one
+here and this one here
+and you're only allowed to add one in
+the minimal system of the resource
+control so the question was well why
+doesn't this block ordinary I am so
+suppose you have this guy over here now
+we have why can't you do the same thing
+you think about it for a minute which I
+didn't when the question was asked this
+turns out to be a case of late merge
+what you're doing is trying to tack this
+into something that you've already test
+and that doesn't work for the reasons I
+discussed last time late merge first of
+all adds too many new accessible items
+and then it also requires an extra
+operation of substitution so it's the
+worst case of illegitimate City so that
+one's out the difference is once you've
+intuitively once you've passed a certain
+point in the derivation you can't go
+back and do something to what you've
+passed but that a problem doesn't arise
+in the parallel merge case because these
+two guys are separate and nothing is
+protecting the thing that you moved from
+so that makes the right distinction well
+there are a lot of other things that
+need to be
+clarified but instead of that I'd like
+to turn to something else at least touch
+on a few other things briefly just to
+bring them up and won't be able to go
+into them in sufficient detail one point
+is that in addition to the symmetrical
+operation merge there's quite good in
+fact I think completely compelling
+evidence that we also need another
+operation an isometric operation in
+addition to merge this is clear
+intuitively simply from simple adjuncts
+so for example if you have a phrase like
+young man it's there's an asymmetry
+between the two that's clear that
+element that's formed is a noun phrase
+not an adjective phrase so the old is an
+adjunct that's not changing the category
+notice this is quite different from
+symmetrical merge in symmetrical merge
+if you have a if you haven't have a head
+and an XP then the head will in fact be
+the label the thing that traditionally
+projects but that's just a case of
+minimal search and that doesn't work for
+i junked a symmetry so if you have old
+portrait of John portrait of John is not
+a head it's complex could be arbitrarily
+complex but it's still the label of the
+of the whole unit so there's a clear
+asymmetry beyond that there's a problem
+that's been lingering for 60 years
+that's the serious problem it's the
+problem of unbounded unstructured
+coordination so if you have something
+like the guy is young happy eager to go
+to college you know tired of wasting his
+time
+endless number of possible adjuncts
+there's no structure among them they're
+strung together they're unbounded and
+that's a real problem for one thing you
+can't do it in any kind of phrase
+structure grammar because you'd need an
+infinite number of rules that's even
+true interestingly of of the universal
+case unrestricted rewriting systems the
+ones that allow you to do anything
+rewrite anything you'd still need an
+infinite number of rules
+notice that unrestricted rewriting
+systems as was proven by a great
+mathematician ml post long ago or
+Universal those are universal Turing
+machines in effect which means you can
+code the right result by some devious
+means but you don't get it by just
+rewriting the rules and looking at the
+structure so that's out totally from
+phrase structure grammar about 60 years
+ago when george miller and i were
+working on mathematical linguistics we
+thought we had an answer to this in
+terms of generalized transformations but
+howard lies and it can pointed out that
+that doesn't work either so there's no
+method around no device around that
+allows this however it is allowed
+immediately simply by the device of a
+symmetric pair emerge what we need is a
+new device and since we're trying to get
+the simplest possible operations the
+simplest operation after set for
+ordinary simple set formation is just
+pair formation so we need an operation
+pair emerge which will also apply to the
+simple adjunct case like young man a
+young will be a join two will be
+attached to man but you don't see it in
+the labeling okay because it's often
+some other dimension and the unbounded
+unstructured case
+show you in effect that there were
+unbounded ly many dimensions to what's
+going on up there it's not
+two-dimensional like a blackboard you
+can add any number of adjuncts at any
+point so we want some device that we
+want to we want to work this out that
+means intuitively that every member of
+this coordinated construction every
+individual member of it is individually
+predicated of what it links to now we
+know that the order of the unstructured
+unbounded elements this sequence we know
+that the order of it matters it matters
+because of reasons that were pointed out
+by Jim McCauley about 40 years ago
+namely notions like respectively so if
+you say John and Bill's or common Mary
+respectively the order in which they
+appear affects the semantic
+interpretation so it's not just a set of
+paired things it's a sequence of pair of
+things
+furthermore the more evidence that it's
+a sequence is that adjuncts can repeat
+so you can say the guy is young tall
+happy young eager to go to Harvard so on
+and so forth you can repeat them as much
+as you want so what we have a situation
+where in order to generate these objects
+you generate a set finite set you pick
+out of you form from that set a sequence
+and it could be any sequence of elements
+and there's in fact infinitely many
+possible sequences you pick one out of
+those and that sequence s call it is the
+thing that you're then going to merge
+into the construction to proceed with
+the interpretation this operation of
+picking a particular element out of the
+set of sequences
+is the this formal ways of doing it
+which are familiar those of you who know
+some logical recognize that this is
+David Hilbert's an epsilon operator
+which picks a single thing out of a said
+it was part of his work on foundations
+of mathematics basic operation so it's a
+straightforward operation but it does
+have the property that it's
+indeterminate okay so it's that's part
+of the nature of production as I
+discussed last time well what this means
+is actually there's clearly two kinds of
+coordination conjunction and disjunction
+so what we're doing is forming objects
+that look like this we're forming a
+sequence which begins with some
+conjunction and then contains a sequence
+of elements each of which is predicated
+of something so we have things of
+sequence of things that look like this
+link
+and in fact we couldn't say ever'one and
+but in fact all the links have to be
+identical but one of the aspects of
+coordination is your your attachment or
+joining everything to the same point
+okay so we can so we have an object like
+that that's the basic object that gives
+you an unbounded coordination when you
+get down to just one case when N equals
+one that's just playing a junction so
+the old young man's on no notice that
+each element of these pairs is
+inaccessible so if you say the phrase
+old man say you can't extract man and
+leave old that you can't extract the old
+and leave man
+so the elements of the pair's are
+inaccessible and if that's if that were
+all there was to it
+notice that this would yield at both the
+coordinate structure and the adjunct
+island that constraint you have the
+coordinate structure constraint because
+every term is inaccessible you have the
+adjunct Island extra constraint because
+you can't pull the things out however
+quite it's not quite that simple in fact
+as the I mentioned earlier paper by Jaco
+Boscovich which shows that there's which
+just reviews lots of different kind of
+complicated cases there are languages in
+which you can extract the odd you can't
+extract the anything inside the adjunct
+there are others where you can extract
+something that's inside but not the edge
+until
+and in a couple of other cases so
+there's more work to be done and what it
+in fact shows is that this is that the
+concept of adjunct is just not
+sufficiently refined there's a number of
+different kinds of adjuncts which
+behave quite differently and this is in
+fact kind of a an unexplored
+domain it hasn't been looked at
+sufficiently but you have to here's a
+major research project is to ask how can
+we deal with the class of cases that
+Boscovich left unexplained in his
+bringing together the two kinds of
+mysteries there are they're still there
+so here's a first step and how to
+capture it but more has to be said well
+the next question is what is ill what do
+you link things to so let's take the
+simplest case say noun phrase and verb
+phrase coordination you know John bill
+Tom the young man etc etc they read the
+book walk to the store so on and so
+forth
+what's the linking in those cases well
+the assumption that comes to mind right
+away
+is that saying incidentally I should say
+that I'm going to assume here that not
+that nominal phrases are actually NPS
+the DP hypothesis which is widely
+accepted was very fruitful that do a lot
+of interesting work but I've never
+really been convinced of it I think
+these things are fundamentally nominal
+phrases actually is a very good paper by
+Maus Oishi who's here who kind of spells
+out and how this could work this would
+mean that say Ana nominal phrase things
+like definite articles are actually
+features of the nominal phrase they're
+not elements merged into it very much
+like semitic where it's just a feature
+of the nominal phrase and that the
+definite article appears in every
+element of the nominal phrase including
+the determiner that seems to me probably
+the way it works
+as far as determiners are concerned like
+say that i suspect they're at
+so I'll be assuming that the core system
+is basically nominal as I say Moss's
+paper spills a lot of this out
+that's so one suggestion you might have
+is that L is just n but that runs into
+an immediate question if you accept L
+which I am accepting here the Hoggett
+Barrera Malik Marantz theory of route
+categorization which i think is pretty
+strongly motivated you have the roots in
+the lexicon are independent of category
+they become nominal or verbal adjectives
+Allah by virtue of a categorize ur that
+attaches to them and incidentally that
+would surely be pair merged so pair
+emerges to them and it's probably the it
+has to be the first operation in forming
+forming a derivation you search first
+attach the root to the category the
+category to the root and you sort of go
+on from there with a pair of merged
+element but that element say n for a
+root that's going to become nominal it
+can't be identified with the end that is
+the link here because this was there
+this one is just much higher up in the
+in the syntactic object that you're
+constructing same with verb it means
+that the small V which is the categorize
+ur which is linked to the root bye-bye
+pair emerge can't be the same as what we
+call small v or small v star high up in
+the derivation and in fact i think that
+things like v and v star have been
+somewhat misinterpreted they're not
+really the it's not really a verbal
+categorize err it's basically a phase
+marker
+and I think we should think of both in
+what we've been calling or what I'm now
+calling small in and small we used to
+call small V as being basically the two
+kinds of phase markers the and I think
+kind of natural way of capturing this is
+to go back to a classical distinction
+actually goes back to classical Greece
+which has been used sometimes in
+generative grammar and to assume that we
+really have two fundamental notions
+classical terms they're the notions
+which gives you four categories plus s
+minus P which is minus s plus P which is
+verbal and in classical grammars that's
+all there is so if you look at the
+classical Greek grammar errors up till
+late into the Latin the Roman period
+those are the only categories there's no
+adjectives adjectives we can add but
+we'll consider it a non primitive
+category it would be both substantive
+and predicated and then there's the
+course the fourth one which is neither
+and that's the rest of the junk that's
+lying around preposition as and so on
+and so forth but the two major
+categories the ones that really count
+are probably the ones that are the
+perfect substantive and the perfect
+predicate the ones from essentially
+classical grammar and there is some and
+these are distinct from the categorize
+errs N&V those are totally different
+notions on these things then would mark
+the phases and it's kind of striking
+that and they would be the links all of
+these would be the things that
+coordination conjunction disjunction
+link to the notice that there's a
+well-known phenomenon about extraction
+that holds of both nominal phrases and
+verbal phrases there are some nominal
+and verbal phrases which resist
+extraction you can only extract to the
+edge you can't go out of the element so
+we'll call those strong in the case of
+verb phrase
+it's the transitive verb phrases the
+ones that usually marked these store
+those constitute strong phases that you
+can't move out of you've got a first go
+to the edge then you can go on the weak
+phases say annika sitive passives you
+can extract all the way and there's the
+same distinction in nominal phrases so
+the complex noun phrase constraint it's
+been known for a long time it works
+strongly for definites but not for
+indefinite it's nonspecific and specific
+so the extraction out of a definite noun
+phrases violates the rules extraction
+out of a indefinite nonspecific it's a
+very straightforward so it looks like
+both the nominal and verbal phases have
+the category break into the categories
+say strong and weak and what we're
+calling V and little the two types of
+flavors of a V and V star probably just
+strong and weak phase markers perhaps
+framed in this in this system the there
+is another that there's been a lot of
+discussion over the years about whether
+noun phrases are really phases like verb
+phrases and the one problem about it was
+that they have a lot of similarities but
+there's one notable difference and that
+is you don't have an escape hatch in
+noun phrases there's no nothing that
+allows you to go to the edge and then go
+on but fortunately as I learned a couple
+of weeks ago there's a nice African
+language called bully which has which
+does have an escape hatch has a marker
+that says okay if this is here we can
+add on to the noun phrase and then go on
+so if we simply assume that the basis
+for all languages is Semitic proto
+Semitic and boolean then everything
+works out so we're off and running just
+have to find the right languages other
+languages like say English are defective
+in this respect they don't have that
+extra morphological element that's one
+of the nice things about doing
+comparative work you can fill in the
+blanks that oughta be there well if you
+play with this you'll notice that it can
+get pretty complicated so for example it
+could be that one of the con junks say
+s0 yes you know the third element in the
+sequence it could if this is a
+conjunction
+the third one could be a disjunction
+okay you can stick a disjunction inside
+a conjunction
+and that disjunction could be an
+unbounded on structure element and if
+you play with it gets very complex I'll
+put that aside the the principles for
+dealing it are straightforward but the
+actual working it out becomes pretty
+hairy but it's not a fundamental problem
+just a technical problem now there is a
+fundamental problem which was made very
+clear by recent work of Barry shines I
+don't know if he's around here somewhere
+but Barry has a very terrific book a
+great book that every cement assist or a
+study carefully which I think is the
+longest book with the shortest title and
+the entire literature's the book called
+and 600 pages of details about the
+extreme intriguing complexities that you
+get in the somatic interpretation of
+coordinate structures it's all done in a
+kind of an event calculus Neil David's
+own in event calculus so here's the task
+the task is to take assuming that this
+is the right kind of syntactic formalism
+you might play around with it a little
+assume that if this is correct how can
+you go to this from this to those
+somatic objects okay I'll come back
+later if there's a little time to the
+nature of these semantic objects but I
+think he gives good evidence that that's
+the kind of target that the mapping from
+syntax to formal semantics is trying to
+achieve so here's a huge unsolved
+problem for those of you are looking for
+dissertation topics one of many that
+nice fortunately there's lots of such
+topics hanging around I should say
+incidentally that this is a dramatic
+difference from say the 1950s and even
+the 1960s at that time it looked like
+there was almost no topics it looked
+like this whole field was finished I
+think I mentioned this earlier and one
+of the really striking things that's
+happened during my lifetime is that the
+field went from one that was terminated
+to 1 that's entirely endless and open
+everywhere you look there's just more
+problems that's a good sign that at
+least something's on the right track
+because that's the way things ought to
+be people who are just coming into the
+field now probably aren't struck by the
+dramatic difference but if you look back
+it really is dramatic
+well the another case that's an
+intriguing one is see how to bring this
+in well that's probably too complicated
+to go into it I'll skip this
+well there are lots of other there are
+plenty of other candidates for para
+merge some of them are interesting
+unsolved problems so for example if you
+take the paradigm things like John Mary
+saw the man walking down the street
+saying or Mary saw the man walk down the
+street you run through that and familiar
+paradigm you notice that there's a gap a
+strange gap in it with the bare verbs
+like Mary saw the man walk down the
+street you can't passive eyes so you can
+say the man was seen walking down the
+street but not the man was seen walk
+down the street this holds for two
+categories of verbs perception verbs and
+quasi causative verbs like make or let
+you know so I made the guy walk down the
+street but not the guy was made walking
+down the street those two categories
+this has been a kind of a funny sort of
+gap for a long time no good explanation
+for it there is a proposal and
+interesting proposal by Norman Richards
+in terms of his continuity theory that
+it has to do with the output of passive
+ization but that doesn't work because
+the same problem arises with in situ
+passives so kind of a little awkward in
+English normal in most languages but not
+bad in English if you saw say things
+like there were seen walking down the
+street
+three men let's say that's more or less
+okay but if you try there were seen walk
+down the street three men that's
+hopeless okay so there's a sharp
+distinction between
+passives and non passives whether or not
+you move the object okay so that can't
+be what's involved so what could be
+involved well what could be involved
+this kind of suggested by the fact that
+this holds for the quasi positives let
+and make one might imagine may be that
+these things really are just spelling
+english-style spilling out of causative
+morphemes which attach to a to a verb
+which are all over the place English
+tends to not use affixes to spell things
+out us words but these things could be
+affixes so it could be that let and make
+are just the causative affix is attached
+to the verb bear verb then comes an
+interesting question why should
+perception verbs have the same property
+but putting that on the Shelf if they
+all have this property what you might
+expect is that all of these are hair
+emerged to the bare verb and the pair
+emerged element is just immune to the
+passive operation say whatever you think
+passive is maybe dropping the case case
+let's say so that's that would fill in
+the gap making use of the pair emerge
+device there are other interesting
+proposals one of them's he said key
+Tijeras suggestion about what has always
+been a pretty serious problem the head
+raising head raising has none of the
+right properties it violates the
+extension condition it it's always
+described incorrectly if a verb raises
+to inflection say to tea it's always
+described as if it's a tea but it's not
+it's a V the things somehow that's a
+joined is really verbal not inflectional
+and the fur will further move of V to C
+is really kind of visa the second
+phenomena not a tea second phenomena so
+there's all kind of problems another
+kind of problem with it is
+it's sort of head raising has properties
+that are kind of shared the cross syntax
+and phonology so it's almost entirely
+like phonological processes in that it
+doesn't have semantic consequences so
+with the arrays say take Pollock's
+analysis of french and english which
+many of you know if you raise in french
+you tend to raise the verb and english
+not to raise it but the semantics
+doesn't change if you have a v second
+language it's has the same semantic
+properties as a non v second language
+and in fact you have to look very hard
+way out of the fringes to find some kind
+of semantic consequences to hedge
+raising that makes it look phonological
+but the trouble is its successive cyclic
+which makes it look syntactic so it's
+kind of problematic all alone but the
+real question is how do you get around
+this how can you actually create it
+without violating all the rules well he
+says proposal is this essentially we'll
+just take the VMP t2c case the same for
+the others you generate
+you generate see then that's just
+ordinary sign and generate see is in the
+workspace because that's where the
+lexicon is so you just look at it it's
+there in the workspace then you merge
+these two para merge them see we now
+have a set the workspace now contains
+this this notice by merging C and T you
+haven't increased the number of
+accessible elements because neither of
+these is accessible okay that was as
+we've already pointed out they're just
+like old man so and once you've done
+this you now simply merge this thing and
+if you think about it you can do all the
+head raising that way I thought for a
+while that there were some problems
+about this he said I responded about it
+but I think the problems are easily
+overcome so that's a possible way of
+approaching the entire problem of head
+more of head raising which has been a
+tricky and serious problem so leave it
+in your your hands to play around with
+that and see if you can handle the rest
+of head raising that way but a simple
+way to proceed which doesn't violate any
+of the rules doesn't add accessible
+elements just follows all that's just
+available you know and then anything new
+for it
+and it's crucially has to be para merge
+for one thing because that's the way
+these things end up they end up as
+adjuncts not as sets and secondly it
+doesn't add accessible items so it
+doesn't violate the resource constraint
+so it has the right properties in that
+respect
+well the
+there's plenty of questions like this
+there's there's a lot of the a major
+task that is faced is to take all of the
+cases that took two tasks an our first
+one take the cases that have been
+described usefully by illegitimate
+operations to take all the cases that
+have been handled by say late merge
+which is very widely used or by parallel
+merge which gives you all the
+multidimensionality cases and so on take
+that whole class of cases and show how
+you can handle them by legitimate
+operations I gave a couple of examples
+last time like a TB parasitic gaps but
+do it for the whole slew of them and of
+course the broader task is take a look
+at that massive data out there and see
+if you can make some sense out of it
+that's we we now have a criterion for
+what make sense means make sense means
+get a genuine explanation where a
+genuine explanation means one that's
+that that can be that meets the
+conditions the crucial conditions of
+learnability and evolvability
+and if you can reduce it to merge you've
+solved that problem because there's no
+question of learnability
+and the problem with evolvability as I
+mentioned it's basically solved you have
+to look at the details of how it worked
+but we know it happened okay so if you
+can get to that you have a genuine
+explanation if you can reduce things to
+pair merge you've come pretty close you
+still have to ask the question of how
+pair merge could have evolved but at
+least that's an easier question than
+lots of other things you can imagine we
+would then like to try to show that the
+other devices that seem critical for
+explaining things like say phase theory
+can be reduced
+- third factor properties of minimal
+computation they do in fact reduce
+computation so if you could show that
+that's another third factor condition
+like resource or striction you'll have a
+genuine explanation now that's the
+general project but notice it and make
+its again should be clearer going back
+to my first lecture that this project
+only arises if you accept a particular
+version of what the whole enterprise of
+linguistics is if you pick a particular
+kind of answer the initial question
+what's what is language what are we
+doing the answer is the the enterprise
+is one that attempts to deal with to
+address that what I called earlier the
+Galilean challenge the challenge that
+was posed at the beginning of the
+Scientific Revolution which translates
+in our terms into capturing the basic
+property of language the property of
+that each of the Faculty of language
+permits the generation of an infinite
+number of structured expressions with
+somatic interpretations and the option
+of ancillary operation of mapping at the
+one or another sensory motor condition
+if you accept that project and then a
+particular variant of that project which
+not all people who do generative grammar
+accept the second variant is to assume
+that this is part of natural science ok
+in other words follow what's called the
+bio linguistic program take this
+property to be a property of human
+beings not some object out in the
+external world which somehow magically
+human beings connect with but just an
+actual property of human beings then you
+meet you have to meet the conditions of
+evolve ability and learn ability then we
+have the notion of genuine excellent
+nation then all this mass of questions
+arises often with solutions often not
+notice again that not excepting this
+enterprise is perfectly legitimate it's
+a way of getting describing things in
+ways which might be very useful it's
+also useful for engineering projects
+kind of Silicon Valley linguistics where
+you don't really try to explain it just
+get something that works lots of
+interesting things you can do but this
+is a very specific approach to language
+saying it's part of natural science it's
+trying to meet the galilean challenge if
+that's the enterprise then these are the
+kind of questions that arise well
+there's another topic that I oughta at
+least mention there's not much time for
+it which is just left out entirely a
+computational system has rules and atoms
+things that are the smallest elements of
+the computation I mentioned earlier that
+if you have if you have merge and a one
+element lexicon you know just one thing
+in the lexicon one atom then in fact
+internal merge gives you the successor
+function and I showed some reasons to
+think that that's a natural outcome but
+in any event they've gotta be atoms and
+I haven't said anything about those so
+what are the atoms of computation and
+right at this point we're moving to a
+domain that I really didn't talk about
+namely the general domain of cymatics so
+what how does the domain of cymatics fit
+into this enterprise well here you have
+to be a little careful I have to ask
+what you mean by semantics there's a
+classical notion she goes way back in
+history but in the modern period it's a
+frigging charles sanders peirce tarski
+Quine you know that tradition this
+concept of semantics has basically to
+two essential notions the one is one is
+the notion truth and reference which are
+essentially the same thing and the other
+is the notion entailment with many
+variants so let's take a look at those
+two notions first of all the notion
+entailment is not semantics its syntax
+okay
+it's called logical syntax entailment as
+a matter of the formal relations among
+expressions the world doesn't even have
+to exist okay semantics is the field
+that tries to relate the internal mental
+computations to the world the actual
+real world out there that semantics
+that's truth and reference but
+entailment is logical syntax and if you
+look at what's called formal semantics
+which are some of the richest and most
+exciting work going on in the field in
+the last couple of decades notice it's
+all syntax it's all pure syntax and it's
+an interesting kind of syntax it's sort
+of analogous to phonology if you think
+about the externalization process what
+do we have the syntax generates a set of
+objects we then want to externalize it
+and that process of externalization has
+two steps the first it's called you know
+traditionally more phonemic sore
+phonology in the sense that say Mars and
+Allie Mars Hallie and I use the term but
+it's the mapping of the syntactic
+structures to some sort of phonetic form
+the phonetic form
+as a syntactic object of course and the
+mapping is a it's a symbolic
+manipulation so it's again syntax in the
+general sense it's a particular part of
+syntax I should say that this task of
+mapping with generative phonology
+mapping syntactic structures the
+phonetic form has pretty much been
+abandoned in modern phonology
+contemporary phonology is mostly
+optimality theory and that simply
+doesn't look at this question okay its
+deals with other questions but this
+question of generative phonology which
+was in fact the first thing that was
+discussed back in the late forties early
+fifties has been pretty much forgotten
+but it's it's there you know it's a
+problem that has to be solved if you are
+concerned with externalization with how
+language you know gets out there to be
+sounds or signs the so one-to-one task
+which is really part of syntax is
+generative phonology mapping syntactic
+objects to say narrow phonetics then
+there's another task and that is taking
+the narrow phonetics and telling us how
+it relates to motions of the articulator
+Zoar to sound waves or if you haven't be
+doing sign now your gestures end up you
+know actually being formed you know how
+do you move your fingers and so on
+that's phonetics acoustic and
+articulatory phonetics if you think go
+back to semantics formal semantics is
+like phonology it's syntactic operations
+setting the stage you hope for eventual
+relation to the outside world just as
+phonology generative phonology is
+syntactic operations setting the stage
+for the connotation to fill in
+relates to moving your articulate errs
+around okay which gets into the outside
+world something outside language well
+this then comes the question notice that
+of all of the domains of the study of
+language it's almost all syntax it's
+what we call kind of narrow syntax just
+forming the syntactic objects what I've
+been talking about the last couple of
+days another a part of syntax is
+generous phonology another part of
+syntax is formal semantics all of this
+stuff is going on inside the head right
+doesn't get to the outside world
+it's neither phonetics and/or semantics
+the of all of these areas the area of
+formal semantics is different from the
+other two in the way it's been pursued
+which raises interesting questions it is
+the only domain that has not been
+subjected to the effort to find genuine
+explanations so there's no effort within
+formal semantics to ask what's the
+simplest way to do it the problem is
+let's just find a way to do it you know
+if you can get a way to do it by
+sticking in lots of lambdas and so on
+and so forth okay we'll do it that way
+but the question of what's the best way
+to do it the way that really gives
+explanations that really hasn't been
+raised now that's not a criticism it's a
+very hard question and so if it's not
+been raised well hard questions often
+tend not to be raised but one should
+remember that it's a question to be
+dealt with someday as formal semantics
+develops this branch of syntax develops
+it should go the way of the generative
+syntax and generative phonology in the
+case of generative phonology is a lot of
+work on how to get the optimal way of
+doing it in fact that
+but things like sound pattern of English
+are about and many other plenty of other
+work and narrow syntax kind of stuff
+we've been talking about formal
+semantics that part of syntax the
+question really hasn't arisen sooner or
+later it should arise another
+interesting aspect of formal semantics
+is it's it's kind of tacitly assumed to
+be invariant
+so if you there's no proposals that
+languages have parametric differences
+and how you interpret say quantifiers
+and variables there's a way of doing it
+and if you do it that's universal which
+is a very reasonable assumption because
+if you think about the things that are
+being investigated there's absolutely no
+empirical evidence for them a child has
+no evidence about any of them so if you
+look at the literature you look at the
+things that are people are studying
+they're totally without evidence so
+either they're just not accurate or if
+they're accurate they're gonna be
+universal so it does make sense to say
+that this part of syntax is invariant
+I've talked a little about whether
+narrow syntax is invariant that's an
+open question it doesn't look like it on
+the surface but a lot of the work that's
+been done is kind of restricting the
+domain of variability of narrow syntax
+to the point where you might imagine
+that the core of narrower syntax what's
+dealing with the galilean challenge the
+yields of a struct the operations that
+are yielding the semantically
+interpreted objects maybe that doesn't
+vary that we don't know it's an open
+question could if it doesn't vary at all
+then the variability of language is
+entirely an externalization we're
+certainly varies all over the map no not
+any question there I mean not you know
+it's not free there's very interesting
+restrictions but a lot of variation
+possible so that's the kind of picture
+that seems to be emerging I think and it
+leaves open this thing here where does
+that fit in how do we relate this stuff
+that's going on inside the head to the
+outside world turns out not to be such a
+simple question the in fact if you look
+at the proposals and formal semantics we
+they sound as if they're relating to the
+outside world but when you look at them
+they're actually not so it takes a model
+theoretic approaches the elements of the
+model are sort of one treats them as if
+they're actually out there but in fact
+if you look at the elements of the model
+they're completely mental objects
+there's nothing in the outside world
+that is corresponds to those postulated
+objects of the model so the model
+theoretic semantics works fine you know
+you can do all kind of things with it
+study necessity you know so on and so
+forth but it's all pure syntax it's not
+getting to the outside world
+what about event semantics which is a
+very rich and productive field the kind
+of neo David Stone in event semantics
+well what are events I mean our events
+things in the world does the world come
+packaged in events actually it doesn't
+you know events are our mental
+constructions imposed on whatever is
+going on so events are really internal
+and we know that to try to count the
+number of events that's going on it's
+kind of meaningless so for example
+thanks to Zeno we know that if you walk
+across the room there's a continuous the
+number of events is the power of the
+continuum okay and same with anything
+else you're looking at so there are
+about as many events as you decide to
+impose so event semantics which is very
+productive and rich is again another
+form of syntax so how do we get beyond
+syntax well we have to look at the
+notion of reference truth will depend on
+reference and if we want to look at the
+notion of reference we start naturally
+by looking at the words that purport to
+refer so you look at the literature on
+reference mostly philosophical
+literature say London is taken to be a
+prototypical a referential word a lot of
+problems arise say Kripke's polls of
+belief when you try to ask questions
+about London but is London a thing in
+the outside world well you can ask
+yourself so for example I can tell you
+that I visited London before it was
+burned down and rebuilt 20 miles up the
+Thames so is there an object in the real
+world which is physical because it can
+be burned down but then can be rebuilt
+somewhere else
+with different physical objects and
+looking differently is there such an
+object in the physical world and the
+outside in the material world certainly
+not I could we could decide to rebuild
+Carthage let's say what's gone a couple
+thousand years ago we could rebuild it
+somewhere else look different but it
+could be carthage so whatever these
+things are they're not names of things
+in the outside world what about other
+words are there in fact we might rest
+the question whether there are any words
+and language at all that refer to
+anything in the outside world I think
+the answer is there aren't some of the
+reasons for this were given as far back
+as classical Greece so for example
+Aristotle
+asked the question what is a house and
+his answer was a house consists of the
+amalgam of two different kinds of
+elements in his metaphysics they're
+matter and form so the matter of the
+house is the timbers the bricks you know
+the stuff it was made of the form of the
+house is the design that what it's for
+that what the architect had in mind how
+it's used and so on so something might
+look physically just like a house but in
+fact be something totally different it
+could be a library let's say it could be
+garage you know could be a paperweight
+for a giant could be all kinds of things
+it depends on what the architect had in
+mind and how it's used what it's for
+basically but the properties of form are
+not in the physical world
+they're in the mental world know when
+our Aristotle talked about this this is
+from his point of view metaphysics in
+fact it's in his book metaphysics but
+when you go to some 17th century again
+there was a kind of a cognitive
+revolution and a lot of these ideas were
+reinterpreted in terms of modes of
+cognition which i think is the right way
+to look at them so reinterpreting it and
+that those terms a house is something
+that we constructed our minds which has
+a material element but of course the
+crucial part of it is what Aristotle
+called the form that's something that's
+part of our mental operations so when we
+use the word house we're not referring
+to an object and we are and we're
+carrying out the act of referring like
+I'm referring to that object over there
+but the word house is not referring okay
+you think about every word in the
+language it's exactly the same
+there's a example even earlier than
+Aristotle the pre-socratic example used
+by a Heraclitus who argued that you
+can't cross the same river twice because
+when you cross it the second time it's
+completely different physical object and
+you're a different physical object so
+it's impossible to cross the same river
+twice of course we do cross the same
+river twice which simply tells us that
+our notion river does not refer to
+anything in the material world it refers
+to a construction that we developed and
+if you start playing around with how do
+you individuate these objects becomes
+pretty tricky so for example take River
+again say the the Charles River which I
+used to cross on the way to work up and
+back every day in boss mode suppose you
+take the Charles River and you reverse
+the course of the water goes the
+opposite direction okay
+you've still the Charles River I suppose
+you diverted into a different direction
+because you don't want it to go into the
+bay but somewhere else
+still the Charles River in fact you can
+play around with it and make all sorts
+of massive changes in the physical
+object and will still be the Charles
+River on the other hand there are
+trivial changes that will prevent it
+from being a river at all so suppose you
+put barriers along the side and you
+start using it for say commercial
+tankers going up and down now it's
+between two points then it's a canal
+it's not a river anymore
+suppose you even make a more miniscule
+change you make what and physics is
+called a phase change from the liquid to
+the glassy state tiny change almost
+undetectable instruments but now it has
+a hard surface and you paint a line down
+the middle and
+you start using it to commute to Boston
+okay now it's a highway you've made an
+almost undetectable change if you play
+around with it some more you can see
+that you can make huge changes in the
+physical object stays the Charles River
+you can make virtually undetectable
+changes it's not a river at all take a
+look at any other word in the language
+you finds pretty much the same so it may
+be that language simply does not have
+the concept of truth and reference at
+all which means it doesn't have
+semantics
+there is no semantics there's syntax and
+there's modes of use that using the
+objects you've constructed roughly
+what's called pragmatics it could turn
+out that the whole study of language
+reduces to syntax and pragmatics with
+syntax having these many different
+variants in fact my guess is that's
+probably what we're gonna find when we
+when we pursue the topic further that
+raises many very interesting questions
+so for example take these terms like
+house or River London whatever you like
+where do they come from if we look at
+animal symbolic systems a very striking
+feature of them is that the atoms of
+these systems the elements within them
+do in fact pick out identifiable
+physical events okay so you take the
+take the B that's has my name attached
+to it if it's a honeybee and does the
+right source of things then it's you
+know it does the famous waggle dance it
+flies out to a flower comes back to the
+waggles and the things that it's doing
+are one-to-one identified with
+particular physical phenomena
+to the B the distance to the flower the
+height of the flower the orientation in
+which you have to fly and quality the
+flower and so on every animal system we
+know is like that monkey calls for
+example if there's something we call a
+warning call what it means is the leaves
+are fluttering in a certain way that
+monkey reflexively emits some noise
+other monkeys run away maybe an Eagles
+coming something like that animal
+systems seem to be like this completely
+the human systems are not like this at
+all that raises a very interesting
+question another one of those mysteries
+where did this come from
+and if you look at the array of
+mysterious things there are plenty of
+them and they fall into a couple of
+categories two categories one category
+is the category of mysteries where we
+just can't get the right kind of
+evidence because it's just empirically
+impossible for us to do it we can't go
+back say 200 thousand years and hear
+what people were saying and in principle
+yo its it's an empirically possible
+it's a theoretically possible test but
+you just can't do it that's one kind of
+mystery but then there's the deeper
+kinds of mysteries which have to do with
+things like selecting the sequence given
+by the Hilbert epsilon operator when
+you're trying to form a coordination or
+more generally just picking what
+sentence you're going to produce and
+these kinds of mysteries are the kind
+where you really don't even have bad
+ideas
+there's no idea as to how to proceed
+those we could ask what that category of
+mysteries is like could mean that some
+restriction on human cognitive
+capacities a lot of debate about this
+most
+scientists vigorously reject the idea
+that there could be a limit on cognitive
+capacities but if you think about it
+it's just strange position if humans are
+similar or part of the organic world not
+say angels we ought to have the same
+properties as other kinds of organisms
+some respects every organism we know has
+scope of cognitive capacity and limits
+of cognitive capacity and in fact the
+two are kind of logically related
+whatever is yielding the scope is also
+imposing certain limits and you might
+ask why humans should be exempt from
+this so I hope the former phonologists
+and Samantha cysts in the audience who
+are now sin tactician z-- will have
+questions may the questions begin yes
+here in the front down here yep the mic
+is coming well first of all thank you so
+much and I would like to ask you
+considering all this fascinating theory
+how could you define madness for us
+define madness in Portuguese locota
+given what you have said so far could
+you define madness and and I could go I
+would like to go a little further and
+ask you what could you say about these
+writers I'm thinking people like Samuel
+Beckett or Antonin Artaud Antonin Artaud
+and the French one whose texts are
+always dealing us this
+being seen thanks with disturbing syntax
+yeah okay literature would you maybe
+also like to comment on Samuel Beckett
+or the second author was otto Anton uh
+octo whose writings are about disturbing
+syntax yes no not about but whose
+writing are always really disturbing
+syntax oh okay thank you know a good bit
+of creative literature makes use of the
+properties of language but purposely
+distorts them to impose tasks for the
+reader so if you read say serious
+literary criticisms a book like William
+empson's seven types of ambiguity which
+is a kind of a famous work of the 1950s
+Empson argues that poetry in particular
+he said is designed to have actually
+completely minimal use of language to
+impose on the reader the task of
+creating interpretations and using the
+readers imagined of resources to
+reconstruct what's not presented in the
+text so poetry would be different from
+say a literal description which tells
+you everything that's happening because
+it's calling on the reader to create and
+invent theirs
+if you go back further of the classical
+aesthetic theory like Slagel for example
+Coleridge borrowed from we're familiar
+with this mostly from Coleridge but it
+comes from Schlegel he argued that he
+had an interesting argument that he
+argued that poetry was the most exalted
+of the arts and he pointed out that when
+you talk about the poetic quality and
+music you're talking about its
+imaginative character when you talk
+about the musical quality of poetry
+you're talking about something less
+significant you know the way it sounds
+or something and then he asked the
+question why should poetry have this
+special status and he argued that every
+art form has some medium so sculpture
+deals with marble painting deals with
+colors you know each one has its medium
+poetry also has a medium language but
+language differs from the others and
+it's inherently creative it has an
+inherently creative aspect that's the
+galilean challenge again recognized it's
+got this capacity of creativity
+internally to it
+so therefore the art form that makes use
+of this modality will be uniquely
+creative and in fact will be used in
+such a way as to draw from the reader
+the the imaginative resources that are
+inherent and the in the medium itself
+now when you get to say Samuel Beckett
+or literary artists in general they're
+playing with this all the time for
+trying to compel the reader to think and
+create and imagine I wouldn't call it
+madness Plato did Plato argued that
+there was recognized there's various
+levels of creativity there's the kind of
+creativity that exists and say normal
+language use when you're kind of like
+constantly creating but there's a higher
+form of creativity that has this true
+aesthetic value and a Plato argued that
+that's as a form of madness
+so okay question over here
+thank you I would like to know what your
+perspective is about natural semantics
+metalanguage the approach that provides
+sixty-four words that are supposed to be
+semantic Prime's and that provides a
+semantic foundation for universal
+grammar oh that my proposed a foundation
+for that do you have a comment on
+natural semantics which provides a meta
+language of 64 developed by an Africa
+and Qatar in Australia I don't but I can
+repeat it again it was by Godard and
+another pika another Sica Australian
+well I think it's interesting work she's
+trying to find fundamental elements that
+appear and somatic systems generally
+then it's I'm not really very conversant
+with the work but I've looked at it and
+I think it's in you know it's a
+promising virtual direction she has some
+interesting insights but it's an attempt
+to find as I understand that the basic
+elements that can't that are
+constitutive of the knight of the
+systems of natural semantics in the
+world which is a reasonable project over
+here
+Gabe in the red shirt hi um so it seems
+like one of the main philosophical
+motivations for positing an externalist
+notion of reference is that you need
+that in order to get some notion of
+objective truth so when I make claims
+about London say I'm not just expressing
+some perspective I have on the world I'm
+making a claim which can be
+independently evaluated as true or false
+do you think that this sort of
+internalist notion of reference that you
+have is there a way of reconstructing
+objective truth or are we kind of
+condemned to have a merely subjective
+I'm it's true if I'm talking about
+London if I say I take the sentence I I
+gave as an example suppose I say again
+something like this I visited London
+last year before it was burned down by a
+fire and was rebuilt 20 miles up the
+Thames that's a statement that can be
+evaluated but the question is is there a
+physical entity identifiable in the
+outside world that I'm picking out and I
+don't think there is I'm talking about
+the world undoubtedly there is what
+Aristotle called the material element so
+you know it's 20 miles up not 50 miles
+up that it was this place that people
+lived in now it's some totally different
+place it's still London meaning what the
+criteria of individuation and
+identification are in fact mental
+conditions but notice that that
+shouldn't surprise us too much because
+that's true of cognition in general we
+don't have what's called immediate
+experience is already constructed by the
+mind you know there is sensory
+stimulation hitting your retina but
+that's not what you
+they were two experienced depends on
+what were called in the 17th century
+modes of cognition ways of interpreting
+the data that's immediate experience so
+the most immediate experience we have
+the most we're most confident about and
+certain about is already constructed
+whatever is objective is something we
+postulate we hope that there is a real
+world out there which is somehow giving
+us the data that we experience but what
+that real world is for that we go to the
+physicists and they have some very
+strange answers so for example you go to
+the Institute for Advanced Study and
+talk to the late John Wheeler great
+physicist for him the world consisted of
+answers to questions that we posed
+that's what he calls the it from bit
+there's no world at all we just ask
+questions we get answers that's the
+world ok that's what he says but
+whatever it is it's something we
+postulate it's not something we
+experience so in fact if the words we
+used to refer also have this property it
+shouldn't really surprise us that much
+that we are different from other
+organisms in that respect one of the
+many respects from Gabe Gabe
+another game they say that a picture is
+worth a thousand words let me stand up
+but we might say that a picture entails
+a thousand sentences and your picture of
+entailment is as a kind of syntactic
+relationship but in this kind of case we
+have a relationship between domains that
+very different syntaxes and so i'm
+curious about what is your general view
+of entailment coreference other kinds of
+apparent semantic relations that
+obtained between representational
+modalities
+I don't know that I can do justice yes
+let me give a one-sentence version sorry
+what is until if entailment is syntactic
+how do we entail from vision to language
+if entailment is syntactic how do we
+entail from vision to language well
+that's not until meant that's inference
+which is something quite different
+so entailment is a formal relation among
+syntactic objects you know you take a
+look at quantification theory tells you
+how this syntactic object relates to
+that syntactic object inference is an
+act that we carry out very mysterious
+act we have we face problems there's
+some thing out there that's puzzling you
+know why does across-the-board deletion
+work let's say and then you invent you
+somehow come construct a theoretical
+idea which you then try to ask does this
+account for the basic properties of the
+data nobody knows how that works if you
+take Corson's Jerseyan studying physics
+at UCLA I'm pretty sure there isn't a
+course on methodology there might be in
+the sociology department but it's very
+unlikely to find one and the physics or
+the chemistry department of course there
+is no method it's just something that
+you manage to do somehow some people do
+it better than others but nobody knows
+how it's done this actually relates to a
+concept that I just was using as if it's
+straightforward and neutral but it isn't
+that's descriptive adequacy so one of
+the things we want to do in studying
+linguistics is to make sure that our
+explanations meet the condition of
+script of adequacy at least we get the
+facts right but that's a very complex
+notion what's descriptive adequacy and
+it's not just all the data you have
+around for one thing the data that are
+out there are not pure data they're not
+data that specifically come from the
+particular source that you're trying to
+investigate that's why scientists do
+experiments instead of just you know
+cataloging things that go on the world
+the reason every experiment is a high
+level abstraction each experiment is a
+very complex abstraction theory-driven
+which says I'm gonna throw away lots of
+stuff that's going on and look at this
+particular thing because I think somehow
+this particular thing bears on an
+explanation of what might be going on in
+the world that's that's the most
+elementary part of science it's already
+trying to abstract away from all the
+noise out there and seeing what might be
+useful for explaining something and
+those things are the properties of
+inference but you know the way you learn
+how to do that in the sciences is just
+by watching other people do it you say
+here's the way it was done I'll see if I
+can do that myself but there's nothing
+you can you can't teach it you know you
+can't teach how to carry out successful
+inference you learn it the way kind of
+the way a carpenter learns his craft you
+know by watching skilled artisans do it
+and you sort of pick it up but I think
+that's about all the one can say about
+inference time of course there's you
+know philosophical discussion of it but
+you have to really cautious about the
+discussion so for example one of the
+ideas that people scientists commonly
+uses the notion of poppers notion of
+falsifiability so if you have a theory
+that can be falsified
+real and if you get a negative result
+you throw the theory out every scientist
+knows you never do that if you get data
+that falsifies your theory what you
+usually do is say well I'll put it on
+the shelf
+maybe somebody will figure out what's
+wrong with it but if the theory looks
+good I don't care if it's falsified you
+know and if you look at the history of
+science that happens all the time on
+crucial cases you know so they're kind
+of rules of thumb but they don't really
+work that's not the way scientific
+enquiries done or rational inquiry in
+any area you know not just Natural
+Sciences that the sciences of the best
+place to look because it's most refined
+you know they're you really have deep
+results and so on you learn how things
+are done but it's part of just ordinary
+life you had asked earlier I just had a
+clarification question probably I
+misunderstood so it is for dealing how
+we dealt with head raising over there up
+on the board so I just wanted to clarify
+that just want a question about head
+raising oh you've got over here on the
+board yeah so my question was the parent
+head raising is it the set C T and T P T
+V P or is it C and the said T V P once
+can you repeat that please is it the
+pairs in the head raised in case T - C
+case is it the set C T and T V P or is
+it C under satty VP I didn't hear you it
+precisely but the question was that when
+you were discussing head raising and you
+had the set T VP TVP yeah which then
+further raises to C so the new set
+formed SCT or is the set form to C along
+with T V V is the new set that is formed
+see along with TVP no just T
+actually if you want to get the right
+answer the source of this is sitting
+right here so if I'm not giving the
+answer correctly you fix it but I think
+you have TVP yeah you've got see inside
+the lexicon so you take C and T form the
+pair C key that's just some new thing
+out there you haven't had an
+accessibility cause both of the elements
+are inaccessible
+now that you have C T sitting out there
+and you have the old TVP you can just
+merge them that gives you the the thing
+you're trying to so how does it how is
+it exactly different from external merge
+them how exactly is it different from
+external merge from peril
+well that's an interesting question like
+why can't you that's one of the problems
+that he said and I have been
+corresponding about for a while so you
+could imagine that after you've
+constructed CT TVP you start off
+somewhere else and you construct some
+other T V P and then you take this C T
+and you stick it on to that that would
+be an illegitimate operation but the
+question and I thought for a while that
+that was a serious objection to this but
+on reflection I don't really think it is
+because what you're getting that way is
+something you can always produce and
+it's illegitimate because the you're
+just getting a case where the T that you
+have up there is trying to be a copy of
+something down below but it isn't it's
+just a repetition of it so it's it's
+just something that's incoherent and you
+could always do that you could not not
+quite apart from this operation after
+you've constructed TVP you could make up
+some other things
+XP and just merge that on and it would
+be nonsense so you can always construct
+nonsense and I think this would just end
+up being a particulars ends notice that
+there's a subtle difference between the
+illegitimate we do want the system to
+generate non grammatical constructions
+that but we don't want it to generate
+things that violate linguistic
+principles that's quite different
+there's quite a distinct thing like it
+takes a negative polarity items things
+like say ever you can't say John was
+ever here but you can say I doubt that
+John was ever here but notice that in
+order to generate I doubt that John was
+ever here you first have to generate
+thought John was ever here so we
+certainly want to allow the system to
+generate ungrammatical sentences
+otherwise we can't get dramatical
+sentences and in fact we're perfectly
+happy to have the system generate things
+like metaphors that deviate from normal
+argument structure phrases like misery
+loves company for example which violate
+the selectional restrictions of the verb
+we want lots of things like that but we
+don't want the system to generate things
+like the books is on the table or a
+violation of island constraints that's a
+crucial difference not a very in many
+ways not a very clear one you have to
+think about it but that distinction just
+has to be there and this kind of case
+that you're suggesting would be one in
+which you're essentially creating
+something nonsense nonsense achill but
+not violating linguistic principles as
+distinct from parallel merge does it's a
+subtle but interesting distinction
+Oumar over here well okay thanks I
+really enjoyed these lectures and I just
+wanted to ask you what role does
+language change what role does the study
+of language study change to play in
+increasing our understanding of language
+in general quite alone I mean languages
+don't change in arbitrary ways they
+change in very specific ways and by
+looking at the kinds of ways in which
+language change we get evidence about
+what the system is like what are the
+dimensions in which language can change
+and which can't change and what what
+kinds of phenomena could cause that
+change notice this is very similar to
+the study of language acquisition we're
+asking how bits of data that come around
+lead to modifications of the system
+that's in the mind the language
+acquisition does it in one way language
+change does it another way so it's a
+probe into the kinds into the structure
+of the system that you're investigating
+what kind of things can happen what
+can't happen what makes them happen what
+doesn't have an effect and so on whether
+it's language acquisition or language
+change or you know dialect things like
+when you when you're mixing pieces of
+one one dialect into another or forgot
+the name for that also tells you things
+it can happen in certain ways not other
+ways lots of ways of studying the system
+you have a complex system you perturb it
+in all sorts of different ways you learn
+things over here
+hi my question is about you saying that
+truth and reference are essentially the
+same thing because while we were
+listening to the lecture and doing the
+Q&A everyone's taking notes in these
+really different ways reference I'm
+actually taking notes in three different
+ways I have an AI AB transcribing
+everything using an NLP then I have this
+kind of like josef novak concept map of
+my own stuff and I'm also texting my
+friends like oh my god Noam Chomsky said
+truth and references basically the same
+thing so why are they not exactly the
+same thing why did you say they are
+essentially the same thing and yeah that
+I mean that sentence was like she was
+intrigued by your statement that truth
+and reference are essentially the same
+thing and she asks
+she says she's familiar with three very
+different kinds of reference but she
+wonders why you didn't say they're
+exactly the same thing maybe you want to
+elaborate on that issue well you know a
+theory of truth says typically I have a
+name and a predicate and the name refers
+to an object out there and the predicate
+either does or doesn't apply to that
+object and if it does apply the
+statement subject predicate is true so
+if I say you know the Sun is in the sky
+the idea is the Sun refers to a
+particular object that's reference in
+the sky is a certain property my
+statement the Sun is in the sky is true
+just in case that property holds of the
+object for language that that doesn't
+really work for the sciences it it does
+work but it does work by stipulation
+when you're
+tests which are doing is constructing
+inventing concepts which do you hope
+have the property of reference so when a
+linguist develops the concept phoneme
+let's say they're saying I hope that
+there's something in the external world
+that this thing that this concept refers
+to if a physicist defines electron say
+they're saying I hope there's a thing
+out there that this one the one refers
+to okay so scientists are essentially
+trying to construct systems that do meet
+the referential criterion and therefore
+will be producing true or false
+sentences which can be evaluated by you
+know by experiment or observation but
+ordinary language just doesn't work like
+that
+at all the concepts that we have involve
+complicated interactions between what
+Aristotle called form and matter you
+know just fact about natural language in
+contrast animal communication systems
+seem pretty close to that of course they
+don't make true statements i'm indy you
+know the bee who's waggling is not
+trying to make a true statement he's
+just doing whatever the internal
+structure of the bee is telling him to
+do
+[Music]
+so can can we go back and maybe get a
+little bit of expansion on what you went
+through yesterday on a DB DB why don't
+we let that go till tomorrow because
+it's a long story
+10
+12
+14
+18
+22
+26
+29
+32
+37
+38
+43
+46
+49
+52
+59
+62
+65
+67
+70
+73
+76
+78
+81
+84
+88
+94
+97
+99
+101
+106
+117
+121
+125
+129
+133
+136
+139
+142
+146
+149
+151
+155
+157
+159
+162
+164
+167
+186
+189
+193
+194
+198
+200
+209
+212
+214
+227
+231
+236
+239
+244
+247
+253
+255
+259
+264
+267
+271
+273
+276
+279
+283
+295
+307
+310
+313
+316
+319
+321
+324
+327
+330
+333
+336
+339
+342
+344
+346
+348
+352
+354
+357
+359
+362
+364
+366
+368
+372
+374
+376
+381
+385
+390
+392
+395
+399
+402
+406
+410
+415
+418
+421
+425
+428
+430
+433
+435
+440
+443
+445
+448
+453
+458
+461
+463
+467
+472
+477
+481
+484
+487
+494
+498
+499
+502
+505
+508
+511
+513
+516
+519
+524
+528
+529
+532
+533
+536
+541
+544
+546
+549
+552
+555
+557
+561
+564
+567
+570
+572
+575
+578
+582
+585
+588
+592
+595
+598
+602
+605
+607
+610
+614
+618
+621
+624
+627
+630
+631
+634
+638
+640
+643
+646
+650
+652
+656
+660
+662
+666
+670
+674
+677
+680
+683
+687
+690
+693
+696
+699
+702
+703
+707
+710
+716
+720
+722
+724
+728
+732
+735
+738
+741
+744
+749
+752
+755
+758
+761
+764
+769
+771
+774
+777
+780
+783
+787
+789
+791
+796
+797
+804
+809
+813
+817
+826
+831
+839
+842
+846
+850
+859
+865
+868
+871
+874
+876
+884
+889
+894
+896
+899
+906
+910
+913
+917
+919
+920
+922
+927
+928
+932
+935
+937
+939
+942
+945
+947
+950
+954
+957
+960
+963
+968
+972
+974
+976
+976
+979
+982
+985
+988
+990
+992
+996
+1002
+1004
+1006
+1011
+1015
+1019
+1022
+1024
+1027
+1030
+1034
+1037
+1042
+1045
+1049
+1051
+1052
+1055
+1058
+1059
+1062
+1065
+1068
+1071
+1074
+1076
+1079
+1081
+1084
+1087
+1089
+1093
+1097
+1101
+1104
+1107
+1110
+1112
+1115
+1118
+1119
+1123
+1125
+1129
+1132
+1135
+1139
+1144
+1149
+1153
+1158
+1162
+1167
+1170
+1175
+1179
+1181
+1185
+1187
+1191
+1195
+1197
+1199
+1201
+1206
+1209
+1212
+1215
+1217
+1221
+1224
+1228
+1233
+1237
+1241
+1244
+1246
+1248
+1251
+1253
+1255
+1258
+1261
+1263
+1267
+1273
+1276
+1280
+1282
+1284
+1287
+1291
+1306
+1312
+1327
+1334
+1336
+1338
+1341
+1344
+1347
+1350
+1354
+1358
+1360
+1365
+1368
+1370
+1373
+1377
+1379
+1382
+1385
+1388
+1391
+1393
+1397
+1401
+1402
+1405
+1411
+1415
+1420
+1423
+1426
+1429
+1433
+1436
+1438
+1440
+1442
+1446
+1449
+1452
+1457
+1459
+1462
+1466
+1468
+1471
+1474
+1478
+1482
+1485
+1487
+1492
+1496
+1499
+1503
+1505
+1510
+1523
+1526
+1528
+1532
+1535
+1538
+1541
+1543
+1546
+1548
+1552
+1555
+1560
+1563
+1566
+1568
+1572
+1575
+1578
+1581
+1583
+1586
+1588
+1591
+1593
+1596
+1602
+1606
+1609
+1612
+1618
+1620
+1621
+1623
+1626
+1628
+1630
+1635
+1638
+1642
+1644
+1647
+1650
+1653
+1657
+1661
+1663
+1667
+1669
+1673
+1675
+1678
+1682
+1686
+1689
+1691
+1694
+1698
+1701
+1704
+1706
+1709
+1712
+1716
+1720
+1725
+1728
+1731
+1735
+1739
+1741
+1744
+1747
+1750
+1752
+1756
+1759
+1762
+1763
+1766
+1768
+1771
+1773
+1777
+1779
+1782
+1784
+1786
+1793
+1797
+1799
+1802
+1809
+1814
+1819
+1821
+1824
+1827
+1831
+1834
+1841
+1844
+1847
+1851
+1856
+1858
+1862
+1865
+1869
+1873
+1877
+1881
+1886
+1890
+1892
+1895
+1899
+1902
+1904
+1907
+1911
+1914
+1917
+1921
+1924
+1928
+1930
+1936
+1937
+1941
+1945
+1947
+1950
+1952
+1955
+1958
+1961
+1963
+1966
+1970
+1973
+1976
+1979
+1982
+1984
+1988
+1990
+1994
+1997
+2000
+2001
+2004
+2007
+2010
+2013
+2016
+2019
+2022
+2025
+2029
+2031
+2035
+2038
+2041
+2045
+2048
+2052
+2056
+2061
+2064
+2067
+2070
+2073
+2076
+2079
+2082
+2084
+2086
+2090
+2094
+2097
+2101
+2104
+2109
+2111
+2114
+2116
+2118
+2121
+2123
+2126
+2128
+2131
+2134
+2137
+2140
+2144
+2147
+2148
+2151
+2154
+2158
+2164
+2182
+2188
+2194
+2195
+2198
+2200
+2208
+2212
+2221
+2222
+2225
+2228
+2230
+2235
+2244
+2246
+2250
+2252
+2255
+2257
+2262
+2265
+2268
+2272
+2274
+2276
+2279
+2281
+2284
+2286
+2288
+2289
+2292
+2294
+2297
+2301
+2303
+2305
+2308
+2308
+2312
+2315
+2319
+2323
+2328
+2330
+2334
+2337
+2340
+2345
+2347
+2350
+2353
+2357
+2360
+2364
+2366
+2369
+2373
+2374
+2379
+2383
+2386
+2390
+2394
+2397
+2400
+2403
+2406
+2407
+2410
+2412
+2414
+2417
+2418
+2421
+2424
+2425
+2428
+2430
+2434
+2436
+2439
+2443
+2445
+2449
+2452
+2455
+2458
+2461
+2463
+2466
+2469
+2473
+2477
+2480
+2483
+2486
+2488
+2493
+2496
+2499
+2501
+2504
+2507
+2511
+2514
+2517
+2519
+2522
+2525
+2529
+2531
+2536
+2539
+2542
+2546
+2549
+2551
+2554
+2557
+2560
+2563
+2568
+2571
+2573
+2576
+2578
+2581
+2586
+2589
+2593
+2597
+2600
+2603
+2606
+2608
+2610
+2612
+2615
+2618
+2621
+2624
+2627
+2630
+2633
+2637
+2643
+2646
+2649
+2654
+2658
+2662
+2664
+2666
+2670
+2672
+2675
+2678
+2681
+2683
+2687
+2690
+2692
+2695
+2698
+2702
+2704
+2709
+2713
+2717
+2726
+2731
+2737
+2741
+2745
+2748
+2752
+2753
+2757
+2760
+2762
+2767
+2770
+2773
+2777
+2779
+2784
+2786
+2788
+2790
+2794
+2799
+2802
+2806
+2809
+2813
+2816
+2819
+2825
+2828
+2832
+2835
+2838
+2840
+2842
+2845
+2848
+2851
+2854
+2858
+2862
+2864
+2867
+2870
+2872
+2875
+2878
+2880
+2884
+2886
+2888
+2892
+2894
+2898
+2901
+2904
+2910
+2912
+2916
+2920
+2923
+2926
+2930
+2934
+2938
+2941
+2943
+2946
+2948
+2951
+2957
+2961
+2965
+2968
+2972
+2976
+2978
+2980
+2984
+2989
+2993
+2997
+3000
+3002
+3004
+3007
+3010
+3013
+3016
+3019
+3023
+3028
+3031
+3034
+3038
+3041
+3046
+3050
+3053
+3056
+3058
+3061
+3064
+3066
+3070
+3072
+3075
+3078
+3081
+3084
+3087
+3089
+3093
+3096
+3100
+3103
+3105
+3107
+3108
+3110
+3113
+3116
+3119
+3121
+3124
+3128
+3131
+3135
+3137
+3142
+3145
+3147
+3150
+3153
+3156
+3157
+3160
+3163
+3166
+3168
+3169
+3172
+3175
+3176
+3179
+3182
+3184
+3187
+3190
+3192
+3196
+3199
+3202
+3206
+3210
+3214
+3215
+3217
+3220
+3223
+3226
+3229
+3232
+3234
+3235
+3238
+3241
+3246
+3251
+3254
+3258
+3262
+3269
+3273
+3275
+3278
+3281
+3285
+3290
+3292
+3294
+3296
+3298
+3302
+3304
+3306
+3308
+3312
+3316
+3317
+3321
+3324
+3327
+3331
+3334
+3338
+3341
+3344
+3349
+3352
+3354
+3357
+3361
+3365
+3367
+3369
+3371
+3374
+3377
+3380
+3383
+3386
+3389
+3392
+3395
+3399
+3403
+3406
+3410
+3415
+3419
+3422
+3425
+3428
+3432
+3437
+3441
+3445
+3448
+3452
+3454
+3457
+3460
+3462
+3465
+3470
+3474
+3476
+3479
+3481
+3484
+3487
+3490
+3491
+3494
+3498
+3501
+3503
+3506
+3508
+3512
+3518
+3521
+3524
+3528
+3534
+3537
+3541
+3544
+3547
+3552
+3555
+3557
+3559
+3562
+3566
+3570
+3574
+3576
+3580
+3583
+3586
+3589
+3591
+3593
+3596
+3599
+3602
+3605
+3609
+3612
+3616
+3618
+3620
+3623
+3625
+3628
+3630
+3633
+3636
+3639
+3641
+3645
+3650
+3653
+3657
+3660
+3662
+3664
+3666
+3669
+3672
+3675
+3679
+3681
+3684
+3688
+3691
+3697
+3698
+3702
+3705
+3708
+3710
+3713
+3717
+3719
+3720
+3725
+3727
+3729
+3731
+3733
+3736
+3739
+3744
+3746
+3749
+3751
+3753
+3756
+3759
+3763
+3766
+3770
+3773
+3774
+3776
+3780
+3784
+3785
+3788
+3790
+3793
+3797
+3799
+3802
+3804
+3807
+3809
+3810
+3815
+3817
+3820
+3822
+3826
+3830
+3832
+3837
+3841
+3844
+3847
+3850
+3854
+3858
+3863
+3866
+3868
+3873
+3877
+3882
+3886
+3889
+3892
+3896
+3900
+3904
+3907
+3910
+3913
+3915
+3919
+3922
+3925
+3928
+3930
+3933
+3936
+3939
+3941
+3943
+3946
+3949
+3951
+3955
+3958
+3962
+3965
+3969
+3971
+3974
+3978
+3982
+3985
+3988
+3992
+3994
+3997
+4000
+4005
+4009
+4011
+4013
+4014
+4017
+4019
+4020
+4023
+4028
+4030
+4033
+4036
+4038
+4041
+4044
+4047
+4052
+4055
+4058
+4060
+4065
+4068
+4070
+4072
+4075
+4078
+4080
+4092
+4094
+4097
+4105
+4114
+4120
+4124
+4127
+4132
+4139
+4144
+4148
+4151
+4154
+4158
+4163
+4168
+4171
+4174
+4180
+4183
+4187
+4193
+4196
+4199
+4204
+4209
+4213
+4217
+4222
+4226
+4229
+4233
+4239
+4244
+4249
+4252
+4256
+4259
+4261
+4264
+4266
+4269
+4272
+4274
+4278
+4282
+4286
+4288
+4291
+4294
+4299
+4303
+4307
+4309
+4312
+4314
+4317
+4319
+4321
+4323
+4329
+4334
+4338
+4343
+4347
+4349
+4352
+4356
+4361
+4363
+4365
+4368
+4373
+4378
+4381
+4385
+4390
+4393
+4397
+4401
+4403
+4407
+4413
+4416
+4419
+4421
+4423
+4426
+4429
+4432
+4434
+4446
+4450
+4454
+4457
+4465
+4468
+4472
+4475
+4479
+4483
+4489
+4496
+4498
+4512
+4514
+4517
+4520
+4524
+4526
+4528
+4530
+4533
+4536
+4539
+4542
+4544
+4553
+4556
+4562
+4566
+4569
+4572
+4573
+4576
+4580
+4582
+4583
+4585
+4587
+4589
+4591
+4593
+4597
+4599
+4604
+4609
+4612
+4617
+4621
+4624
+4628
+4631
+4636
+4639
+4643
+4646
+4649
+4652
+4654
+4659
+4662
+4666
+4668
+4670
+4673
+4676
+4681
+4684
+4687
+4688
+4691
+4694
+4697
+4701
+4703
+4706
+4709
+4712
+4716
+4720
+4723
+4727
+4729
+4733
+4735
+4739
+4743
+4746
+4750
+4753
+4756
+4761
+4763
+4765
+4769
+4772
+4775
+4777
+4780
+4784
+4787
+4789
+4793
+4797
+4799
+4802
+4804
+4807
+4809
+4813
+4815
+4817
+4820
+4823
+4826
+4830
+4832
+4837
+4842
+4844
+4847
+4851
+4855
+4859
+4862
+4865
+4869
+4874
+4877
+4881
+4885
+4887
+4891
+4894
+4900
+4905
+4908
+4912
+4915
+4918
+4921
+4925
+4928
+4931
+4935
+4938
+4941
+4945
+4948
+4951
+4953
+4956
+4959
+4963
+4965
+4969
+4973
+4977
+4979
+4982
+4986
+4989
+4993
+4996
+5001
+5005
+5007
+5010
+5013
+5016
+5019
+5023
+5025
+5028
+5031
+5033
+5036
+5038
+5041
+5043
+5046
+5048
+5051
+5055
+5059
+5061
+5064
+5067
+5070
+5072
+5074
+5077
+5079
+5082
+5085
+5087
+5089
+5092
+5096
+5099
+5101
+5102
+5104
+5106
+5109
+5112
+5114
+5119
+5121
+5124
+5126
+5129
+5132
+5134
+5136
+5138
+5141
+5151
+5153
+5156
+5158
+5160
+5163
+5165
+5168
+5171
+5176
+5178
+5182
+5186
+5194
+5198
+5200
+5205
+5208
+5213
+5216
+5220
+5222
+5224
+5227
+5230
+5236
+5241
+5245
+5247
+5249
+5251
+5254
+5257
+5261
+5265
+5267
+5271
+5280
+5282
+5285
+5287
+5289
+5291
+5296
+5299
+5304
+5307
+5311
+5312
+5316
+5318
+5321
+5324
+5328
+5332
+5336
+5339
+5341
+5344
+5346
+5349
+5352
+5354
+5357
+5359
+5362
+5365
+5368
+5372
+5375
+5378
+5381
+5383
+5387
+5392
+5397
+5400
+5403
+5405
+5408
+5411
+5414
+5416
+5418
+5421
+5424
+5430
+5433
+5436
+5439
+5442
+5444
+5450
+5454
+5458
+5460
+5463
+5466
+5468
+5470
+5475
+5477
+5480
+5485
+5495
+5498
+5512
+5514
+5516
+5518
+5522
+5525
+5529
+5532
+5535
+5538
+5541
+5544
+5547
+5549
+5552
+5556
+5560
+5562
+5564
+5567
+5571
+5573
+5576
+5579
+5581
+5584
+5592
+5594
+5597
+5599
+5601
+5604
+5607
+5609
+5616
+5621
+5624
+5627
+5630
+5632
+5634
+5636
+5638
+5641
+5643
+5646
+5648
+5650
+5654
+5655
+5659
+5665
+5673
+5675
+5678
+5681
+5685
+5687
+5690
+5694
+5697
+5702
+5705
+5708
+5710
+5715
+5720
+5723
+5727
+5730
+5733
+5736
+5739
+5742
+5745
+5747
+5751
+5755
+5759
+5762
+5766
+5767
+5770
+5776
+5780
+5783
+5786
+5789
+5792
+5795
+5799
+5801
+5803
+5804
+5809
+5812
+5815
+5818
+5821
+5824
+5826
+5828
+5830
+5834
+5836
+5848
+5850
+5854
+5856
+5861
+5864
