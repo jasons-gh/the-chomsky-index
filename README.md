@@ -10,7 +10,7 @@ Download The_Chomsky_Index.exe from [releases](https://github.com/jasons-gh/the-
 
 ### Mac
 
-Download The_Chomsky_Index.app from [releases](https://github.com/jasons-gh/the-chomsky-index/releases).
+Download The_Chomsky_Index.app.zip from [releases](https://github.com/jasons-gh/the-chomsky-index/releases).
 
 ## Install from source with pyinstaller
 
