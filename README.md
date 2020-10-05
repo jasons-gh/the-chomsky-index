@@ -6,11 +6,11 @@ A minimalist program indexing the content of Noam Chomsky.
 
 ### Windows
 
-Download The Chomsky Index.exe from [releases](https://github.com/jasons-gh/the-chomsky-index/releases).
+Download The_Chomsky_Index.exe from [releases](https://github.com/jasons-gh/the-chomsky-index/releases).
 
 ### Mac
 
-Download The Chomsky Index.app from [releases](https://github.com/jasons-gh/the-chomsky-index/releases).
+Download The_Chomsky_Index.app from [releases](https://github.com/jasons-gh/the-chomsky-index/releases).
 
 ## Install from source with pyinstaller
 
