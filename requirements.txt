@@ -1,0 +1,2 @@
+pyinstaller==3.6
+PyQt5==5.15.0
