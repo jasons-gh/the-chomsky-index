@@ -10,6 +10,10 @@ Download The_Chomsky_Index.exe from [releases](https://github.com/jasons-gh/the-
 
 ## Install from source with pyinstaller
 
+Before using pyinstaller run
+
+    pip install -r requirements.txt
+
 ### Windows
 
     pyinstaller --icon=icon_black.ico --add-data cnt/*.cnt;cnt --add-data icon_white.png;png -w --onefile display.py
