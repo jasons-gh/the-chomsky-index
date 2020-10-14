@@ -18,9 +18,29 @@ Before using pyinstaller run
 
     pyinstaller --icon=icon_black.ico --add-data cnt/*.cnt;cnt --add-data icon_white.png;png -w --onefile display.py
 
-### Mac/Linux
+### Mac
 
     pyinstaller --icon=icon_black.icns --add-data cnt/*.cnt:cnt --add-data icon_white.png:png -w --onefile display.py
+
+### Linux
+
+Do not use anaconda or miniconda. After cloning the repo, cd into it and install the requirements with
+
+    pip3 install -r requirements.txt
+	
+Make pyinstaller and PyQt5 available with
+
+    export PATH=$PATH:/home/yourname/.local/bin
+	
+Fix a problem with the PyQt5 display with
+
+    sudo apt-get install libxcb-xinerama0
+	
+Create the program in a folder called *dist* with
+
+    pyinstaller --add-data cnt/*.cnt:cnt --add-data icon_white.png:png -w --onefile display.py
+
+In the executable properties, change the icon to icon_black.ico from the repo.
 
 ## Usage
 
