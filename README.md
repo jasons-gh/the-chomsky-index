@@ -10,9 +10,9 @@ On Windows, download The_Chomsky_Index.exe [using this link](https://github.com/
 
 ## Install from source with pyinstaller
 
-Before using pyinstaller run
+First install the requirements with
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 ### Windows
 
@@ -24,11 +24,7 @@ Before using pyinstaller run
 
 ### Linux
 
-Do not use anaconda or miniconda. After cloning the repo, cd into it and install the requirements with
-
-    pip3 install -r requirements.txt
-	
-Make pyinstaller and PyQt5 available with
+Do not use anaconda or miniconda. Make pyinstaller and PyQt5 available with
 
     export PATH=$PATH:/home/yourname/.local/bin
 	
