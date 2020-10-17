@@ -8,6 +8,10 @@ A minimalist program indexing the content of Noam Chomsky.
 
 On Windows, download The_Chomsky_Index.exe [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.0.0/The_Chomsky_Index.exe), which should require no further setup.
 
+### Mac
+
+On Mac, download The_Chomsky_Index.zip [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.0.0/The_Chomsky_Index.zip), unzip it and run display.app, which should require no further setup.
+
 ## Install from source with pyinstaller
 
 First install the requirements with
