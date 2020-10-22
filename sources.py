@@ -1,5 +1,5 @@
-import json
-import subprocess
+import youtube_dl
+
 
 def urls_yt_add():
     urls_yt_add = [
@@ -8,19 +8,19 @@ def urls_yt_add():
         # Channels
 
         # The Forest Revealed
-        'https://www.youtube.com/c/TheForestRevealed/videos',
+        'https://www.youtube.com/playlist?list=UU6Od0Wqrl8PH9pU0s2kU9cw',
         # Chomsky's Philosophy
-        'https://www.youtube.com/user/chomskysphilosophy/videos',
+        'https://www.youtube.com/playlist?list=UUHuLYgw4dGbC2BuZQqPWV1g',
         # Ricardo Ruiz
-        'https://www.youtube.com/channel/UCXZXj5KotSzQBQDKdK-o49Q',
+        'https://www.youtube.com/playlist?list=UUXZXj5KotSzQBQDKdK-o49Q',
         # Chomskyan
-        'https://www.youtube.com/user/Chomskyan/videos',
+        'https://www.youtube.com/playlist?list=UU7iZ-JXZqKMAi3_g0n41Mbw',
         # Digital Chomsky
-        'https://www.youtube.com/channel/UCvec0zvpmnxdfKh5BZMavRQ',
+        'https://www.youtube.com/playlist?list=UUvec0zvpmnxdfKh5BZMavRQ',
         # letNOAMspeak
-        'https://www.youtube.com/user/letNOAMspeak/videos',
+        'https://www.youtube.com/playlist?list=UU_QSlX5r6uky8evEIihytyw',
         # noamychomskyy
-        'https://www.youtube.com/user/noamychomskyy/videos',
+        'https://www.youtube.com/playlist?list=UUSvQGNETA0mImQsxixw_RaQ',
 
 
         # Playlists
@@ -320,27 +320,30 @@ def urls_yt_remove():
 
 
 # Remove duplicates from across YT channels/playlists/videos
-# by using youtube-dl to create lists of video ids
 def urls_yt():
 
-    yt_add_list = []
+    ydl = youtube_dl.YoutubeDL({'ignoreerrors': True,
+                                'extract_flat': 'in_playlist',
+                                'dump_single_json': True})
 
-    for url in urls_yt_add():
-        output = subprocess.check_output('powershell.exe ' + './youtube-dl -j --flat-playlist ' + url, stderr=subprocess.STDOUT, shell=True)
-        for jsonObj in output.decode('UTF-8').splitlines():
-            yt_add_dict = json.loads(jsonObj)
-            yt_add_list.append(yt_add_dict["id"])
+    with ydl:
+        yt_add_set = set()
 
-    yt_add_set = set(yt_add_list)
+        for url in urls_yt_add():
+            result = ydl.extract_info(url, download=False)
 
-    yt_remove_list = []
+            if result is None:
+                # Inaccessible video
+                continue
 
-    for url in urls_yt_remove():
-        output = subprocess.check_output('powershell.exe ' + './youtube-dl -j --flat-playlist ' + url, stderr=subprocess.STDOUT, shell=True)
-        for jsonObj in output.decode('UTF-8').splitlines():
-            yt_remove_dict = json.loads(jsonObj)
-            yt_remove_list.append(yt_remove_dict["id"])
+            elif 'entries' in result:
+                # Playlist
+                yt_add_set.update(['https://www.youtube.com/watch?v=' + result_entry['url']
+                                   for result_entry in result['entries']
+                                   if result_entry is not None])
 
-    yt_remove_set = set(yt_remove_list)
+            else:
+                # Video
+                yt_add_set.add(result['webpage_url'])
 
-    return yt_add_set.difference(yt_remove_set)
+    return yt_add_set.difference(urls_yt_remove())
