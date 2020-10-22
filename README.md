@@ -12,6 +12,10 @@ On Windows, download The_Chomsky_Index.exe [using this link](https://github.com/
 
 On Mac, download The_Chomsky_Index.zip [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.0.0/The_Chomsky_Index.zip), unzip it and run display.app, which should require no further setup.
 
+### Linux Ubuntu
+
+On Linux Ubuntu, download The_Chomsky_Index [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.0.0/The_Chomsky_Index), and in the executable properties tick *Allow executing file as program*, which should require no further setup.
+
 ## Install from source with pyinstaller
 
 First install the requirements with
