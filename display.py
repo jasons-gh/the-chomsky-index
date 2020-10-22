@@ -339,7 +339,7 @@ class Ui_MainWindow(object):
 
 
     def open_button(self, id):
-        webbrowser.open(results_sorted[id][3], new=1)
+        webbrowser.open(results_sorted[id][3])
 
 
     def retranslateUi(self, MainWindow):
