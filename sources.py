@@ -312,7 +312,8 @@ def urls_yt_remove():
 
         # Unknown
         'https://www.youtube.com/watch?v=wlrOyum4US0',
-        'https://www.youtube.com/watch?v=34LGPIXvU5M'
+        'https://www.youtube.com/watch?v=34LGPIXvU5M',
+        'https://www.youtube.com/watch?v=oDK0kJSvRm8'
 
         ]
 
