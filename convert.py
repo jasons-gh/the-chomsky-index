@@ -1,5 +1,5 @@
 import pathlib
-import srt
+import pysubs2
 from datetime import datetime
 from pathlib import Path
 
@@ -43,15 +43,14 @@ for srt_file in [x for x in Path(__file__).parent.glob('**/*.srt') if x.is_file(
                 i += 1
 
         else:
-            print(srt_file.name + ' is a nonrepeating file')
-            subtitle_generator = srt.parse(file_object)
-            subtitles = list(subtitle_generator)
+            print(srt_file.name + ' is a nonrepeating file')            
+            subtitles = pysubs2.load(srt_file, encoding="utf-8")
             lines = []
             for i in subtitles:
-                lines.append(str(i.content.replace('\n', ' ')) + '\n')
+                lines.append(str(i.text.replace('\n', ' ').replace(r'\N', ' ')) + '\n')
             times = []
             for i in subtitles:
-                times.append(str(int(i.start.total_seconds())) + '\n')
+                times.append(str(int(i.start // 1000)) + '\n')
 
         # Make .en.cnt with lines then times
 
