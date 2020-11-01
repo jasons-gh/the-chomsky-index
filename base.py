@@ -34,6 +34,17 @@ for file in [x for x in Path(__file__).parent.glob('**/*.srt') if x.is_file()]:
 # convert - convert from .srt to .cnt
 convert.convert()
 
+
+# delete .vtt files
+for file in [x for x in Path(__file__).parent.glob('**/*.vtt') if x.is_file()]:
+    file.unlink()
+
+
+# delete .srt files
+for file in [x for x in Path(__file__).parent.glob('**/*.srt') if x.is_file()]:
+    file.unlink()
+
+
 # information
 print(str(len(urls_yt)) + ' subtitle files requested')
 print(str(len([x for x in Path(__file__).parent.glob('**/*.vtt') if x.is_file()])) + ' .vtt subtitle files in this folder')
