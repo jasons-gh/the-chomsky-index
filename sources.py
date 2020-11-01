@@ -246,7 +246,16 @@ def urls_yt_add():
         'https://www.youtube.com/watch?v=bgqwfCyZpao',
         'https://www.youtube.com/watch?v=7TLZN92-dZo',
         'https://www.youtube.com/watch?v=VoRmqbPFasE',
-        'https://www.youtube.com/watch?v=HDXmWCzw5_U'
+        'https://www.youtube.com/watch?v=HDXmWCzw5_U',
+        'https://www.youtube.com/watch?v=1OGIJE8AzqM',
+        'https://www.youtube.com/watch?v=nv1eBf58JfI',
+        'https://www.youtube.com/watch?v=b-u9f5IJa1s',
+        'https://www.youtube.com/watch?v=lWGhJ63OXxM',
+        'https://www.youtube.com/watch?v=46bH_jV34ig',
+        'https://www.youtube.com/watch?v=hLsNOEfDrNw',
+        'https://www.youtube.com/watch?v=rH8SicnqSC4',
+        'https://www.youtube.com/watch?v=Oxr4KJtJgPc'
+
 
 
         ]
