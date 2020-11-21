@@ -404,7 +404,7 @@ class Ui_MainWindow(object):
         try:
             base_path = sys._MEIPASS
         except Exception:
-            base_path = Path.resolve(".")
+            base_path = Path(__file__).parent
     
         return Path(base_path)
 
