@@ -10,7 +10,7 @@ On Windows, download The_Chomsky_Index_Windows.zip [using this link](https://git
 
 ### macOS
 
-On macOS, download The_Chomsky_Index_macOS.zip [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.1.0/The_Chomsky_Index_macOS.zip) and unzip it if needed. *The Chomsky Index.app* must then be moved once into a different location than the one into which it was extracted. Open it and exit the dialog that appears. Then *right-click* > *Open* > *Open*.
+On macOS, download The_Chomsky_Index_macOS.zip [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.1.0/The_Chomsky_Index_macOS.zip) and unzip it if needed. *The Chomsky Index.app* must then be moved once into a different location than the one into which it was extracted (for example, from *Downloads* to *Desktop*). Open it and exit the dialog that appears. Then *right-click* > *Open* > *Open*.
 
 ### Ubuntu
 
