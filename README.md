@@ -6,15 +6,15 @@ A minimalist program indexing the content of Noam Chomsky.
 
 ### Windows
 
-On Windows, download The_Chomsky_Index.zip [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.1.0/The_Chomsky_Index.zip) and extract it. If SmartScreen appears, click *More info* then click *Run anyway*.
+On Windows, download The_Chomsky_Index_Windows.zip [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.1.0/The_Chomsky_Index_Windows.zip) and extract it. If SmartScreen appears, click *More info* then click *Run anyway*.
 
 ### macOS
 
-On macOS, download The_Chomsky_Index.zip [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.1.0/The_Chomsky_Index.zip) and unzip it if needed. *The Chomsky Index.app* must then be moved once into a different location than the one into which it was extracted. Open it and exit the dialog that appears. Then *right-click* > *Open* > *Open*.
+On macOS, download The_Chomsky_Index_macOS.zip [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.1.0/The_Chomsky_Index_macOS.zip) and unzip it if needed. *The Chomsky Index.app* must then be moved once into a different location than the one into which it was extracted. Open it and exit the dialog that appears. Then *right-click* > *Open* > *Open*.
 
 ### Ubuntu
 
-On Ubuntu, download The_Chomsky_Index.zip [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.1.0/The_Chomsky_Index.zip) and extract it. In the executable properties tick *Allow executing file as program*.
+On Ubuntu, download The_Chomsky_Index_Ubuntu.zip [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.1.0/The_Chomsky_Index_Ubuntu.zip) and extract it. In the executable properties tick *Allow executing file as program*.
 
 ## Usage
 
