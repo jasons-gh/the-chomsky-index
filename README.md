@@ -6,7 +6,7 @@ A minimalist program indexing the content of Noam Chomsky.
 
 ### Windows
 
-On Windows, download The_Chomsky_Index.exe [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.1.0/The_Chomsky_Index.exe). If SmartScreen appears, click *More info* then click *Run anyway*.
+On Windows, download The_Chomsky_Index.zip [using this link](https://github.com/jasons-gh/the-chomsky-index/releases/download/v1.1.0/The_Chomsky_Index.zip) and extract it. If SmartScreen appears, click *More info* then click *Run anyway*.
 
 ### macOS
 
