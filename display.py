@@ -1,11 +1,14 @@
+import pandas as pd
+import platform
 import search
 import sys
 import webbrowser
-from multiprocessing import freeze_support
+from bs4 import BeautifulSoup
 from pathlib import Path
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QObject, QRunnable, QThreadPool, pyqtSignal, pyqtSlot
-from PyQt5.QtWidgets import QButtonGroup
+from PyQt5.QtWidgets import QButtonGroup, QLabel
+from unidecode import unidecode
 
 
 results_sorted = []
@@ -32,6 +35,8 @@ class Ui_MainWindow(object):
     def __init__(self):
         self.threadpool = QThreadPool()
         # print("Multithreading with maximum %d threads" % self.threadpool.maxThreadCount())
+        self.base_df = pd.read_hdf(Path(self.base_path()) / 'h5' / 'base_df.h5', 'base_df')
+        self.settings = {'Print': True, 'Video': True}
 
 
     def setupUi(self, MainWindow):
@@ -155,18 +160,15 @@ class Ui_MainWindow(object):
         self.horizontalLayout = QtWidgets.QHBoxLayout()
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.lineEdit = QtWidgets.QLineEdit(self.frame)
-        font = QtGui.QFont()
-        font.setFamily("Segoe UI Light")
-        font.setPointSize(20)
+        font = QtGui.QFont(self.os_font('name'), self.os_font('size'), weight=QtGui.QFont.Light)
         self.lineEdit.setFont(font)
         self.lineEdit.setFrame(False)
+        self.lineEdit.setAttribute(QtCore.Qt.WA_MacShowFocusRect, False)
         self.lineEdit.setObjectName("lineEdit")
         self.horizontalLayout.addWidget(self.lineEdit)
         self.Search = QtWidgets.QPushButton(self.frame)
         self.Search.setMinimumSize(QtCore.QSize(125, 0))
-        font = QtGui.QFont()
-        font.setFamily("Segoe UI Light")
-        font.setPointSize(20)
+        font = QtGui.QFont(self.os_font('name'), self.os_font('size'), weight=QtGui.QFont.Light)
         self.Search.setFont(font)
         self.Search.setFlat(True)
         self.Search.setObjectName("Search")
@@ -240,15 +242,13 @@ class Ui_MainWindow(object):
         self.horizontalLayout_2.setObjectName("horizontalLayout_2")
         spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
         self.horizontalLayout_2.addItem(spacerItem)
-        self.Clear = QtWidgets.QPushButton(self.frame)
-        self.Clear.setMinimumSize(QtCore.QSize(125, 0))
-        font = QtGui.QFont()
-        font.setFamily("Segoe UI Light")
-        font.setPointSize(20)
-        self.Clear.setFont(font)
-        self.Clear.setFlat(True)
-        self.Clear.setObjectName("Clear")
-        self.Clear.setStyleSheet("QPushButton {background-color: white}"
+        self.Settings = QtWidgets.QPushButton(self.frame)
+        self.Settings.setMinimumSize(QtCore.QSize(125, 0))
+        font = QtGui.QFont(self.os_font('name'), self.os_font('size'), weight=QtGui.QFont.Light)
+        self.Settings.setFont(font)
+        self.Settings.setFlat(True)
+        self.Settings.setObjectName("Settings")
+        self.Settings.setStyleSheet("QPushButton {background-color: white}"
                                  "QPushButton:hover {background-color: white}"
                                  "QPushButton:pressed {border: solid}"
                                  "QPushButton:pressed {border-width: 1px}"
@@ -257,9 +257,9 @@ class Ui_MainWindow(object):
                                  "QPushButton:pressed {border-right-color: #CDCDCD}"
                                  "QPushButton:pressed {border-bottom-color: #CDCDCD}")
         
-        self.Clear.clicked.connect(lambda state, spacer=True: self.clear_button(spacer))
+        self.Settings.clicked.connect(self.settings_button)
 
-        self.horizontalLayout_2.addWidget(self.Clear)
+        self.horizontalLayout_2.addWidget(self.Settings)
         self.verticalLayout.addLayout(self.horizontalLayout_2)
         self.verticalLayout_4.addLayout(self.verticalLayout)
         self.verticalLayout_2 = QtWidgets.QVBoxLayout()
@@ -286,7 +286,7 @@ class Ui_MainWindow(object):
             self.textEdit = QtWidgets.QTextEdit(self.frame)
             font = QtGui.QFont()
             font.setFamily("Arial")
-            font.setPointSize(12)
+            font.setPointSize((20 if platform.system() == 'Darwin' else 12))
             
             fontMetrics = QtGui.QFontMetrics(font)
             context_font_size = fontMetrics.size(0, str(result[2])).width()
@@ -306,9 +306,7 @@ class Ui_MainWindow(object):
             self.buttongroup.addButton(self.Open_1, i)
 
             self.Open_1.setMinimumSize(QtCore.QSize(125, 0))
-            font = QtGui.QFont()
-            font.setFamily("Segoe UI Light")
-            font.setPointSize(20)
+            font = QtGui.QFont(self.os_font('name'), self.os_font('size'), weight=QtGui.QFont.Light)
             self.Open_1.setFont(font)
             self.Open_1.setFlat(True)
             self.Open_1.setObjectName("Open_" + str(i))
@@ -329,22 +327,49 @@ class Ui_MainWindow(object):
             self.textEdit.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Arial\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:\'Arial\'; font-size:" + ("20" if platform.system() == 'Darwin' else "12") + "pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">" + str(result[2]) + "</p></body></html>"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">" + str(result[1])[:85] + "</span></p></body></html>"))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:" + ("20" if platform.system() == 'Darwin' else "12") + "pt; font-weight:600;\">" + str(result[1])[:85] + "</span></p></body></html>"))
             self.Open_1.setText(_translate("MainWindow", "Open"))
 
 
     def open_button(self, id):
-        webbrowser.open(results_sorted[id][3])
+        if 'youtube.com' in results_sorted[id][3]:
+            if platform.system() == 'Darwin':
+                webbrowser.get("Safari").open(results_sorted[id][3])
+            else:
+                webbrowser.open(results_sorted[id][3])
+        else:
+            # webbrowser module may ignore hash in url
+            # use JavaScript to edit file to load as if hash were entered
+            file_url = results_sorted[id][3].split('#')[0]
+            anchor = results_sorted[id][3][len(file_url):]
+
+            soup = BeautifulSoup(open(file_url), "html.parser")
+            original_tag = soup.head
+            new_tag = soup.new_tag("script", id="scrollToHash", type="text/javascript")
+            original_tag.append(new_tag)
+            new_tag.string = """function scrollToHash(hash) {
+                                location.hash = \"""" + anchor + """\";
+                                }
+                                window.onload = scrollToHash();"""
+                                
+            with open(file_url, 'w') as f:
+                f.write(unidecode(str(soup.prettify())))
+                if platform.system() == 'Darwin':
+                    webbrowser.get("Safari").open('file://' + file_url)
+                else:
+                    webbrowser.open('file://' + file_url)
+
+                    
 
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.Search.setText(_translate("MainWindow", "Search"))
-        self.Clear.setText(_translate("MainWindow", "Clear"))
+        self.Settings.setText(_translate("MainWindow", "Settings"))
 
 
     def search_button_worker(self):
@@ -356,42 +381,43 @@ class Ui_MainWindow(object):
 
     def search_button_signal(self):
         global results_sorted
-    
-        results_sorted = search.search_results(self.lineEdit.text(), self.base_path())
-        
+
+        results_sorted = search.search_results(self.lineEdit.text(), self.base_df, self.base_path(), self.settings)
+
         return results_sorted
 
 
     def search_button_slot(self, results_sorted):
-        self.clear_button(False)
+        self.clear_function(False)
         self.search_function(MainWindow, results_sorted)
     
         spacerItem3 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.verticalLayout_2.addItem(spacerItem3)
 
 
-    def clear_button(self, spacer):
-    
+    def clear_function(self, spacer):
+
         try:
             i = 0
             while self.frame.findChild(QtWidgets.QPushButton, "Open_" + str(i)) != None:
                 self.frame.findChild(QtWidgets.QPushButton, "Open_" + str(i)).deleteLater()
                 i+=1
-        except Exception as e:
-            print(e)
-    
-        try:
+
             i = 0
             while self.frame.findChild(QtWidgets.QTextEdit, "textEdit_" + str(i)) != None:
                 self.frame.findChild(QtWidgets.QTextEdit, "textEdit_" + str(i)).deleteLater()
                 i+=1
-        except Exception as e:
-            print(e)
-    
-        try:
+
             for i in reversed(range(self.verticalLayout_2.count())):  #range(len(results_sorted)+10): #
                 if isinstance(self.verticalLayout_2.itemAt(i), QtWidgets.QSpacerItem):
                     self.verticalLayout_2.takeAt(0)
+
+            self.frame.findChild(QtWidgets.QPushButton, "Video").deleteLater()
+
+            self.frame.findChild(QtWidgets.QPushButton, "Print").deleteLater()
+
+            self.frame.findChild(QtWidgets.QLabel, "Format").deleteLater()
+
         except Exception as e:
             print(e)
     
@@ -400,17 +426,124 @@ class Ui_MainWindow(object):
             self.verticalLayout_2.addItem(spacerItem3)
 
 
+    def settings_button(self):
+        self.clear_function(True)
+
+        self.Format = QtWidgets.QLabel(self.frame)
+        self.Format.setAlignment(QtCore.Qt.AlignCenter)
+        self.Format.setObjectName("Format")
+        # self.verticalLayout_2.addWidget(self.Format)
+
+        self.Format.setMinimumSize(QtCore.QSize(125, 0))
+        font = QtGui.QFont(self.os_font('name'), self.os_font('size'))
+        self.Format.setFont(font)
+
+        self.Format.setObjectName("Format")
+        if platform.system() != 'Darwin':
+            self.Format.setStyleSheet("QLabel {font-weight: bold}")
+        
+        self.verticalLayout_2.insertWidget(0, self.Format)
+
+        _translate = QtCore.QCoreApplication.translate
+        self.Format.setText(_translate("MainWindow", "Format"))
+
+
+        self.Print = QtWidgets.QPushButton(self.frame)
+        self.Print.setMinimumSize(QtCore.QSize(125, 0))
+        font = QtGui.QFont(self.os_font('name'), self.os_font('size'), weight=QtGui.QFont.Light)
+        self.Print.setFont(font)
+        self.Print.setFlat(True)
+        self.Print.setObjectName("Print")
+        self.Print.setStyleSheet("QPushButton {background-color: white}"
+                                 "QPushButton:hover {background-color: white}"
+                                 "QPushButton:pressed {border: solid}"
+                                 "QPushButton:pressed {border-width: 0px}"
+                                 + ("" if self.settings['Print'] else "QPushButton {text-decoration: line-through}"))
+
+        self.Print.clicked.connect(lambda state, setting='Print': self.settings_function(setting))
+
+        _translate = QtCore.QCoreApplication.translate
+        self.Print.setText(_translate("MainWindow", "Print"))
+
+        self.verticalLayout_2.insertWidget(1, self.Print)
+        # self.horizontalLayout_2.addWidget(self.Print)
+
+
+        self.Video = QtWidgets.QPushButton(self.frame)
+        self.Video.setMinimumSize(QtCore.QSize(125, 0))
+        font = QtGui.QFont(self.os_font('name'), self.os_font('size'), weight=QtGui.QFont.Light)
+        self.Video.setFont(font)
+        self.Video.setFlat(True)
+        self.Video.setObjectName("Video")
+        self.Video.setStyleSheet("QPushButton {background-color: white}"
+                                 "QPushButton:hover {background-color: white}"
+                                 "QPushButton:pressed {border: solid}"
+                                 "QPushButton:pressed {border-width: 0px}"
+                                 + ("" if self.settings['Video'] else "QPushButton {text-decoration: line-through}"))
+
+        self.Video.clicked.connect(lambda state, setting='Video': self.settings_function(setting))
+
+        _translate = QtCore.QCoreApplication.translate
+        self.Video.setText(_translate("MainWindow", "Video"))
+
+        self.verticalLayout_2.insertWidget(2, self.Video)
+        # self.horizontalLayout_2.addWidget(self.Video)
+
+
+    def settings_function(self, setting):
+        self.settings[setting] = not self.settings[setting]
+        
+        
+        self.Print.setStyleSheet("QPushButton {background-color: white}"
+                                 "QPushButton:hover {background-color: white}"
+                                 "QPushButton:pressed {border: solid}"
+                                 "QPushButton:pressed {border-width: 0px}"
+                                 + ("" if self.settings['Print'] else "QPushButton {text-decoration: line-through}"))
+        
+
+        self.Video.setStyleSheet("QPushButton {background-color: white}"
+                                 "QPushButton:hover {background-color: white}"
+                                 "QPushButton:pressed {border: solid}"
+                                 "QPushButton:pressed {border-width: 0px}"
+                                 + ("" if self.settings['Video'] else "QPushButton {text-decoration: line-through}"))
+
+
     def base_path(self):
         try:
-            base_path = sys._MEIPASS
+            if platform.system() == 'Darwin':
+                base_path = Path(sys._MEIPASS).resolve()
+            else:
+                base_path = sys._MEIPASS
         except Exception:
-            base_path = Path(__file__).parent
+            # if platform.system() == 'Darwin':
+            base_path = Path(__file__).parent.resolve()
+            # else:
+                # base_path = Path(__file__).parent
     
         return Path(base_path)
 
 
+    def os_font(self, font_property):
+        if platform.system() == 'Windows':
+            font_name = 'Segoe UI Light'
+            font_size = 20
+    
+        if platform.system() == 'Darwin':
+            font_name = 'Gill Sans'
+            font_size = 32
+
+        if platform.system() == 'Linux':
+            font_name = 'Sawasdee'
+            font_size = 20
+            
+        if font_property == 'name':
+            return font_name
+        
+        if font_property == 'size':
+            return font_size
+
+
 if __name__ == "__main__":
-    freeze_support()
     import sys
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
