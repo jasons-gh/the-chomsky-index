@@ -1,4 +1,6 @@
 import youtube_dl
+from bs4 import BeautifulSoup
+from urllib.request import Request, urlopen
 
 
 def urls_yt_add():
@@ -15,12 +17,14 @@ def urls_yt_add():
         'https://www.youtube.com/playlist?list=UUXZXj5KotSzQBQDKdK-o49Q',
         # Chomskyan
         'https://www.youtube.com/playlist?list=UU7iZ-JXZqKMAi3_g0n41Mbw',
-        # Digital Chomsky
-        'https://www.youtube.com/playlist?list=UUvec0zvpmnxdfKh5BZMavRQ',
         # letNOAMspeak
         'https://www.youtube.com/playlist?list=UU_QSlX5r6uky8evEIihytyw',
         # noamychomskyy
         'https://www.youtube.com/playlist?list=UUSvQGNETA0mImQsxixw_RaQ',
+        # Carlos Garcia
+        'https://www.youtube.com/playlist?list=UUmYouQK9gYJOJ_-rz7aXnXg',
+        # Ramin Zareian
+        'https://www.youtube.com/playlist?list=UU7Kki7JHZvmYcxNWI2-Dqjg',
 
 
         # Playlists
@@ -176,6 +180,71 @@ def urls_yt_add():
         'https://www.youtube.com/watch?v=TYAjo3DCY6M',
         'https://www.youtube.com/watch?v=ZiPXFeL3KQU',
         'https://www.youtube.com/watch?v=cr69xk1xiOU',
+        'https://www.youtube.com/watch?v=omwcM_uesLs',
+        'https://www.youtube.com/watch?v=fkcGjy2wenk',
+        'https://www.youtube.com/watch?v=zTlSmQKqS-Q',
+        'https://www.youtube.com/watch?v=6YxPOGC2K8A',
+        'https://www.youtube.com/watch?v=3vpOmbGsLng',
+        'https://www.youtube.com/watch?v=E-yeVDKkRsM',
+        'https://www.youtube.com/watch?v=zIrIBP-BalQ',
+        'https://www.youtube.com/watch?v=d8Wrwo2a1dg',
+        'https://www.youtube.com/watch?v=WjIZEIDxFGc',
+        'https://www.youtube.com/watch?v=XhUOUb9mXek',
+        'https://www.youtube.com/watch?v=LNzQESt7g-0',
+        'https://www.youtube.com/watch?v=LmolEKym3rs',
+        'https://www.youtube.com/watch?v=xikoTE3zyME',
+        'https://www.youtube.com/watch?v=IEcJtk4-uZE',
+        'https://www.youtube.com/watch?v=apfgfG-Gmp4',
+        'https://www.youtube.com/watch?v=EA7Dj-dmzEE',
+        'https://www.youtube.com/watch?v=cMscNuSUy0I',
+        'https://www.youtube.com/watch?v=SL2IpMNTz1A',
+        'https://www.youtube.com/watch?v=mpIF7xjGyRs',
+        'https://www.youtube.com/watch?v=xebTB_Lh8I8',
+        'https://www.youtube.com/watch?v=WGdljrhdSKA',
+        'https://www.youtube.com/watch?v=9B_eLoVq4yI',
+        'https://www.youtube.com/watch?v=ea1p1eevcfo',
+        'https://www.youtube.com/watch?v=t-N3In2rLI4',
+        'https://www.youtube.com/watch?v=8wb6LFOYyQQ',
+        'https://www.youtube.com/watch?v=rQLq9iLQseA',
+        'https://www.youtube.com/watch?v=Vmh10WtC7ws',
+        'https://www.youtube.com/watch?v=A5MQw3N53MY',
+        'https://www.youtube.com/watch?v=d-6EXZ7yM2E',
+        'https://www.youtube.com/watch?v=39902cn5lX8',
+        'https://www.youtube.com/watch?v=lciwaaFQqCk',
+        'https://www.youtube.com/watch?v=w-wSasUe1hc',        
+        'https://www.youtube.com/watch?v=zi6ae6kZNqE',
+        'https://www.youtube.com/watch?v=NaxkTCUtzX0',
+        'https://www.youtube.com/watch?v=widzhMeoAy0',
+        'https://www.youtube.com/watch?v=KZthDGH6WCU',
+        'https://www.youtube.com/watch?v=xOVuhgx0A0E',
+        'https://www.youtube.com/watch?v=nmguZTONFK4',
+        'https://www.youtube.com/watch?v=FUI71dZJ43k',
+        'https://www.youtube.com/watch?v=Fc0WAkPq_JU',
+        'https://www.youtube.com/watch?v=q0--w3_JlR4',
+        'https://www.youtube.com/watch?v=nV9vCx_vCVM',
+        'https://www.youtube.com/watch?v=DyEKsL-NSmw',
+        'https://www.youtube.com/watch?v=QsIBauyOdLk',
+        'https://www.youtube.com/watch?v=iQSdF5cs2YE',
+        'https://www.youtube.com/watch?v=lQ8JX_64E7Q',
+        'https://www.youtube.com/watch?v=dgt652020RY',
+        'https://www.youtube.com/watch?v=wUPZ8rSESZo',
+        'https://www.youtube.com/watch?v=HNZD0B1i1zM',
+        'https://www.youtube.com/watch?v=kP9pUqqeUD0',
+        'https://www.youtube.com/watch?v=OEdfJP9S4NE',
+        'https://www.youtube.com/watch?v=RYCS7LKu1UA',
+        'https://www.youtube.com/watch?v=yN5ESpYyXmY',
+        'https://www.youtube.com/watch?v=cdEZrvS_nnY',
+        'https://www.youtube.com/watch?v=ksUwluZXyWc',
+        'https://www.youtube.com/watch?v=TgbPQNjaSno',
+        'https://www.youtube.com/watch?v=1u2dwfRb9S8',
+        'https://www.youtube.com/watch?v=zZc5Z9C7UfU',
+        'https://www.youtube.com/watch?v=2xsaa6sN0cM',
+        'https://www.youtube.com/watch?v=wQJOljq3SZk',
+        'https://www.youtube.com/watch?v=Ro-kkxkHHuU',
+        'https://www.youtube.com/watch?v=XwQ-oZY4oKA',
+        'https://www.youtube.com/watch?v=Mk1U8MAudbk',
+        
+        
 
         'https://www.youtube.com/watch?v=vq9irdLcZmU',
         'https://www.youtube.com/watch?v=PHGuhEvdg6M',
@@ -254,9 +323,11 @@ def urls_yt_add():
         'https://www.youtube.com/watch?v=46bH_jV34ig',
         'https://www.youtube.com/watch?v=hLsNOEfDrNw',
         'https://www.youtube.com/watch?v=rH8SicnqSC4',
-        'https://www.youtube.com/watch?v=Oxr4KJtJgPc'
+        'https://www.youtube.com/watch?v=Oxr4KJtJgPc',
 
-
+        ####
+        
+        'https://www.youtube.com/watch?v=E-oqU5BPvI8',
 
         ]
     
@@ -319,11 +390,16 @@ def urls_yt_remove():
         'https://www.youtube.com/watch?v=lWyuKzH9NSQ',
         'https://www.youtube.com/watch?v=IyRoVOSVqZ8',
 
+        # Ramin Zareian
+        'https://www.youtube.com/watch?v=U3sm-OUIDR4',
+
         # Unknown
         'https://www.youtube.com/watch?v=wlrOyum4US0',
         'https://www.youtube.com/watch?v=34LGPIXvU5M',
         'https://www.youtube.com/watch?v=oDK0kJSvRm8',
-        'https://www.youtube.com/watch?v=44h9QuWcJYk'
+        'https://www.youtube.com/watch?v=44h9QuWcJYk',
+        'https://www.youtube.com/watch?v=zi6ae6kZNqE',
+        'https://www.youtube.com/watch?v=hwNrHEq2vI0'
 
         ]
 
@@ -358,3 +434,63 @@ def urls_yt():
                 yt_add_set.add(result['webpage_url'])
 
     return yt_add_set.difference(urls_yt_remove())
+
+
+def chomsky_dot_info_articles():
+    # Get articles
+    articles_url = "https://chomsky.info/articles/"
+    req = Request(articles_url, headers={'User-Agent': 'Mozilla/5.0'})
+    page = urlopen(req)
+    html = page.read().decode("utf-8")
+    soup_articles = BeautifulSoup(html, "html.parser")
+    urls = [a.get('href') for a in soup_articles.find_all('a')[23:-1]]
+
+    urls = [url.replace('http://', 'https://') for url in urls]
+    urls = ['https://chomsky.info/' + url[3:] if url.find('../') == 0 else url for url in urls]
+    urls = ['https://chomsky.info/' + url[2:] if url.find('..') == 0 else url for url in urls]
+    urls = [url.replace('zmag.org', 'zcomm.org') for url in urls]
+
+    urls.remove('https://www.journals.uchicago.edu/doi/abs/10.1086/291699')
+    urls.remove('https://www.chomsky.info/articles/200501--.pdf')
+    urls.remove('https://www.chomsky.info/articles/200310--.pdf')
+    urls.remove('https://www.chomsky.info/articles/20021122.pdf')
+    urls.remove('https://www.chomsky.info/articles/2000----.pdf')
+    urls.remove('https://www.chomsky.info/articles/1986----.pdf')
+
+
+    return set(urls)
+
+
+def chomsky_dot_info_interviews():
+    # Get interviews
+    interviews_url = "https://chomsky.info/interviews/"
+    req = Request(interviews_url, headers={'User-Agent': 'Mozilla/5.0'})
+    page = urlopen(req)
+    html = page.read().decode("utf-8")
+    soup_articles = BeautifulSoup(html, "html.parser")
+    urls = [a.get('href') for a in soup_articles.find_all('a')[23:-1]]
+
+    urls = [url.replace('http://', 'https://') for url in urls]
+    urls = ['https://chomsky.info/' + url[3:] if url.find('../') == 0 else url for url in urls]
+    urls = ['https://chomsky.info/' + url[2:] if url.find('..') == 0 else url for url in urls]
+    urls = [url.replace('zmag.org', 'zcomm.org') for url in urls]
+
+    urls.remove('https://www.petemccormack.com/social_005.htm')
+    urls.remove('https://smallbusiness.yahoo.com/geocities')
+    urls.remove('https://www.nbcnews.com/id/3080909')
+
+    return set(urls)
+
+def other():
+
+    'https://theintercept.com/2019/10/31/deconstructed-special-the-noam-chomsky-interview/',
+    'https://couragefound.org/wp-content/uploads/2019/10/Letter-to-Permanent-Representatives.pdf',
+
+    return
+    
+def truthout_interviews():
+    
+    'https://truthout.org/articles/noam-chomsky-democratic-party-centrism-risks-handing-election-to-trump/',
+    'https://truthout.org/articles/chomsky-without-us-aid-israel-wouldnt-be-killing-palestinians-en-masse/',
+    
+    return
