@@ -10,7 +10,7 @@ def search_results(entry, base_df, base_path, settings):
 
     # Validate
     if (entry.strip() == '' or (';' in entry and '+' in entry)
-            or any(x in entry for x in '.^$*?{}[]\\|()')
+            or any(x in entry for x in '.^$*?{}[]\\|()"')
             or entry.replace(' ', '').replace('\t', '').isdigit()):
         return []
 
