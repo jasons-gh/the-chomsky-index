@@ -1,7 +1,7 @@
-beautifulsoup4
-pandas
+beautifulsoup4==4.9.1
+pandas==1.1.5
 py2app
 pyinstaller==3.6
 PyQt5==5.15.2
-tables
-Unidecode
+tables==3.6.1
+Unidecode==1.1.1
