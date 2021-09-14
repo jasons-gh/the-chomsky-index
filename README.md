@@ -24,7 +24,7 @@ Use *math* to search for results containing *math*, for example in *math*, *math
 
 ### Separate search
 
-Use *anarchism; communism; fascism* to search for results with all of *anarchism*, *communism* and *fascism*. Useful in searching for multiple topics mentioned within the same result.
+Use *learnability; evolvability; universality* to search for results with all of *learnability*, *evolvability* and *universality*. Useful in searching for multiple topics mentioned within the same result.
 
 ### Nearby search
 
@@ -32,7 +32,7 @@ Use *bertrand russell + rosa luxemburg* to search for results with *bertrand rus
 
 ## Examples
 
-### Using a normal search to find occurrences of *haiti*
+### Using a normal search to find occurrences of *Descartes*
 
 ![examples/tci_normal.gif](examples/tci_normal.gif)
 
@@ -56,7 +56,7 @@ Use *bertrand russell + rosa luxemburg* to search for results with *bertrand rus
 
 <br/>
 
-### Using a nearby search to find the source of a quote
+### Using a nearby search to find results that contain *Hume* and *human nature* nearby
 
 ![examples/tci_nearby.gif](examples/tci_nearby.gif)
 
